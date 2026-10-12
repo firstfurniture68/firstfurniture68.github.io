@@ -51,7 +51,7 @@
       "footer.top": "Back to top ↑",
       "viewer.ask": "Ask about this piece", "viewer.share": "Copy link", "viewer.copied": "Link copied",
       "viewer.prevItem": "← Previous", "viewer.nextItem": "Next →",
-      "title": "First Furniture | Classic Hand-Carved Furniture"
+      "title": "First Furniture"
     },
     ar: {
       "skip": "انتقل إلى المجموعة",
@@ -83,7 +83,7 @@
       "footer.top": "↑ العودة للأعلى",
       "viewer.ask": "اسأل عن هذه القطعة", "viewer.share": "نسخ الرابط", "viewer.copied": "تم نسخ الرابط",
       "viewer.prevItem": "→ السابق", "viewer.nextItem": "التالي ←",
-      "title": "فرست فرنيتشر | أثاث كلاسيك حفر يدوي"
+      "title": "First Furniture"
     }
   };
 
