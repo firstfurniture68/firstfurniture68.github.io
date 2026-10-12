@@ -2,13 +2,14 @@
 """Build web images for the First Furniture site.
 
 Reads data/items.json, takes each photo from ../photos/<category>/<name>.jpeg
-and writes optimised WebP copies to img/<category>/<name>-<width>.webp.
+and writes optimised WebP + AVIF copies to img/<category>/<name>-<width>.(webp|avif),
+plus tiny blurred previews in data/thumbs.json.
 Already-built images are skipped, so it is safe to run again after adding items.
 It also refreshes sitemap.xml's date.
 
 Usage:  python3 scripts/build.py          (needs ImageMagick: brew install imagemagick)
 """
-import json, os, subprocess, sys, datetime, re
+import json, os, subprocess, sys, datetime, re, base64
 
 SITE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PHOTOS = os.path.join(os.path.dirname(SITE), "photos")
@@ -28,6 +29,10 @@ def main():
     data = json.load(open(os.path.join(SITE, "data", "items.json"), encoding="utf-8"))
     cats = {c["id"] for c in data["categories"]}
     errors, used, refs, ids = [], set(), set(), set()
+    thumbs_path = os.path.join(SITE, "data", "thumbs.json")
+    thumbs = json.load(open(thumbs_path)) if os.path.exists(thumbs_path) else {}
+    thumbs_stale = "--thumbs" in sys.argv
+    keep = set()
 
     for it in data["items"]:
         for key in ("id", "ref", "category", "images", "en", "ar"):
@@ -45,17 +50,26 @@ def main():
                 continue
             used.add(os.path.relpath(src, PHOTOS))
             for w in WIDTHS:
-                out = os.path.join(SITE, "img", f"{name}-{w}.webp")
-                if os.path.exists(out) and os.path.getmtime(out) >= os.path.getmtime(src):
-                    continue
-                os.makedirs(os.path.dirname(out), exist_ok=True)
-                subprocess.run(["magick", src, "-auto-orient", "-strip",
-                                "-resize", f"{w}x{w}>", "-quality", "80" if w > 480 else "74",
-                                out], check=True)
-                print("built", os.path.relpath(out, SITE))
+                # WebP for every browser, AVIF (about half the size) for browsers that support it.
+                for ext, q in (("webp", "80" if w > 480 else "74"), ("avif", "52" if w > 480 else "48")):
+                    out = os.path.join(SITE, "img", f"{name}-{w}.{ext}")
+                    if os.path.exists(out) and os.path.getmtime(out) >= os.path.getmtime(src):
+                        continue
+                    os.makedirs(os.path.dirname(out), exist_ok=True)
+                    subprocess.run(["magick", src, "-auto-orient", "-strip",
+                                    "-resize", f"{w}x{w}>", "-quality", q, out], check=True)
+                    print("built", os.path.relpath(out, SITE))
+            # Tiny blurred preview shown instantly while the real image loads.
+            if name not in thumbs or thumbs_stale:
+                tiny = subprocess.run(["magick", src, "-auto-orient", "-strip", "-resize", "20x20",
+                                       "-quality", "40", "webp:-"], check=True, capture_output=True).stdout
+                thumbs[name] = "data:image/webp;base64," + base64.b64encode(tiny).decode()
+            keep.add(name)
 
     if errors:
         print("\nProblems found:\n  " + "\n  ".join(errors)); sys.exit(1)
+
+    json.dump({k: thumbs[k] for k in sorted(keep)}, open(thumbs_path, "w"), separators=(",", ":"))
 
     unused = []
     for root, _, files in os.walk(PHOTOS):

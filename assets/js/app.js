@@ -88,7 +88,7 @@
   };
 
   const $ = (s, r = document) => r.querySelector(s);
-  const state = { lang: "en", cat: "all", q: "", items: [], cats: [], list: [], open: null, photo: 0 };
+  const state = { lang: "en", cat: "all", q: "", items: [], cats: [], list: [], open: null, photo: 0, thumbs: {}, pushed: false, popClosing: false };
 
   /* ---------- helpers ---------- */
   const t = (k, vars) => {
@@ -97,8 +97,13 @@
     return s;
   };
   const num = n => state.lang === "ar" ? n.toLocaleString("ar-EG") : String(n);
-  const src = (name, w) => `img/${name}-${w}.webp`;
-  const srcset = name => `${src(name, 480)} 480w, ${src(name, 960)} 960w, ${src(name, 1600)} 1600w`;
+  const src = (name, w, ext = "webp") => `img/${name}-${w}.${ext}`;
+  const srcset = (name, ext = "webp", ws = [480, 960, 1600]) => ws.map(w => `${src(name, w, ext)} ${w}w`).join(", ");
+  // <picture>: AVIF (about half the size) where supported, WebP everywhere else.
+  const pic = (name, sizes, attrs = "", ws) =>
+    `<picture><source type="image/avif" srcset="${srcset(name, "avif", ws)}" sizes="${sizes}"><img src="${src(name, 480)}" srcset="${srcset(name, "webp", ws)}" sizes="${sizes}" ${attrs}></picture>`;
+  const thumb = name => state.thumbs[name] ? `background-image:url(${state.thumbs[name]})` : "";
+  let avifOK = null;   // learnt from the first image the browser picks
   const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
   // Arabic-aware normaliser so "مذهب", "مُذهّب", "مدهب" all match, and English is case-insensitive.
@@ -139,13 +144,9 @@
   /* ---------- hero ---------- */
   function hero() {
     const box = $("#heroSlides");
-    CONFIG.heroImages.forEach((n, i) => {
-      const img = new Image();
-      img.srcset = srcset(n); img.sizes = "(max-width: 860px) 100vw, 55vw"; img.src = src(n, 960); img.alt = "";
-      if (i === 0) { img.fetchPriority = "high"; img.className = "is-on"; } else img.loading = "lazy";
-      box.appendChild(img);
-    });
-    const imgs = [...box.children];
+    box.innerHTML = CONFIG.heroImages.map((n, i) =>
+      pic(n, "(max-width: 860px) 100vw, 45vw", i === 0 ? 'alt="" class="is-on" fetchpriority="high"' : 'alt="" loading="lazy"')).join("");
+    const imgs = [...box.querySelectorAll("img")];
     if (matchMedia("(prefers-reduced-motion: reduce)").matches || imgs.length < 2) return;
     let i = 0;
     setInterval(() => {
@@ -182,8 +183,13 @@
       vo ? vo.observe(v) : v.play();
     }
     $("#filmOpen").addEventListener("click", () => {
-      frame.innerHTML = `<iframe src="https://drive.google.com/file/d/${CONFIG.filmDriveId}/preview" allow="autoplay; fullscreen" allowfullscreen title="First Furniture film"></iframe><span class="filmdlg__shield" aria-hidden="true"></span>`;
       v.pause(); dlgF.showModal(); document.body.style.overflow = "hidden";
+      // Create the player only once the window is on screen at its real size, so the player
+      // lays out its controls (progress bar, pause…) for this exact size, not a hidden/default one.
+      requestAnimationFrame(() => requestAnimationFrame(() => {
+        if (!dlgF.open) return;
+        frame.innerHTML = `<iframe src="https://drive.google.com/file/d/${CONFIG.filmDriveId}/preview" width="${Math.round(frame.clientWidth)}" height="${Math.round(frame.clientHeight)}" allow="autoplay; fullscreen" allowfullscreen title="First Furniture film"></iframe><span class="filmdlg__shield" aria-hidden="true"></span>`;
+      }));
     });
     $("#filmClose").addEventListener("click", () => dlgF.close());
     dlgF.addEventListener("click", e => { if (e.target === dlgF) dlgF.close(); });
@@ -196,7 +202,7 @@
     box.innerHTML = state.cats.map((c, i) => {
       const cover = CONFIG.roomCovers[c.id] || state.items.find(it => it.category === c.id)?.images[0];
       return `<button class="room reveal" style="--d:${(i % 4) * 90}ms" data-cat="${c.id}" type="button">
-        <span class="room__win"><img src="${src(cover, 480)}" srcset="${src(cover, 480)} 480w, ${src(cover, 960)} 960w" sizes="(max-width: 860px) 45vw, 22vw" alt="" loading="lazy"></span>
+        <span class="room__win" style="${thumb(cover)}">${pic(cover, "(max-width: 860px) 45vw, 22vw", 'alt="" loading="lazy" decoding="async"', [480, 960])}</span>
         <span class="room__name">${esc(c[state.lang])}</span>
       </button>`;
     }).join("");
@@ -224,8 +230,8 @@
     grid.innerHTML = state.list.map((it, i) => {
       const L = it[state.lang], img = it.images[0];
       return `<a class="card reveal" style="--d:${(i % 3) * 80}ms" href="#item/${it.id}" data-id="${it.id}">
-        <span class="card__img">
-          <img src="${src(img, 480)}" srcset="${srcset(img)}" sizes="(max-width: 520px) 92vw, (max-width: 1000px) 46vw, 30vw" alt="${esc(L.name)}" loading="lazy" decoding="async">
+        <span class="card__img" style="${thumb(img)}">
+          ${pic(img, "(max-width: 560px) 92vw, (max-width: 1000px) 46vw, 30vw", `alt="${esc(L.name)}" loading="lazy" decoding="async"`)}
           ${it.images.length > 1 ? `<span class="card__multi">${t("photos", { n: num(it.images.length) })}</span>` : ""}
         </span>
         <span class="card__meta"><span>${esc(catName(it.category))}</span><span class="card__ref" dir="ltr">${it.ref}</span></span>
@@ -233,7 +239,7 @@
       </a>`;
     }).join("");
     grid.querySelectorAll("img").forEach(img => {
-      const done = () => img.classList.add("is-loaded");
+      const done = () => { img.classList.add("is-loaded"); if (avifOK === null && img.currentSrc) avifOK = img.currentSrc.endsWith(".avif"); };
       img.complete ? done() : img.addEventListener("load", done, { once: true });
     });
     observe(grid.querySelectorAll(".reveal"));
@@ -265,7 +271,7 @@
     if (!dlg.open) dlg.showModal();
     $(".viewer__panel").scrollTop = 0; $(".viewer__info").scrollTop = 0;
     document.body.style.overflow = "hidden";
-    if (push && location.hash !== `#item/${id}`) history.pushState({ item: id }, "", `#item/${id}`);
+    if (push && location.hash !== `#item/${id}`) { history.pushState({ item: id }, "", `#item/${id}`); state.pushed = true; }
   }
   function closeItem(fromPop) {
     if (!dlg.open) return;
@@ -274,7 +280,12 @@
   dlg.addEventListener("close", () => {
     document.body.style.overflow = "";
     const id = state.open && state.open.id; state.open = null;
-    if (location.hash.startsWith("#item/")) history.pushState(null, "", location.pathname + location.search + "#collection");
+    // Leave the item's address: step back if we added it, otherwise just clean the URL.
+    if (state.popClosing) state.popClosing = false;
+    else if (location.hash.startsWith("#item/")) {
+      if (state.pushed) history.back(); else history.replaceState(null, "", location.pathname + location.search);
+    }
+    state.pushed = false;
     const card = id && document.querySelector(`.card[data-id="${id}"]`);
     card && card.focus({ preventScroll: true });
   });
@@ -304,14 +315,15 @@
     state.photo = (i + n) % n;
     const img = $("#vImg"), name = it.images[state.photo];
     const set = () => {
-      img.srcset = srcset(name); img.sizes = "(max-width: 860px) 100vw, 60vw"; img.src = src(name, 1600);
+      const s = $("#vSrc"); s.srcset = srcset(name, "avif"); s.sizes = "(max-width: 860px) 100vw, 60vw";
+      img.srcset = srcset(name); img.sizes = "(max-width: 860px) 100vw, 60vw"; img.src = src(name, 960);
       img.alt = it[state.lang].name;
     };
     if (instant) set();
     else { img.classList.add("is-fading"); setTimeout(() => { set(); img.onload = () => img.classList.remove("is-fading"); if (img.complete) img.classList.remove("is-fading"); }, 220); }
     document.querySelectorAll("#vThumbs button").forEach(b => b.setAttribute("aria-current", +b.dataset.i === state.photo));
     // preload the neighbour so swiping feels instant
-    if (n > 1) { const p = new Image(); p.src = src(it.images[(state.photo + 1) % n], 1600); }
+    if (n > 1) { const p = new Image(); p.sizes = "(max-width: 860px) 100vw, 60vw"; p.srcset = srcset(it.images[(state.photo + 1) % n], avifOK ? "avif" : "webp"); }
   }
   function stepItem(d) {
     const idx = state.list.indexOf(state.open), next = state.list[idx + d];
@@ -377,12 +389,20 @@
     });
 
     addEventListener("popstate", route);
+    document.addEventListener("click", e => {
+      const a = e.target.closest('a[href^="#"]');
+      if (!a || a.getAttribute("href").startsWith("#item/")) return;
+      const target = document.querySelector(a.getAttribute("href"));
+      if (!target) return;
+      e.preventDefault();
+      target.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+    });
   }
 
   function route() {
     const m = location.hash.match(/^#item\/([\w-]+)/);
     if (m) openItem(m[1], false);
-    else if (dlg.open) dlg.close();
+    else if (dlg.open) { state.popClosing = true; dlg.close(); }
   }
 
   /* ---------- boot ---------- */
@@ -395,8 +415,16 @@
     film();
     observe(document.querySelectorAll(".reveal"));
     bind();
-    const res = await fetch("data/items.json", { cache: "no-cache" });
-    const data = await res.json();
+    // Opening or refreshing always starts at the top, unless the link points at a piece.
+    if (!/^#item\//.test(location.hash)) {
+      if (location.hash) history.replaceState(null, "", location.pathname + location.search);
+      scrollTo(0, 0);
+    }
+    const [data, thumbs] = await Promise.all([
+      fetch("data/items.json", { cache: "no-cache" }).then(r => r.json()),
+      fetch("data/thumbs.json").then(r => r.json()).catch(() => ({}))
+    ]);
+    state.thumbs = thumbs;
     state.cats = data.categories;
     state.items = data.items.map(it => {
       const c = data.categories.find(c => c.id === it.category) || {};
@@ -405,6 +433,9 @@
       return it;
     });
     renderRooms(); renderChips(); renderGrid();
+    // Refreshed while a piece was open: reopen it, with its card in view behind.
+    const m = location.hash.match(/^#item\/([\w-]+)/);
+    if (m) { const card = document.querySelector(`.card[data-id="${m[1]}"]`); card && card.scrollIntoView({ block: "center" }); }
     route();
   }
   boot();
