@@ -6,7 +6,9 @@
   const CONFIG = {
     whatsapp: "201222129569",            // number used by the WhatsApp button on each piece
     waMessage: "ممكن أعرف تفاصيل عن دي لو سمحت؟",
-    filmDriveId: "1udxtO2lQ3W8FAebyO_ALIiDN734TgOl6",   // full film on Google Drive (must stay shared as "Anyone with the link")
+    film: "media/film/film.m3u8",       // full film, streamed in small pieces from the site itself
+    hlsLib: { src: "https://cdnjs.cloudflare.com/ajax/libs/hls.js/1.5.20/hls.min.js",
+              integrity: "sha384-V5ruNBgmYcC3SJRUQeNykAAAgde5gOFq/Hu0CZj7bygDP0yRIhkvX8+w0u/7mRvr" },
     heroImages: ["salons/royal-burgundy-salon-1", "cabinets-desks/louis-xv-marquetry-commode", "bedrooms/ivory-gold-royal-bedroom-1", "salons/turquoise-swan-salon"],
     roomCovers: {                         // cover photo for each category window
       "salons": "salons/emerald-velvet-salon",
@@ -170,6 +172,13 @@
   }
 
   /* ---------- film ---------- */
+  let hls = null, hlsPromise = null;
+  const loadHls = () => hlsPromise || (hlsPromise = new Promise((resolve, reject) => {
+    const s = document.createElement("script");
+    s.src = CONFIG.hlsLib.src; s.integrity = CONFIG.hlsLib.integrity; s.crossOrigin = "anonymous"; s.referrerPolicy = "no-referrer";
+    s.onload = () => window.Hls && window.Hls.isSupported() ? resolve(window.Hls) : reject();
+    s.onerror = reject; document.head.appendChild(s);
+  }));
   function film() {
     const v = $("#filmLoop"), dlgF = $("#filmDlg"), frame = $("#filmFrame");
     const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -184,16 +193,21 @@
     }
     $("#filmOpen").addEventListener("click", () => {
       v.pause(); dlgF.showModal(); document.body.style.overflow = "hidden";
-      // Create the player only once the window is on screen at its real size, so the player
-      // lays out its controls (progress bar, pause…) for this exact size, not a hidden/default one.
-      requestAnimationFrame(() => requestAnimationFrame(() => {
+      // The browser's own player: proper progress bar, pause and fullscreen on every phone and computer.
+      frame.innerHTML = `<video controls playsinline preload="metadata" controlslist="nodownload" poster="media/film-still.webp" title="First Furniture film"></video>`;
+      const fv = frame.querySelector("video");
+      fv.addEventListener("contextmenu", e => e.preventDefault());
+      const go = () => { const p = fv.play(); p && p.catch(() => {}); };
+      if (fv.canPlayType("application/vnd.apple.mpegurl")) { fv.src = CONFIG.film; go(); }   // iPhone, iPad, Safari, Android
+      else loadHls().then(Hls => {                                                          // Chrome / Firefox / Edge on computers
         if (!dlgF.open) return;
-        frame.innerHTML = `<iframe src="https://drive.google.com/file/d/${CONFIG.filmDriveId}/preview" width="${Math.round(frame.clientWidth)}" height="${Math.round(frame.clientHeight)}" allow="autoplay; fullscreen" allowfullscreen title="First Furniture film"></iframe><span class="filmdlg__shield" aria-hidden="true"></span>`;
-      }));
+        hls = new Hls({ maxBufferLength: 30 }); hls.loadSource(CONFIG.film); hls.attachMedia(fv);
+        hls.on(Hls.Events.MANIFEST_PARSED, go);
+      }).catch(() => { fv.src = CONFIG.film; });
     });
     $("#filmClose").addEventListener("click", () => dlgF.close());
     dlgF.addEventListener("click", e => { if (e.target === dlgF) dlgF.close(); });
-    dlgF.addEventListener("close", () => { frame.innerHTML = ""; document.body.style.overflow = ""; if (!reduce) { const p = v.play(); p && p.catch(() => {}); } });
+    dlgF.addEventListener("close", () => { if (hls) { hls.destroy(); hls = null; } frame.innerHTML = ""; document.body.style.overflow = ""; if (!reduce) { const p = v.play(); p && p.catch(() => {}); } });
   }
 
   /* ---------- rooms ---------- */

@@ -269,8 +269,7 @@ button { font: inherit; color: inherit; }
 .filmdlg__frame { position: relative; width: 100%; height: 0; padding-bottom: 56.25%; overflow: hidden; background: #000; }
 /* Never taller than the screen: limit the width so the 16:9 box (and its control bar) always fits. */
 .filmdlg { width: min(1200px, calc(100vw - 48px), calc((100dvh - 140px) * 16 / 9)); }
-.filmdlg__frame iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
-.filmdlg__shield { position: absolute; top: 0; right: 0; z-index: 2; width: 76px; height: 76px; }
+.filmdlg__frame video { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: block; background: #000; object-fit: contain; }
 .filmdlg .filmdlg__close { top: -56px; inset-inline-end: 0; }
 @media (max-width: 860px) {
   /* Phones: full-screen black stage, video centred, close button pinned top corner. */
