@@ -1,0 +1,3223 @@
+{
+  "categories": [
+    {
+      "id": "salons",
+      "en": "Salons & Living Rooms",
+      "ar": "الصالونات والأنتريهات"
+    },
+    {
+      "id": "sofas-chairs",
+      "en": "Sofas & Armchairs",
+      "ar": "الكنب والفوتيهات"
+    },
+    {
+      "id": "bedrooms",
+      "en": "Bedrooms",
+      "ar": "غرف النوم"
+    },
+    {
+      "id": "dining",
+      "en": "Dining Rooms",
+      "ar": "غرف السفرة"
+    },
+    {
+      "id": "tables-consoles",
+      "en": "Tables & Consoles",
+      "ar": "الطاولات والكونسولات"
+    },
+    {
+      "id": "cabinets-desks",
+      "en": "Cabinets, Buffets & Desks",
+      "ar": "البوفيهات والنيش والمكاتب"
+    },
+    {
+      "id": "antiques-decor",
+      "en": "Antiques & Décor",
+      "ar": "التحف والديكور"
+    },
+    {
+      "id": "modern",
+      "en": "Modern & Contemporary",
+      "ar": "المودرن والمعاصر"
+    }
+  ],
+  "items": [
+    {
+      "id": "royal-burgundy-salon",
+      "ref": "FF-001",
+      "category": "salons",
+      "featured": true,
+      "images": [
+        "salons/royal-burgundy-salon-1",
+        "salons/royal-burgundy-salon-2"
+      ],
+      "en": {
+        "name": "Royal Burgundy Salon",
+        "desc": "A full reception salon in deep burgundy velvet, set in hand-carved, gold-leafed frames. The long sofa is crowned with a carved crest; the armchairs are button-tufted and the centre table rests on scrolled, gilded legs.",
+        "details": [
+          "Long sofa, tufted armchairs and a carved centre table",
+          "Burgundy velvet with gold-thread embroidery",
+          "Hand-carved frames finished in gold leaf",
+          "Matching velvet cushions and bolsters"
+        ]
+      },
+      "ar": {
+        "name": "صالون ملكي عنابي",
+        "desc": "صالون استقبال كامل بقطيفة عنابي داكنة على إطارات خشب محفورة يدوياً (أويما) ومذهّبة بورق الذهب. الكنبة الطويلة يعلوها تاج منحوت، والفوتيهات منجّدة كابتونيه، وطاولة الوسط على أرجل مذهّبة ملتوية.",
+        "details": [
+          "كنبة طويلة وفوتيهات كابتونيه وطاولة وسط محفورة",
+          "قطيفة عنابي مطرّزة بخيوط ذهبية",
+          "حفر يدوي أويما بتشطيب ورق الذهب",
+          "مخدّات ووسائد من نفس القطيفة"
+        ]
+      },
+      "tags": "burgundy red velvet gold gilded baroque reception salon عنابي احمر قطيفة مخمل مدهب صالون استقبال انتريه"
+    },
+    {
+      "id": "emerald-velvet-salon",
+      "ref": "FF-002",
+      "category": "salons",
+      "featured": true,
+      "images": [
+        "salons/emerald-velvet-salon"
+      ],
+      "en": {
+        "name": "Emerald Velvet Salon",
+        "desc": "Deep emerald velvet set against heavily carved gilded frames. Wide, enveloping armchairs with tufted backs sit around an oval centre table topped with onyx, finished with golden round cushions.",
+        "details": [
+          "Sofa and four enveloping armchairs",
+          "Emerald velvet with tufted backs",
+          "Oval centre table with onyx top",
+          "Hand-carved gilded frames"
+        ]
+      },
+      "ar": {
+        "name": "صالون قطيفة زمردي",
+        "desc": "قطيفة خضراء زمردية على إطارات مذهّبة غنية بالحفر. فوتيهات واسعة بظهر كابتونيه حول طاولة وسط بيضاوية بسطح أونيكس، مع مخدّات دائرية ذهبية.",
+        "details": [
+          "كنبة وأربعة فوتيهات واسعة",
+          "قطيفة زمردي بظهر كابتونيه",
+          "طاولة وسط بيضاوية بسطح أونيكس",
+          "إطارات محفورة يدوياً ومذهّبة"
+        ]
+      },
+      "tags": "green emerald velvet gold onyx salon اخضر زمردي قطيفة مخمل مدهب اونيكس صالون"
+    },
+    {
+      "id": "turquoise-swan-salon",
+      "ref": "FF-003",
+      "category": "salons",
+      "featured": true,
+      "images": [
+        "salons/turquoise-swan-salon",
+        "salons/turquoise-swan-salon-extra-2"
+      ],
+      "en": {
+        "name": "Turquoise Swan Salon",
+        "desc": "An Empire-inspired salon whose armchair arms are carved as gilded swans. Turquoise silk upholstery is paired with an onyx-topped centre table on carved gilded legs.",
+        "details": [
+          "Sofa and armchairs with carved swan arms",
+          "Turquoise silk-satin upholstery",
+          "Onyx-topped centre table",
+          "Shown with a pair of peacock throne chairs (FF-010)"
+        ]
+      },
+      "ar": {
+        "name": "صالون البجعة الفيروزي",
+        "desc": "صالون مستوحى من طراز الإمبراطورية (أمبير)، أذرع فوتيهاته محفورة على هيئة بجعات مذهّبة. تنجيد ستان فيروزي مع طاولة وسط بسطح أونيكس على أرجل محفورة مذهّبة.",
+        "details": [
+          "كنبة وفوتيهات بأذرع على شكل بجعة",
+          "تنجيد ستان حرير فيروزي",
+          "طاولة وسط بسطح أونيكس",
+          "معروض مع زوج كراسي العرش بالطاووس (FF-010)"
+        ]
+      },
+      "tags": "turquoise blue swan empire gold onyx فيروزي تركواز ازرق بجعة امبير مدهب صالون"
+    },
+    {
+      "id": "empire-red-damask-salon",
+      "ref": "FF-004",
+      "category": "salons",
+      "featured": true,
+      "images": [
+        "salons/empire-red-damask-salon-1",
+        "salons/empire-red-damask-salon-2"
+      ],
+      "en": {
+        "name": "Empire Mahogany Salon in Red Damask",
+        "desc": "Dark mahogany with gilded mounts, in the restrained Empire manner. Red damask sofas, armchairs with sunburst-pleated backs, and a glass-topped centre table with a pierced gilt gallery.",
+        "details": [
+          "Sofas, sunburst-pleated armchairs and tables",
+          "Mahogany finish with gilded mounts",
+          "Red damask upholstery",
+          "Glass-top centre table and matching side tables"
+        ]
+      },
+      "ar": {
+        "name": "صالون أمبير ماهوجني بالدمسقي الأحمر",
+        "desc": "خشب ماهوجني داكن بحليات مذهّبة على طراز الإمبراطورية الهادئ. كنب بقماش دمسقي أحمر، وفوتيهات بظهر مكسّر على شكل أشعة الشمس، وطاولة وسط بسطح زجاج وإطار مذهّب مفرّغ.",
+        "details": [
+          "كنب وفوتيهات بظهر مكسّر وطاولات",
+          "تشطيب ماهوجني مع حليات مذهّبة",
+          "تنجيد دمسقي أحمر",
+          "طاولة وسط زجاج وطاولات جانبية مطابقة"
+        ]
+      },
+      "tags": "red damask mahogany empire living room احمر دمسقي داماسك ماهوجني امبير انتريه صالون"
+    },
+    {
+      "id": "rose-damask-empire-salon",
+      "ref": "FF-005",
+      "category": "salons",
+      "featured": true,
+      "images": [
+        "salons/rose-damask-empire-salon"
+      ],
+      "en": {
+        "name": "Rose Damask Reception Salon",
+        "desc": "A reception hall salon in rose-red damask on mahogany and gilt frames, with ram's-head carvings on the armrests. Completed by a square glass-topped centre table and marquetry pedestals.",
+        "details": [
+          "Sofa, armchairs and square centre table",
+          "Rose damask with fringed cushions",
+          "Mahogany and gilt frames",
+          "Marquetry pedestals with porcelain urns"
+        ]
+      },
+      "ar": {
+        "name": "صالون استقبال دمسقي وردي",
+        "desc": "صالون لقاعة الاستقبال بقماش دمسقي وردي على إطارات ماهوجني مذهّبة، مع حفر رؤوس كباش على مساند الذراع. تكمّله طاولة وسط مربعة بسطح زجاج وقواعد مطعّمة بالقشرة.",
+        "details": [
+          "كنبة وفوتيهات وطاولة وسط مربعة",
+          "دمسقي وردي مع مخدّات بشراشيب",
+          "إطارات ماهوجني ومذهّب",
+          "قواعد ماركتري عليها فازات بورسلين"
+        ]
+      },
+      "tags": "pink rose damask mahogany reception وردي بمبي دمسقي ماهوجني استقبال صالون"
+    },
+    {
+      "id": "louis-xvi-tapestry-salon",
+      "ref": "FF-006",
+      "category": "salons",
+      "featured": true,
+      "images": [
+        "salons/louis-xvi-tapestry-salon"
+      ],
+      "en": {
+        "name": "Louis XVI Gilded Tapestry Salon",
+        "desc": "Straight, fluted legs and carved square backs in the Louis XVI style, gilded throughout. Upholstered in a soft floral tapestry, with a matching gilded centre table.",
+        "details": [
+          "Sofa, four armchairs and centre table",
+          "Floral tapestry upholstery",
+          "Fluted legs, gold-leaf finish",
+          "Neoclassical Louis XVI style"
+        ]
+      },
+      "ar": {
+        "name": "صالون لويس السادس عشر جوبلان",
+        "desc": "أرجل مستقيمة محزّزة وظهور مربعة محفورة على طراز لويس السادس عشر، مذهّب بالكامل. منجّد بقماش جوبلان بورود هادئة، مع طاولة وسط مذهّبة مطابقة.",
+        "details": [
+          "كنبة وأربعة فوتيهات وطاولة وسط",
+          "تنجيد جوبلان مورّد",
+          "أرجل محزّزة وتشطيب ورق ذهب",
+          "طراز لويس السادس عشر الكلاسيكي"
+        ]
+      },
+      "tags": "louis xvi tapestry gobelin gold neoclassical لويس جوبلان مدهب نيوكلاسيك صالون"
+    },
+    {
+      "id": "louis-xv-floral-tapestry-salon",
+      "ref": "FF-007",
+      "category": "salons",
+      "featured": true,
+      "images": [
+        "salons/louis-xv-floral-tapestry-salon"
+      ],
+      "en": {
+        "name": "Louis XV Floral Tapestry Salon",
+        "desc": "Curved cabriole legs and carved crests in the Louis XV manner, gilded and upholstered in floral tapestry. Set with a dark walnut centre table and marquetry side tables.",
+        "details": [
+          "Sofa and four armchairs",
+          "Floral tapestry with sage-green seats",
+          "Gilded carved frames",
+          "Walnut centre table and side tables"
+        ]
+      },
+      "ar": {
+        "name": "صالون لويس الخامس عشر مورّد",
+        "desc": "أرجل كابريول منحنية وتيجان محفورة على طراز لويس الخامس عشر، مذهّب ومنجّد بجوبلان مورّد. مع طاولة وسط جوز داكنة وطاولات جانبية مطعّمة.",
+        "details": [
+          "كنبة وأربعة فوتيهات",
+          "جوبلان مورّد مع مقاعد أخضر فاتح",
+          "إطارات محفورة مذهّبة",
+          "طاولة وسط وطاولات جانبية من خشب الجوز"
+        ]
+      },
+      "tags": "louis xv floral tapestry gold walnut لويس الخامس عشر جوبلان مورد مدهب جوز صالون"
+    },
+    {
+      "id": "rococo-carved-settee",
+      "ref": "FF-008",
+      "category": "sofas-chairs",
+      "featured": true,
+      "images": [
+        "sofas-chairs/rococo-carved-settee-burgundy-1",
+        "sofas-chairs/rococo-carved-settee-emerald",
+        "sofas-chairs/rococo-carved-settee-burgundy-2"
+      ],
+      "en": {
+        "name": "Rococo Carved Settee",
+        "desc": "A two-seat settee with a fully pierced, hand-carved back of scrolling foliage around a tufted medallion, finished in gold leaf. Shown here in burgundy and in emerald damask.",
+        "details": [
+          "Two-seater settee",
+          "Pierced foliage back with central medallion",
+          "Available in burgundy or emerald damask",
+          "Carved paw feet, gold-leaf finish"
+        ]
+      },
+      "ar": {
+        "name": "كنبة روكوكو محفورة",
+        "desc": "كنبة لشخصين بظهر مفرّغ محفور يدوياً بأوراق ملتفة حول ميدالية منجّدة كابتونيه، بتشطيب ورق الذهب. معروضة بالدمسقي العنابي والأخضر الزمردي.",
+        "details": [
+          "كنبة لشخصين",
+          "ظهر مفرّغ بأوراق نباتية وميدالية في المنتصف",
+          "متاحة بدمسقي عنابي أو أخضر",
+          "أرجل على هيئة مخالب، تشطيب ورق ذهب"
+        ]
+      },
+      "tags": "rococo settee loveseat carved burgundy green gold روكوكو كنبة كنبه مزدوجة اويما عنابي اخضر مدهب"
+    },
+    {
+      "id": "red-velvet-corbeille-loveseat",
+      "ref": "FF-009",
+      "category": "sofas-chairs",
+      "featured": true,
+      "images": [
+        "sofas-chairs/red-velvet-corbeille-loveseat"
+      ],
+      "en": {
+        "name": "Red Velvet Corbeille Loveseat",
+        "desc": "A gently curved Louis XV loveseat in scarlet velvet. The basket-shaped back wraps the seat, framed in carved, antiqued gold.",
+        "details": [
+          "Two-seater with curved basket back",
+          "Scarlet velvet",
+          "Carved frame in antique gold",
+          "Cabriole legs"
+        ]
+      },
+      "ar": {
+        "name": "كنبة كوربيه قطيفة حمراء",
+        "desc": "كنبة صغيرة منحنية على طراز لويس الخامس عشر بقطيفة حمراء. ظهرها على شكل سلة يحتضن المقعد، بإطار محفور بلون الذهب العتيق.",
+        "details": [
+          "لشخصين بظهر منحني على شكل سلة",
+          "قطيفة حمراء",
+          "إطار محفور بذهبي عتيق",
+          "أرجل كابريول"
+        ]
+      },
+      "tags": "red velvet loveseat louis xv curved احمر قطيفة كنبة صغيرة كنبه لويس"
+    },
+    {
+      "id": "peacock-throne-armchairs",
+      "ref": "FF-010",
+      "category": "sofas-chairs",
+      "featured": true,
+      "images": [
+        "sofas-chairs/peacock-throne-armchairs"
+      ],
+      "en": {
+        "name": "Peacock Throne Armchairs (Pair)",
+        "desc": "A statement pair of high-backed baroque armchairs, deeply carved with shells and acanthus and finished in gold leaf. Upholstered in burgundy velvet woven with peacocks, with silk tassels at the arms.",
+        "details": [
+          "Pair of throne armchairs",
+          "Burgundy velvet with peacock motif",
+          "Deep baroque carving, gold leaf",
+          "Silk tassel trims"
+        ]
+      },
+      "ar": {
+        "name": "زوج كراسي عرش بالطاووس",
+        "desc": "زوج فوتيهات باروك بظهر عالٍ، محفورة بعمق بالأصداف وأوراق الأكانتس ومذهّبة بورق الذهب. تنجيد قطيفة عنابي منسوج بنقشة الطاووس مع شراشيب حرير.",
+        "details": [
+          "زوج كراسي عرش",
+          "قطيفة عنابي بنقشة طاووس",
+          "حفر باروك عميق وورق ذهب",
+          "شراشيب حرير على الذراعين"
+        ]
+      },
+      "tags": "throne chair armchair peacock baroque gold كرسي عرش فوتيه طاووس باروك مدهب"
+    },
+    {
+      "id": "round-borne-settee",
+      "ref": "FF-011",
+      "category": "sofas-chairs",
+      "featured": true,
+      "images": [
+        "sofas-chairs/round-borne-settee"
+      ],
+      "en": {
+        "name": "Round Borne Settee",
+        "desc": "A circular hall seat in the 19th-century tradition, with a tufted central column topped by a gilded jardinière. Upholstered in ivory with woven roses, on carved gilded legs.",
+        "details": [
+          "Round centre seat for halls and lobbies",
+          "Tufted central column with gilded planter",
+          "Ivory fabric with rose embroidery",
+          "Carved gilded frame"
+        ]
+      },
+      "ar": {
+        "name": "كنبة دائرية (بورن)",
+        "desc": "مقعد دائري لقاعات الاستقبال على الطراز الكلاسيكي، يتوسطه عمود منجّد كابتونيه تعلوه آنية زرع مذهّبة. تنجيد عاجي بورود منسوجة على أرجل محفورة مذهّبة.",
+        "details": [
+          "مقعد دائري لوسط القاعات والمداخل",
+          "عمود كابتونيه تعلوه آنية مذهّبة",
+          "قماش عاجي مطرّز بالورود",
+          "إطار محفور مذهّب"
+        ]
+      },
+      "tags": "round settee borne pouf circular hall كنبة دائرية مدورة بورن بوف مدخل"
+    },
+    {
+      "id": "taupe-tufted-fringed-sofa",
+      "ref": "FF-012",
+      "category": "sofas-chairs",
+      "featured": true,
+      "images": [
+        "sofas-chairs/taupe-tufted-fringed-sofa-2",
+        "sofas-chairs/taupe-tufted-fringed-sofa-1",
+        "sofas-chairs/taupe-tufted-fringed-sofa-extra-3"
+      ],
+      "en": {
+        "name": "Taupe Tufted Sofa with Fringe",
+        "desc": "A three-seat sofa in warm taupe velvet with a tufted back and an embroidered seat cushion. Finished with a layered tassel fringe and small gilded carvings at the crest and arms.",
+        "details": [
+          "Three-seater sofa",
+          "Taupe velvet, tufted back",
+          "Embroidered seat and medallion cushions",
+          "Tassel fringe skirt, gilded accents"
+        ]
+      },
+      "ar": {
+        "name": "كنبة كابتونيه بيج داكن بشراشيب",
+        "desc": "كنبة ثلاثية بقطيفة بلون التوب الدافئ، بظهر كابتونيه ومقعد مطرّز. تنتهي بشراشيب متعددة الطبقات ونقوش مذهّبة صغيرة أعلى الظهر وعلى الذراعين.",
+        "details": [
+          "كنبة ثلاثية",
+          "قطيفة توب بظهر كابتونيه",
+          "مقعد مطرّز ومخدّات بميداليات",
+          "شراشيب أسفل الكنبة ولمسات مذهّبة"
+        ]
+      },
+      "tags": "taupe brown velvet tufted sofa fringe chesterfield بيج بني قطيفة كابتونيه كنبة شراشيب"
+    },
+    {
+      "id": "blush-bergere-pair",
+      "ref": "FF-013",
+      "category": "sofas-chairs",
+      "featured": true,
+      "images": [
+        "sofas-chairs/blush-bergere-pair"
+      ],
+      "en": {
+        "name": "Blush Bergère Corner",
+        "desc": "A pair of gilded bergères in blush damask, with a round gilded side table topped in marble and a matching footstool. An intimate corner for a bedroom or ladies' salon.",
+        "details": [
+          "Two bergère armchairs",
+          "Round gilded side table with marble top",
+          "Matching pouf",
+          "Blush damask with pleated seats"
+        ]
+      },
+      "ar": {
+        "name": "ركن بيرجير وردي",
+        "desc": "زوج بيرجير مذهّب بقماش دمسقي وردي فاتح، مع طاولة جانبية مستديرة مذهّبة بسطح رخام وبوف مطابق. ركن هادئ لغرفة النوم أو صالون السيدات.",
+        "details": [
+          "فوتيهين بيرجير",
+          "طاولة جانبية مستديرة مذهّبة بسطح رخام",
+          "بوف مطابق",
+          "دمسقي وردي ومقاعد مكسّرة"
+        ]
+      },
+      "tags": "bergere armchair pink blush pouf gold بيرجير فوتيه وردي بمبي بوف مدهب"
+    },
+    {
+      "id": "ivory-gold-royal-bedroom",
+      "ref": "FF-014",
+      "category": "bedrooms",
+      "featured": true,
+      "images": [
+        "bedrooms/ivory-gold-royal-bedroom-1",
+        "bedrooms/ivory-gold-royal-bedroom-2",
+        "bedrooms/ivory-gold-royal-bedroom-extra-3",
+        "bedrooms/ivory-gold-royal-bedroom-extra-4",
+        "bedrooms/ivory-gold-royal-bedroom-extra-5",
+        "bedrooms/ivory-gold-royal-bedroom-extra-6"
+      ],
+      "en": {
+        "name": "Ivory & Gold Royal Bedroom",
+        "desc": "A full master suite in ivory ash grain with lavish gilded carving. The bed has a tall tufted headboard in dusty-rose velvet and a padded footboard; the matching wardrobe, nightstands, dresser and bench complete the room.",
+        "details": [
+          "King bed with tufted rose-velvet headboard",
+          "Four-door wardrobe with carved crest",
+          "Nightstands, dresser and bench",
+          "Ivory grain finish with gold-leaf carving"
+        ]
+      },
+      "ar": {
+        "name": "غرفة نوم ملكية عاجي وذهبي",
+        "desc": "غرفة نوم رئيسية كاملة بتشطيب عاجي بعروق الخشب وحفر مذهّب غني. السرير بظهر عالٍ كابتونيه من القطيفة الوردي الهادئ ونهاية منجّدة، ويكمّلها دولاب وكومودينو وتسريحة وبنش مطابقة.",
+        "details": [
+          "سرير كينج بظهر كابتونيه قطيفة وردي",
+          "دولاب أربع ضلف بتاج محفور",
+          "كومودينو وتسريحة وبنش",
+          "تشطيب عاجي بحفر ورق الذهب"
+        ]
+      },
+      "tags": "bedroom bed wardrobe master suite ivory gold غرفة نوم سرير دولاب كومودينو تسريحة عاجي ابيض مدهب"
+    },
+    {
+      "id": "velvet-bed-marquetry-nightstands",
+      "ref": "FF-015",
+      "category": "bedrooms",
+      "featured": true,
+      "images": [
+        "bedrooms/velvet-bed-marquetry-nightstands"
+      ],
+      "en": {
+        "name": "Velvet Bed with Marquetry Nightstands",
+        "desc": "A softly curved bed upholstered in sand velvet with a fine gilded edge, flanked by marquetry nightstands with gilt mounts. Shown against a custom headboard wall of tufted panels and gold fretwork.",
+        "details": [
+          "Upholstered bed in sand velvet",
+          "Pair of marquetry nightstands",
+          "Custom tufted headboard wall",
+          "Gold laser-cut fretwork frame"
+        ]
+      },
+      "ar": {
+        "name": "سرير قطيفة مع كومودينو ماركتري",
+        "desc": "سرير منحني منجّد بقطيفة رملية بحافة مذهّبة رفيعة، بجانبه كومودينو مطعّم بالقشرة بحليات مذهّبة. معروض أمام حائط خلفي مفصّل من ألواح كابتونيه وإطار ذهبي مفرّغ.",
+        "details": [
+          "سرير منجّد بقطيفة رملية",
+          "زوج كومودينو ماركتري",
+          "حائط خلفي كابتونيه حسب الطلب",
+          "إطار ذهبي مفرّغ بالليزر"
+        ]
+      },
+      "tags": "bed velvet nightstand marquetry headboard سرير قطيفة كومودينو تطعيم ماركتري ظهر سرير"
+    },
+    {
+      "id": "french-white-dressing-table",
+      "ref": "FF-016",
+      "category": "bedrooms",
+      "featured": true,
+      "images": [
+        "bedrooms/french-white-dressing-table"
+      ],
+      "en": {
+        "name": "French White Dressing Table",
+        "desc": "A Provençal-style dressing table in white, with seven drawers, carved cabriole legs and a matching arched mirror. Paired with a tufted velvet stool.",
+        "details": [
+          "Dressing table with seven drawers",
+          "Carved arched mirror",
+          "Tufted velvet stool",
+          "White lacquer with antique brass handles"
+        ]
+      },
+      "ar": {
+        "name": "تسريحة فرنسية بيضاء",
+        "desc": "تسريحة بيضاء على الطراز الفرنسي الريفي، بسبعة أدراج وأرجل كابريول محفورة ومرآة مقوّسة مطابقة، مع بوف قطيفة كابتونيه.",
+        "details": [
+          "تسريحة بسبعة أدراج",
+          "مرآة مقوّسة محفورة",
+          "بوف قطيفة كابتونيه",
+          "دهان أبيض مع مقابض نحاس عتيق"
+        ]
+      },
+      "tags": "dressing table vanity mirror white french تسريحة مرايه مراية ابيض فرنساوي"
+    },
+    {
+      "id": "ivory-gold-onyx-console",
+      "ref": "FF-017",
+      "category": "tables-consoles",
+      "featured": true,
+      "images": [
+        "tables-consoles/ivory-gold-onyx-console"
+      ],
+      "en": {
+        "name": "Ivory & Gold Onyx Console",
+        "desc": "A Louis XV console in ivory lacquer with gilded rocaille carving, a lower shelf, and a shaped top in honey-pink onyx. Styled with crystal and gilt vases.",
+        "details": [
+          "Two-tier console",
+          "Pink onyx top",
+          "Ivory lacquer with gold carving",
+          "Cabriole legs"
+        ]
+      },
+      "ar": {
+        "name": "كونسول عاجي وذهبي بسطح أونيكس",
+        "desc": "كونسول على طراز لويس الخامس عشر بدهان عاجي وحفر روكاي مذهّب، برف سفلي وسطح أونيكس وردي عسلي. معروض مع فازات كريستال مذهّبة.",
+        "details": [
+          "كونسول بدورين",
+          "سطح أونيكس وردي",
+          "دهان عاجي مع حفر مذهّب",
+          "أرجل كابريول"
+        ]
+      },
+      "tags": "console table onyx ivory gold entrance كونسول اونيكس عاجي مدهب مدخل"
+    },
+    {
+      "id": "louis-xv-marquetry-commode",
+      "ref": "FF-018",
+      "category": "cabinets-desks",
+      "featured": true,
+      "images": [
+        "cabinets-desks/louis-xv-marquetry-commode"
+      ],
+      "en": {
+        "name": "Louis XV Marquetry Commode",
+        "desc": "A bombé commode in warm veneers with sweeping gilded mounts and a marble top. Shown between a pair of green velvet tufted bergères, beside a bracket clock on its marquetry stand.",
+        "details": [
+          "Bombé commode with marble top",
+          "Fine veneer with gilded mounts",
+          "Pair of emerald tufted armchairs",
+          "Bracket clock on stand"
+        ]
+      },
+      "ar": {
+        "name": "كومود ماركتري لويس الخامس عشر",
+        "desc": "كومود منتفخ (بومبيه) بقشرة خشب دافئة وحليات مذهّبة منسابة وسطح رخام. معروض بين زوج بيرجير قطيفة أخضر كابتونيه، وبجانبه ساعة على حامل مطعّم.",
+        "details": [
+          "كومود بومبيه بسطح رخام",
+          "قشرة فاخرة مع حليات مذهّبة",
+          "زوج فوتيهات كابتونيه زمردي",
+          "ساعة على حامل"
+        ]
+      },
+      "tags": "commode chest marquetry ormolu marble كومود شيفونيرة ماركتري تطعيم رخام برونز"
+    },
+    {
+      "id": "gilded-turquoise-vitrine",
+      "ref": "FF-019",
+      "category": "cabinets-desks",
+      "featured": true,
+      "images": [
+        "cabinets-desks/gilded-turquoise-vitrine"
+      ],
+      "en": {
+        "name": "Gilded Vitrine with Turquoise Panels",
+        "desc": "A three-door display cabinet, gilded from crest to feet, with curved glass, mirrored interior and hand-painted turquoise panels framed in carved rocaille.",
+        "details": [
+          "Three-door glazed vitrine",
+          "Curved glass and glass shelves",
+          "Turquoise painted panels",
+          "Gold-leaf carving throughout"
+        ]
+      },
+      "ar": {
+        "name": "نيش مذهّب بألواح فيروزية",
+        "desc": "فاترينة عرض بثلاث ضلف، مذهّبة من التاج حتى الأرجل، بزجاج منحني وخلفية مرايا وألواح فيروزية مرسومة يدوياً داخل إطارات روكاي محفورة.",
+        "details": [
+          "نيش بثلاث ضلف زجاج",
+          "زجاج منحني ورفوف زجاج",
+          "ألواح فيروزية مرسومة",
+          "حفر بورق الذهب بالكامل"
+        ]
+      },
+      "tags": "vitrine display cabinet china cabinet niche gold turquoise نيش فاترينة فترينة عرض مدهب فيروزي"
+    },
+    {
+      "id": "royal-roll-top-desk",
+      "ref": "FF-020",
+      "category": "cabinets-desks",
+      "featured": true,
+      "images": [
+        "cabinets-desks/royal-roll-top-desk"
+      ],
+      "en": {
+        "name": "Royal Cylinder Desk",
+        "desc": "A grand Louis XV roll-top desk after the 18th-century royal model. Pictorial marquetry covers the cylinder and drawers, while gilt-bronze figures, a mantel clock and candle arms crown the top.",
+        "details": [
+          "Cylinder roll-top writing desk",
+          "Pictorial marquetry panels",
+          "Gilt-bronze figures and mounts",
+          "Integrated clock on the gallery"
+        ]
+      },
+      "ar": {
+        "name": "مكتب ملكي بغطاء أسطواني",
+        "desc": "مكتب (بيرو) فخم على طراز لويس الخامس عشر بغطاء أسطواني، مستوحى من المكتب الملكي في القرن الثامن عشر. تطعيم بالقشرة يرسم مشاهد على الغطاء والأدراج، وتعلوه تماثيل وحليات من البرونز المذهّب وساعة.",
+        "details": [
+          "مكتب كتابة بغطاء أسطواني",
+          "ألواح ماركتري تصويرية",
+          "تماثيل وحليات برونز مذهّب",
+          "ساعة مدمجة أعلى المكتب"
+        ]
+      },
+      "tags": "desk bureau roll top cylinder marquetry ormolu مكتب بيرو ماركتري تطعيم برونز مدهب"
+    },
+    {
+      "id": "ladies-roll-top-desk",
+      "ref": "FF-021",
+      "category": "cabinets-desks",
+      "featured": true,
+      "images": [
+        "cabinets-desks/ladies-roll-top-desk"
+      ],
+      "en": {
+        "name": "Lady's Cylinder Desk & Chair",
+        "desc": "A slender Louis XV bureau à cylindre in rosewood-tone veneers with floral marquetry, a brass gallery and gilt-bronze mounts on cabriole legs. Paired with a carved chair.",
+        "details": [
+          "Compact roll-top desk",
+          "Floral marquetry on chevron veneer",
+          "Brass gallery and gilt mounts",
+          "Matching carved chair"
+        ]
+      },
+      "ar": {
+        "name": "مكتب سيدات بغطاء أسطواني مع كرسي",
+        "desc": "مكتب صغير أنيق على طراز لويس الخامس عشر بقشرة بلون خشب الورد وتطعيم بالزهور، بحاجز نحاسي وحليات برونز مذهّب على أرجل كابريول، مع كرسي محفور.",
+        "details": [
+          "مكتب صغير بغطاء أسطواني",
+          "تطعيم زهور على قشرة متعاكسة",
+          "حاجز نحاس وحليات مذهّبة",
+          "كرسي محفور مطابق"
+        ]
+      },
+      "tags": "lady desk secretary bureau roll top marquetry chair مكتب بيرو سيدات ماركتري كرسي"
+    },
+    {
+      "id": "ormolu-pedestal-clock",
+      "ref": "FF-022",
+      "category": "antiques-decor",
+      "featured": true,
+      "images": [
+        "antiques-decor/ormolu-pedestal-clock"
+      ],
+      "en": {
+        "name": "Cherub Pedestal Clock",
+        "desc": "A tall mahogany pedestal clock dressed in gilt-bronze foliage, crowned by a clock case of cherubs and scrolls.",
+        "details": [
+          "Freestanding pedestal clock",
+          "Mahogany finish",
+          "Gilt-bronze mounts",
+          "Cherub-crowned clock case"
+        ]
+      },
+      "ar": {
+        "name": "ساعة عمود بالملائكة",
+        "desc": "ساعة عمود طويلة بخشب ماهوجني مكسوّة بأوراق من البرونز المذهّب، يعلوها جسم الساعة محاطاً بتماثيل ملائكة ونقوش ملتفة.",
+        "details": [
+          "ساعة عمود قائمة",
+          "تشطيب ماهوجني",
+          "حليات برونز مذهّب",
+          "تاج بتماثيل ملائكة"
+        ]
+      },
+      "tags": "clock pedestal grandfather cherub ormolu ساعة عمود ارضية ملائكة برونز"
+    },
+    {
+      "id": "bracket-clock-on-stand",
+      "ref": "FF-023",
+      "category": "antiques-decor",
+      "featured": true,
+      "images": [
+        "antiques-decor/bracket-clock-on-stand",
+        "antiques-decor/bracket-clock-on-stand-extra-2"
+      ],
+      "en": {
+        "name": "Louis XV Bracket Clock on Stand",
+        "desc": "A cartel clock on its own serpentine stand, in floral marquetry with gilt-bronze mounts and an eagle finial. The enamel dial sits behind a glazed door.",
+        "details": [
+          "Clock with matching stand",
+          "Floral marquetry",
+          "Gilt-bronze mounts and eagle finial",
+          "Enamel dial"
+        ]
+      },
+      "ar": {
+        "name": "ساعة لويس الخامس عشر على حامل",
+        "desc": "ساعة على حاملها المنحني الخاص، بتطعيم زهور وحليات برونز مذهّب يعلوها نسر. مينا مطلي بالمينا خلف باب زجاجي.",
+        "details": [
+          "ساعة مع حامل مطابق",
+          "تطعيم ماركتري بالزهور",
+          "برونز مذهّب ونسر في الأعلى",
+          "مينا مطلي"
+        ]
+      },
+      "tags": "clock bracket cartel stand marquetry eagle ساعة حامل ماركتري نسر"
+    },
+    {
+      "id": "royal-ceremonial-carriage",
+      "ref": "FF-024",
+      "category": "antiques-decor",
+      "featured": true,
+      "images": [
+        "antiques-decor/royal-ceremonial-carriage-1",
+        "antiques-decor/royal-ceremonial-carriage-2"
+      ],
+      "en": {
+        "name": "Royal Ceremonial Carriage",
+        "desc": "A full-size ceremonial carriage, carved and gilded throughout and crowned by an eagle. The body carries hand-painted cherub panels, red velvet curtains and seating, on gilded spoked wheels.",
+        "details": [
+          "Full-size horse-drawn carriage",
+          "Hand-painted cherub panels",
+          "Red velvet curtains and seats",
+          "Gilded carving and spoked wheels"
+        ]
+      },
+      "ar": {
+        "name": "عربة ملكية للمناسبات",
+        "desc": "عربة ملكية بالحجم الكامل، محفورة ومذهّبة بالكامل يعلوها نسر. جسمها مزيّن بلوحات ملائكة مرسومة يدوياً وستائر ومقاعد من القطيفة الحمراء، على عجلات مذهّبة.",
+        "details": [
+          "عربة خيول بالحجم الكامل (حنطور)",
+          "لوحات ملائكة مرسومة يدوياً",
+          "ستائر ومقاعد قطيفة حمراء",
+          "حفر مذهّب وعجلات بأسلاك"
+        ]
+      },
+      "tags": "carriage coach horse wedding royal عربة ملكية حنطور خيول افراح"
+    },
+    {
+      "id": "malachite-ormolu-caskets",
+      "ref": "FF-025",
+      "category": "antiques-decor",
+      "featured": true,
+      "images": [
+        "antiques-decor/malachite-ormolu-caskets"
+      ],
+      "en": {
+        "name": "Malachite & Gilt-Bronze Caskets",
+        "desc": "A pair of jewellery caskets panelled in malachite and wrapped in cast gilt-bronze scrolls and masks, with arched handles. Photographed on the workbench, fresh from finishing.",
+        "details": [
+          "Pair of lidded caskets",
+          "Malachite panels",
+          "Cast gilt-bronze frames",
+          "Shown in the workshop"
+        ]
+      },
+      "ar": {
+        "name": "علب ملاخيت وبرونز مذهّب",
+        "desc": "زوج علب مجوهرات بألواح ملاخيت تحيط بها نقوش ووجوه من البرونز المذهّب المصبوب، بمقابض مقوّسة. مصوّرة على طاولة الورشة بعد التشطيب مباشرة.",
+        "details": [
+          "زوج علب بغطاء",
+          "ألواح ملاخيت",
+          "إطارات برونز مذهّب مصبوب",
+          "من داخل الورشة"
+        ]
+      },
+      "tags": "malachite casket box jewellery ormolu ملاخيت علبة صندوق مجوهرات برونز"
+    },
+    {
+      "id": "porcelain-ormolu-caskets",
+      "ref": "FF-026",
+      "category": "antiques-decor",
+      "featured": true,
+      "images": [
+        "antiques-decor/porcelain-ormolu-caskets"
+      ],
+      "en": {
+        "name": "Painted Porcelain Caskets",
+        "desc": "Two bombé caskets in hand-painted porcelain, one white, one cobalt, set in gilt-bronze rocaille mounts with romantic scenes on every face.",
+        "details": [
+          "Two porcelain caskets",
+          "Hand-painted scenes",
+          "White and cobalt grounds",
+          "Gilt-bronze rocaille mounts"
+        ]
+      },
+      "ar": {
+        "name": "علب بورسلين مرسومة",
+        "desc": "علبتان منتفختان من البورسلين المرسوم يدوياً، واحدة بيضاء وأخرى كحلي كوبالت، داخل إطارات روكاي من البرونز المذهّب ومشاهد رومانسية على كل الجوانب.",
+        "details": [
+          "علبتان بورسلين",
+          "مشاهد مرسومة يدوياً",
+          "أرضية بيضاء وكحلي",
+          "حليات روكاي برونز مذهّب"
+        ]
+      },
+      "tags": "porcelain casket box sevres painted بورسلين علبة صندوق سيفر"
+    },
+    {
+      "id": "malachite-tissue-box",
+      "ref": "FF-027",
+      "category": "antiques-decor",
+      "featured": true,
+      "images": [
+        "antiques-decor/malachite-tissue-box"
+      ],
+      "en": {
+        "name": "Malachite Tissue Box",
+        "desc": "A tissue box in malachite with gilt-bronze feet, corners and rocaille cartouches, shown on a matching malachite pedestal.",
+        "details": [
+          "Malachite with gilt-bronze mounts",
+          "Matching pedestal available",
+          "Scrolled feet"
+        ]
+      },
+      "ar": {
+        "name": "علبة مناديل ملاخيت",
+        "desc": "علبة مناديل من الملاخيت بأرجل وأركان وزخارف روكاي من البرونز المذهّب، معروضة على قاعدة ملاخيت مطابقة.",
+        "details": [
+          "ملاخيت مع برونز مذهّب",
+          "القاعدة المطابقة متاحة",
+          "أرجل ملتفة"
+        ]
+      },
+      "tags": "tissue box malachite علبة مناديل ملاخيت اخضر"
+    },
+    {
+      "id": "sevres-blue-urn-candelabrum",
+      "ref": "FF-028",
+      "category": "antiques-decor",
+      "featured": true,
+      "images": [
+        "antiques-decor/sevres-blue-urn-candelabrum"
+      ],
+      "en": {
+        "name": "Bleu Céleste Urn Candelabrum",
+        "desc": "A towering candelabrum: a sky-blue porcelain urn with a painted cartouche, mounted in gilt bronze with figural handles and multiple candle arms, on a matching porcelain column.",
+        "details": [
+          "Porcelain urn and column",
+          "Sèvres-style bleu céleste",
+          "Gilt-bronze candle arms",
+          "Painted cartouche"
+        ]
+      },
+      "ar": {
+        "name": "شمعدان فازة بورسلين أزرق",
+        "desc": "شمعدان شاهق: فازة بورسلين بلون السماء عليها لوحة مرسومة، مركّبة على برونز مذهّب بمقابض تماثيل وأذرع شموع متعددة، فوق عمود بورسلين مطابق.",
+        "details": [
+          "فازة وعمود بورسلين",
+          "أزرق سماوي على طراز سيفر",
+          "أذرع شموع برونز مذهّب",
+          "لوحة مرسومة يدوياً"
+        ]
+      },
+      "tags": "candelabra candelabrum urn vase porcelain blue sevres شمعدان فازة بورسلين ازرق سيفر"
+    },
+    {
+      "id": "malachite-candelabrum-pedestal",
+      "ref": "FF-029",
+      "category": "antiques-decor",
+      "featured": true,
+      "images": [
+        "antiques-decor/malachite-candelabrum-pedestal"
+      ],
+      "en": {
+        "name": "Malachite Candelabrum & Gilded Centre Table",
+        "desc": "A gilded candelabrum with shaded lights on a tall malachite pedestal, beside a round gilded centre table with a green marble top and lower shelf.",
+        "details": [
+          "Candelabrum with fabric shades",
+          "Malachite pedestal with gilt mounts",
+          "Round gilded centre table",
+          "Green marble top"
+        ]
+      },
+      "ar": {
+        "name": "شمعدان ملاخيت وطاولة وسط مذهّبة",
+        "desc": "شمعدان مذهّب بأباجورات على قاعدة ملاخيت طويلة، بجانب طاولة وسط مستديرة مذهّبة بسطح رخام أخضر ورف سفلي.",
+        "details": [
+          "شمعدان بأباجورات قماش",
+          "قاعدة ملاخيت بحليات مذهّبة",
+          "طاولة وسط مستديرة مذهّبة",
+          "سطح رخام أخضر"
+        ]
+      },
+      "tags": "candelabra malachite pedestal centre table green شمعدان ملاخيت قاعدة طاولة وسط ترابيزة اخضر"
+    },
+    {
+      "id": "atlas-wall-bracket",
+      "ref": "FF-030",
+      "category": "antiques-decor",
+      "featured": true,
+      "images": [
+        "antiques-decor/atlas-wall-bracket"
+      ],
+      "en": {
+        "name": "Atlas Wall Bracket",
+        "desc": "A carved wall bracket in the form of Atlas, the bearded titan holding up the shelf, finished in antique gold.",
+        "details": [
+          "Figural wall bracket",
+          "Hand-carved, antique gold finish",
+          "Supports a vase or bust"
+        ]
+      },
+      "ar": {
+        "name": "كابولي حائط أطلس",
+        "desc": "كابولي حائط محفور على هيئة أطلس، العملاق الملتحي يحمل الرف فوق كتفيه، بتشطيب ذهبي عتيق.",
+        "details": [
+          "كابولي حائط بتمثال",
+          "حفر يدوي بذهبي عتيق",
+          "لحمل فازة أو تمثال نصفي"
+        ]
+      },
+      "tags": "wall bracket corbel atlas statue كابولي حائط رف تمثال اطلس"
+    },
+    {
+      "id": "gilded-mirror-meridienne-entrance",
+      "ref": "FF-031",
+      "category": "antiques-decor",
+      "featured": true,
+      "images": [
+        "antiques-decor/gilded-mirror-meridienne-entrance"
+      ],
+      "en": {
+        "name": "Gilded Mirror & Méridienne Entrance",
+        "desc": "An entrance composed around a tall gilded mirror with green marble borders and a crest of cherubs. Beneath it, an olive velvet méridienne and a set of gilded nesting tables.",
+        "details": [
+          "Tall mirror with cherub crest",
+          "Green marble border panels",
+          "Olive velvet méridienne",
+          "Gilded nesting tables"
+        ]
+      },
+      "ar": {
+        "name": "مدخل بمرآة مذهّبة وشيزلونج",
+        "desc": "مدخل متكامل حول مرآة طويلة مذهّبة بحواف رخام أخضر وتاج من الملائكة. أسفلها شيزلونج قطيفة زيتوني وطقم طاولات متداخلة مذهّبة.",
+        "details": [
+          "مرآة طويلة بتاج ملائكة",
+          "ألواح رخام أخضر",
+          "شيزلونج قطيفة زيتوني",
+          "طاولات متداخلة مذهّبة"
+        ]
+      },
+      "tags": "mirror entrance chaise meridienne nesting tables مراية مرايه مرآة مدخل شيزلونج طاولات متداخلة"
+    },
+    {
+      "id": "grand-staircase-center-table",
+      "ref": "FF-032",
+      "category": "antiques-decor",
+      "featured": true,
+      "images": [
+        "antiques-decor/grand-staircase-center-table"
+      ],
+      "en": {
+        "name": "Grand Staircase & Hall",
+        "desc": "A complete hall: a sweeping staircase with gilded wrought-iron balustrade, turned wooden newel posts with gilded finials, and a gilded centre table with a green marble top.",
+        "details": [
+          "Wrought-iron balustrade with gold scrolls",
+          "Turned wood newel posts",
+          "Gilded centre table",
+          "Complete hall finishing"
+        ]
+      },
+      "ar": {
+        "name": "سلم رئيسي وبهو",
+        "desc": "بهو متكامل: سلم منحني بدرابزين حديد فورجيه مذهّب، وأعمدة خشب مخروطة تعلوها رؤوس مذهّبة، وطاولة وسط مذهّبة بسطح رخام أخضر.",
+        "details": [
+          "درابزين حديد فورجيه بزخارف ذهبية",
+          "أعمدة خشب مخروطة",
+          "طاولة وسط مذهّبة",
+          "تشطيب بهو متكامل"
+        ]
+      },
+      "tags": "staircase stairs balustrade railing hall wrought iron سلم درابزين فورجيه بهو مدخل"
+    },
+    {
+      "id": "boat-sofa",
+      "ref": "FF-033",
+      "category": "modern",
+      "featured": true,
+      "images": [
+        "modern/boat-sofa-1",
+        "modern/boat-sofa-2"
+      ],
+      "en": {
+        "name": "Sculptural Boat Sofa",
+        "desc": "A one-of-a-kind sofa shaped like a boat's hull: a sweeping ivory and sky-blue frame cradling a grey velvet seat with bolsters, raised on a curved plinth.",
+        "details": [
+          "Sculptural statement sofa",
+          "Ivory and sky-blue lacquered frame",
+          "Grey velvet seat and bolsters",
+          "Curved plinth base"
+        ]
+      },
+      "ar": {
+        "name": "كنبة على شكل قارب",
+        "desc": "كنبة فريدة على هيئة بدن قارب: إطار منحني بالعاجي والأزرق السماوي يحتضن مقعداً من القطيفة الرمادية مع مساند أسطوانية، على قاعدة منحنية.",
+        "details": [
+          "كنبة فنية مميزة",
+          "إطار مدهون عاجي وأزرق سماوي",
+          "مقعد ومساند قطيفة رمادية",
+          "قاعدة منحنية"
+        ]
+      },
+      "tags": "boat sofa sculptural modern blue grey كنبة قارب مركب مودرن ازرق رمادي"
+    },
+    {
+      "id": "burgundy-curved-lounge",
+      "ref": "FF-034",
+      "category": "modern",
+      "featured": true,
+      "images": [
+        "modern/burgundy-curved-lounge"
+      ],
+      "en": {
+        "name": "Curved Burgundy Lounge",
+        "desc": "A seaside living room built around a long curved sectional in channel-tufted burgundy velvet, a white bouclé crescent sofa, burgundy armchairs and a round smoked-glass table.",
+        "details": [
+          "Curved channel-tufted sectional",
+          "White bouclé crescent sofa",
+          "Burgundy velvet armchairs",
+          "Round glass coffee table"
+        ]
+      },
+      "ar": {
+        "name": "ركنة منحنية عنابي",
+        "desc": "ليفينج روم مطل على البحر حول ركنة منحنية طويلة بقطيفة عنابي مخططة، وكنبة هلالية بقماش بوكليه أبيض، وفوتيهات عنابي، وطاولة زجاج مستديرة.",
+        "details": [
+          "ركنة منحنية بقطيفة مخططة",
+          "كنبة هلالية بوكليه أبيض",
+          "فوتيهات قطيفة عنابي",
+          "طاولة وسط زجاج مستديرة"
+        ]
+      },
+      "tags": "sectional curved sofa boucle burgundy modern living ركنة كنبة منحنية بوكليه عنابي مودرن ليفينج"
+    },
+    {
+      "id": "cane-lounge-chair",
+      "ref": "FF-035",
+      "category": "modern",
+      "featured": true,
+      "images": [
+        "modern/cane-lounge-chair"
+      ],
+      "en": {
+        "name": "Cane Lounge Chair",
+        "desc": "A deep lounge chair with a dark wood frame wrapped in woven cane, softened with teal linen seat, back and head cushions.",
+        "details": [
+          "Solid wood frame",
+          "Natural cane webbing",
+          "Teal linen cushions"
+        ]
+      },
+      "ar": {
+        "name": "فوتيه خيزران",
+        "desc": "فوتيه عميق بإطار خشب داكن مكسوّ بشبك الخيزران، مع مخدّات كتان بلون أزرق مخضر للمقعد والظهر والرأس.",
+        "details": [
+          "إطار خشب طبيعي",
+          "شبك خيزران (عزف) طبيعي",
+          "مخدّات كتان أزرق مخضر"
+        ]
+      },
+      "tags": "cane rattan lounge chair armchair teal خيزران عزف فوتيه كرسي"
+    },
+    {
+      "id": "glass-oak-coffee-table",
+      "ref": "FF-036",
+      "category": "modern",
+      "featured": true,
+      "images": [
+        "modern/glass-oak-coffee-table"
+      ],
+      "en": {
+        "name": "Glass & Oak Coffee Table",
+        "desc": "A low square coffee table in white lacquer, crossed by light-oak bands that run from the top down to the floor, with open shelves beneath a clear glass top.",
+        "details": [
+          "Square coffee table",
+          "White lacquer with oak bands",
+          "Open storage shelves",
+          "Tempered glass top"
+        ]
+      },
+      "ar": {
+        "name": "طاولة وسط زجاج وبلوط",
+        "desc": "طاولة وسط مربعة منخفضة بدهان أبيض، تتقاطع عليها شرائط من خشب البلوط الفاتح تمتد حتى الأرض، مع رفوف مفتوحة أسفل سطح زجاجي شفاف.",
+        "details": [
+          "طاولة وسط مربعة",
+          "أبيض لامع مع شرائط بلوط",
+          "رفوف تخزين مفتوحة",
+          "سطح زجاج سيكوريت"
+        ]
+      },
+      "tags": "coffee table glass oak white modern طاولة ترابيزة وسط زجاج بلوط ابيض مودرن"
+    },
+    {
+      "id": "white-dressing-room",
+      "ref": "FF-037",
+      "category": "modern",
+      "featured": true,
+      "images": [
+        "modern/white-dressing-room",
+        "modern/white-fitted-wardrobe"
+      ],
+      "en": {
+        "name": "White Fitted Wardrobes & Dressing Room",
+        "desc": "Floor-to-ceiling fitted wardrobes in white shaker panels with slim black handles, including a walk-in dressing room with a built-in vanity and an arched niche.",
+        "details": [
+          "Made-to-measure fitted wardrobes",
+          "White shaker doors, black handles",
+          "Built-in vanity and arched niche",
+          "Upper storage cabinets"
+        ]
+      },
+      "ar": {
+        "name": "دواليب حائط بيضاء وغرفة ملابس",
+        "desc": "دواليب حائط من الأرض حتى السقف بضلف بيضاء بإطار بارز ومقابض سوداء رفيعة، تشمل غرفة ملابس (دريسنج) بتسريحة مدمجة وتجويف مقوّس.",
+        "details": [
+          "دواليب حائط بالمقاس",
+          "ضلف بيضاء ومقابض سوداء",
+          "تسريحة مدمجة وتجويف مقوّس",
+          "خزائن تخزين علوية"
+        ]
+      },
+      "tags": "wardrobe closet dressing room fitted built in white دولاب دواليب حائط غرفة ملابس دريسنج ابيض"
+    },
+    {
+      "id": "neoclassical-ivory-salon",
+      "ref": "FF-038",
+      "category": "salons",
+      "images": [
+        "salons/neoclassical-ivory-salon"
+      ],
+      "en": {
+        "name": "Neoclassical Ivory Salon",
+        "desc": "A calm ten-piece salon: ivory velvet on walnut frames with tapered legs, a long oval coffee table, and four round side tables with gilt bands.",
+        "details": [
+          "Three-seat sofa and four armchairs",
+          "Oval coffee table and four round side tables",
+          "Ivory velvet, walnut frames",
+          "Clean neoclassical lines"
+        ]
+      },
+      "ar": {
+        "name": "صالون نيوكلاسيك عاجي",
+        "desc": "صالون هادئ من عشر قطع: قطيفة عاجية على إطارات جوز بأرجل مستدقة، وطاولة وسط بيضاوية طويلة، وأربع طاولات جانبية مستديرة بأحزمة مذهّبة.",
+        "details": [
+          "كنبة ثلاثية وأربعة فوتيهات",
+          "طاولة وسط بيضاوية وأربع طاولات جانبية",
+          "قطيفة عاجية وإطارات جوز",
+          "خطوط نيوكلاسيك بسيطة"
+        ]
+      },
+      "tags": "ivory beige velvet walnut neoclassical living عاجي بيج قطيفة جوز نيوكلاسيك انتريه صالون"
+    },
+    {
+      "id": "navy-embroidered-gilded-salon",
+      "ref": "FF-039",
+      "category": "salons",
+      "images": [
+        "salons/navy-embroidered-gilded-salon"
+      ],
+      "en": {
+        "name": "Midnight Embroidered Salon",
+        "desc": "Gilded Louis XV frames upholstered in midnight velvet, each back and seat embroidered with a bouquet of roses. Sofa, four armchairs, a glass-topped centre table and two side tables.",
+        "details": [
+          "Sofa and four armchairs",
+          "Midnight velvet with rose embroidery",
+          "Gold-leaf carved frames",
+          "Centre table and two side tables"
+        ]
+      },
+      "ar": {
+        "name": "صالون كحلي مطرّز",
+        "desc": "إطارات لويس الخامس عشر مذهّبة منجّدة بقطيفة كحلي داكن، كل ظهر ومقعد مطرّز بباقة ورد. كنبة وأربعة فوتيهات وطاولة وسط بسطح زجاج وطاولتان جانبيتان.",
+        "details": [
+          "كنبة وأربعة فوتيهات",
+          "قطيفة كحلي مطرّزة بالورود",
+          "إطارات محفورة بورق الذهب",
+          "طاولة وسط وطاولتان جانبيتان"
+        ]
+      },
+      "tags": "navy black velvet embroidered gold louis xv كحلي اسود قطيفة مطرز مدهب لويس صالون"
+    },
+    {
+      "id": "marquetry-corbeille-sofa-set",
+      "ref": "FF-040",
+      "category": "salons",
+      "images": [
+        "salons/marquetry-corbeille-sofa-set"
+      ],
+      "en": {
+        "name": "Marquetry Corbeille Sofa Set",
+        "desc": "A curved basket-back sofa whose outer shell is inlaid with floral marquetry, upholstered in plum and gold toile. With a Louis XV coffee table and two side tables in mahogany and gilt bronze.",
+        "details": [
+          "Curved corbeille sofa",
+          "Floral marquetry outer back",
+          "Plum and gold toile upholstery",
+          "Coffee table and two side tables with gilt mounts"
+        ]
+      },
+      "ar": {
+        "name": "طقم كنبة كوربيه ماركتري",
+        "desc": "كنبة منحنية بظهر على شكل سلة، ظهرها الخارجي مطعّم بزخارف زهور، منجّدة بقماش تول دو جوي بالبرقوقي والذهبي. مع طاولة وسط لويس الخامس عشر وطاولتين جانبيتين ماهوجني ببرونز مذهّب.",
+        "details": [
+          "كنبة كوربيه منحنية",
+          "ظهر خارجي مطعّم بالقشرة",
+          "قماش تول بالبرقوقي والذهبي",
+          "طاولة وسط وطاولتان جانبيتان بحليات مذهّبة"
+        ]
+      },
+      "tags": "corbeille sofa marquetry toile mahogany كنبة كوربيه ماركتري تطعيم ماهوجني"
+    },
+    {
+      "id": "burgundy-ruched-velvet-salon",
+      "ref": "FF-041",
+      "category": "salons",
+      "images": [
+        "salons/burgundy-ruched-velvet-salon",
+        "salons/burgundy-ruched-velvet-salon-extra-2",
+        "salons/burgundy-ruched-velvet-salon-extra-3",
+        "salons/burgundy-ruched-velvet-salon-extra-4",
+        "salons/burgundy-ruched-velvet-salon-extra-5"
+      ],
+      "en": {
+        "name": "Burgundy Ruched Velvet Salon",
+        "desc": "Generous, rounded seating in ruched burgundy velvet with tassel skirts and a carved gilded crest. Walnut coffee table with glass inset, a tiered side table and two black damask ottomans.",
+        "details": [
+          "Sofa and two club armchairs",
+          "Ruched velvet with tassel fringe",
+          "Carved walnut tables",
+          "Pair of black damask ottomans"
+        ]
+      },
+      "ar": {
+        "name": "صالون قطيفة عنابي مكشكش",
+        "desc": "جلسة واسعة مستديرة بقطيفة عنابي مكشكشة مع شراشيب وتاج محفور مذهّب. طاولة وسط جوز بزجاج، وطاولة بدورين، وبوفين بقماش دمسقي أسود.",
+        "details": [
+          "كنبة وفوتيهين واسعين",
+          "قطيفة مكشكشة بشراشيب",
+          "طاولات جوز محفورة",
+          "زوج بوف دمسقي أسود"
+        ]
+      },
+      "tags": "burgundy velvet ruched ottoman pouf عنابي قطيفة مكشكش بوف صالون انتريه"
+    },
+    {
+      "id": "lilac-french-salon",
+      "ref": "FF-042",
+      "category": "salons",
+      "images": [
+        "salons/lilac-french-salon",
+        "salons/lilac-french-salon-extra-2"
+      ],
+      "en": {
+        "name": "Lilac French Salon",
+        "desc": "Cream-painted carved frames with gilt highlights, upholstered in lilac with floral damask backs. A mahogany coffee table with gilt-bronze mounts and two round side tables complete it.",
+        "details": [
+          "Sofa and two bergères",
+          "Lilac velvet and floral damask",
+          "Cream and gold painted frames",
+          "Mahogany coffee table with gilt mounts"
+        ]
+      },
+      "ar": {
+        "name": "صالون فرنسي ليلكي",
+        "desc": "إطارات محفورة بدهان كريمي ولمسات مذهّبة، منجّدة بالليلكي مع ظهور دمسقي مورّد. تكمّلها طاولة وسط ماهوجني بحليات برونز مذهّب وطاولتان جانبيتان مستديرتان.",
+        "details": [
+          "كنبة وفوتيهين بيرجير",
+          "قطيفة ليلكي ودمسقي مورّد",
+          "إطارات كريمي وذهبي",
+          "طاولة وسط ماهوجني بحليات مذهّبة"
+        ]
+      },
+      "tags": "lilac purple mauve french bergere ليلكي موف بنفسجي فرنساوي بيرجير صالون"
+    },
+    {
+      "id": "champagne-damask-salon",
+      "ref": "FF-043",
+      "category": "salons",
+      "images": [
+        "salons/champagne-damask-salon"
+      ],
+      "en": {
+        "name": "Champagne Damask Salon",
+        "desc": "Warm champagne damask on carved walnut frames with antique gilt. A scalloped walnut coffee table with lower shelf, flanked by tall side tables with gilt detailing.",
+        "details": [
+          "Sofa and two armchairs",
+          "Champagne floral damask, pleated seats",
+          "Carved walnut with antique gilt",
+          "Coffee table and two tall side tables"
+        ]
+      },
+      "ar": {
+        "name": "صالون دمسقي شمبانيا",
+        "desc": "دمسقي بلون الشمبانيا الدافئ على إطارات جوز محفورة بلمسات ذهب عتيق. طاولة وسط جوز بحواف متموّجة ورف سفلي، بين طاولتين جانبيتين طويلتين بتفاصيل مذهّبة.",
+        "details": [
+          "كنبة وفوتيهين",
+          "دمسقي شمبانيا ومقاعد مكسّرة",
+          "جوز محفور بذهبي عتيق",
+          "طاولة وسط وطاولتان جانبيتان"
+        ]
+      },
+      "tags": "champagne beige damask walnut french شمبانيا بيج دمسقي جوز صالون"
+    },
+    {
+      "id": "burgundy-rococo-salon",
+      "ref": "FF-044",
+      "category": "salons",
+      "images": [
+        "salons/burgundy-rococo-salon",
+        "salons/burgundy-rococo-salon-extra-2"
+      ],
+      "en": {
+        "name": "Burgundy Rococo Salon with Vitrine",
+        "desc": "A large Rococo salon in carved walnut: a burgundy damask camelback sofa, matching armchairs and striped crimson armchairs, an inlaid coffee table, round side tables and a painted vitrine.",
+        "details": [
+          "Camelback sofa and four armchairs",
+          "Burgundy damask and crimson stripe",
+          "Inlaid coffee table and side tables",
+          "Painted-panel vitrine"
+        ]
+      },
+      "ar": {
+        "name": "صالون روكوكو عنابي مع نيش",
+        "desc": "صالون روكوكو كبير من الجوز المحفور: كنبة بظهر مقوّس بدمسقي عنابي، وفوتيهات مطابقة وأخرى بخطوط حمراء، وطاولة وسط مطعّمة، وطاولات جانبية مستديرة ونيش بألواح مرسومة.",
+        "details": [
+          "كنبة وأربعة فوتيهات",
+          "دمسقي عنابي وقماش مقلّم",
+          "طاولة وسط مطعّمة وطاولات جانبية",
+          "نيش بألواح مرسومة"
+        ]
+      },
+      "tags": "burgundy rococo vitrine walnut striped عنابي روكوكو نيش جوز مقلم صالون"
+    },
+    {
+      "id": "walnut-recamier-set",
+      "ref": "FF-045",
+      "category": "salons",
+      "images": [
+        "salons/walnut-recamier-set"
+      ],
+      "en": {
+        "name": "Walnut Récamier Set",
+        "desc": "A scrolled-end récamier in tufted dusty-rose velvet on a carved walnut frame, with a burl-walnut coffee table and two marquetry guéridons with gilt mounts.",
+        "details": [
+          "Tufted récamier chaise",
+          "Burl walnut coffee table",
+          "Two marquetry guéridon side tables",
+          "Gilt-bronze details"
+        ]
+      },
+      "ar": {
+        "name": "طقم شيزلونج ريكامييه جوز",
+        "desc": "شيزلونج ريكامييه بأطراف ملتفة، منجّد كابتونيه بقطيفة وردي هادئ على إطار جوز محفور، مع طاولة وسط من جذر الجوز وطاولتين جانبيتين مطعّمتين بحليات مذهّبة.",
+        "details": [
+          "شيزلونج ريكامييه كابتونيه",
+          "طاولة وسط جذر جوز",
+          "طاولتان جانبيتان ماركتري",
+          "تفاصيل برونز مذهّب"
+        ]
+      },
+      "tags": "recamier chaise longue daybed walnut pink شيزلونج ريكامييه جوز وردي"
+    },
+    {
+      "id": "medallion-armchairs-pair",
+      "ref": "FF-046",
+      "category": "sofas-chairs",
+      "images": [
+        "sofas-chairs/medallion-armchairs-pair"
+      ],
+      "en": {
+        "name": "Louis XVI Medallion Armchairs",
+        "desc": "A pair of oval-backed fauteuils with carved ribbon crests in softly antiqued gold, upholstered in ivory with lilac roses, around a small round walnut table.",
+        "details": [
+          "Pair of medallion-back armchairs",
+          "Ivory fabric with lilac roses",
+          "Antique-gold carved frames",
+          "Round walnut side table"
+        ]
+      },
+      "ar": {
+        "name": "زوج فوتيه ميدالية لويس السادس عشر",
+        "desc": "زوج فوتيهات بظهر بيضاوي (ميدالية) وتاج محفور بشريطة بذهبي عتيق هادئ، منجّدة بقماش عاجي بورود ليلكي، حول طاولة جوز مستديرة صغيرة.",
+        "details": [
+          "زوج فوتيهات بظهر ميدالية",
+          "قماش عاجي بورود ليلكي",
+          "إطارات محفورة بذهبي عتيق",
+          "طاولة جانبية جوز مستديرة"
+        ]
+      },
+      "tags": "medallion armchair fauteuil louis xvi pair فوتيه ميدالية لويس كرسي"
+    },
+    {
+      "id": "rococo-blush-tufted-bed",
+      "ref": "FF-047",
+      "category": "bedrooms",
+      "images": [
+        "bedrooms/rococo-blush-tufted-bed",
+        "bedrooms/rococo-blush-tufted-bed-extra-2"
+      ],
+      "en": {
+        "name": "Rococo Blush Tufted Bed",
+        "desc": "A romantic Rococo bed with a scrolled double-arched headboard and footboard in tufted rose velvet, framed in carved gold. With a pair of antique-white nightstands.",
+        "details": [
+          "Bed with tufted head and footboard",
+          "Rose velvet, button-tufted",
+          "Carved gilded frame",
+          "Two antique-white nightstands",
+          "Shown with matching wardrobe and dressing table"
+        ]
+      },
+      "ar": {
+        "name": "سرير روكوكو كابتونيه وردي",
+        "desc": "سرير روكوكو رومانسي بظهر ونهاية مقوّسين مزدوجين، منجّد كابتونيه بقطيفة وردية داخل إطار ذهبي محفور، مع زوج كومودينو أبيض عتيق.",
+        "details": [
+          "سرير بظهر ونهاية كابتونيه",
+          "قطيفة وردية كابتونيه",
+          "إطار محفور مذهّب",
+          "زوج كومودينو أبيض عتيق",
+          "معروض مع دولاب وتسريحة مطابقين"
+        ]
+      },
+      "tags": "bed rococo pink tufted gold سرير روكوكو وردي بمبي كابتونيه مدهب غرفة نوم"
+    },
+    {
+      "id": "french-blue-velvet-bedroom",
+      "ref": "FF-048",
+      "category": "bedrooms",
+      "images": [
+        "bedrooms/french-blue-velvet-bedroom"
+      ],
+      "en": {
+        "name": "French Blue Velvet Bedroom",
+        "desc": "A bed with a carved, limed-oak frame and tufted slate-blue velvet headboard, with matching nightstands and a pale-blue dressing table with oval tufted mirror and chair.",
+        "details": [
+          "Carved bed in limed oak",
+          "Tufted slate-blue headboard",
+          "Two nightstands",
+          "Dressing table, oval mirror and chair"
+        ]
+      },
+      "ar": {
+        "name": "غرفة نوم فرنسية بقطيفة زرقاء",
+        "desc": "سرير بإطار بلوط مبيّض محفور وظهر كابتونيه بقطيفة أزرق رمادي، مع كومودينو مطابق وتسريحة زرقاء فاتحة بمرآة بيضاوية وكرسي.",
+        "details": [
+          "سرير بلوط مبيّض محفور",
+          "ظهر كابتونيه أزرق رمادي",
+          "زوج كومودينو",
+          "تسريحة بمرآة بيضاوية وكرسي"
+        ]
+      },
+      "tags": "bedroom bed blue velvet oak dressing table غرفة نوم سرير ازرق قطيفة تسريحة"
+    },
+    {
+      "id": "cane-french-bed",
+      "ref": "FF-049",
+      "category": "bedrooms",
+      "images": [
+        "bedrooms/cane-french-bed",
+        "bedrooms/cane-french-bed-extra-2"
+      ],
+      "en": {
+        "name": "Cane-Back French Bed",
+        "desc": "A Louis XV bed in antique cream with a woven cane headboard and carved shell crest, matched by round cane-front nightstands.",
+        "details": [
+          "Cane headboard with carved crest",
+          "Antique cream finish",
+          "Pair of round cane nightstands"
+        ]
+      },
+      "ar": {
+        "name": "سرير فرنسي بظهر خيزران",
+        "desc": "سرير لويس الخامس عشر بلون كريمي عتيق، بظهر من شبك الخيزران وتاج محفور على شكل صدفة، مع كومودينو مستدير بواجهة خيزران.",
+        "details": [
+          "ظهر خيزران بتاج محفور",
+          "تشطيب كريمي عتيق",
+          "زوج كومودينو مستدير بخيزران"
+        ]
+      },
+      "tags": "cane bed rattan cream french سرير خيزران عزف كريمي فرنساوي"
+    },
+    {
+      "id": "ivory-french-provincial-bedroom",
+      "ref": "FF-050",
+      "category": "bedrooms",
+      "images": [
+        "bedrooms/ivory-french-provincial-bedroom"
+      ],
+      "en": {
+        "name": "Ivory French Provincial Bedroom",
+        "desc": "A complete bedroom in painted ivory with gilded carving and hand-painted flowers: tufted bed, three-door wardrobe, dressing table with arched mirror and a bombé chest.",
+        "details": [
+          "Bed with tufted headboard",
+          "Three-door wardrobe",
+          "Dressing table with large mirror",
+          "Bombé chest with marble top"
+        ]
+      },
+      "ar": {
+        "name": "غرفة نوم فرنسية عاجية",
+        "desc": "غرفة نوم كاملة بدهان عاجي مع حفر مذهّب وزهور مرسومة يدوياً: سرير كابتونيه، ودولاب ثلاث ضلف، وتسريحة بمرآة مقوّسة، وشيفونيرة منتفخة.",
+        "details": [
+          "سرير بظهر كابتونيه",
+          "دولاب ثلاث ضلف",
+          "تسريحة بمرآة كبيرة",
+          "شيفونيرة بسطح رخام"
+        ]
+      },
+      "tags": "bedroom ivory french provincial wardrobe dresser غرفة نوم عاجي دولاب تسريحة شيفونيرة"
+    },
+    {
+      "id": "taupe-velvet-dining-set",
+      "ref": "FF-051",
+      "category": "dining",
+      "images": [
+        "dining/taupe-velvet-dining-set"
+      ],
+      "en": {
+        "name": "Taupe Velvet Dining Room",
+        "desc": "A cream-painted table on carved cabriole legs with a walnut-edged glass top, six tufted chairs in taupe velvet, and a matching buffet with a long walnut mirror.",
+        "details": [
+          "Table for six with glass top",
+          "Six tufted velvet chairs",
+          "Cream buffet",
+          "Walnut-framed mirror"
+        ]
+      },
+      "ar": {
+        "name": "سفرة قطيفة توب",
+        "desc": "ترابيزة سفرة بدهان كريمي على أرجل كابريول محفورة وسطح زجاج بحافة جوز، مع ستة كراسي كابتونيه بقطيفة توب، وبوفيه مطابق ببرواز مرآة جوز طويل.",
+        "details": [
+          "ترابيزة ستة أفراد بسطح زجاج",
+          "ستة كراسي قطيفة كابتونيه",
+          "بوفيه كريمي",
+          "مرآة ببرواز جوز"
+        ]
+      },
+      "tags": "dining table chairs buffet mirror cream سفرة سفره ترابيزة كراسي بوفيه مرآة كريمي"
+    },
+    {
+      "id": "powder-blue-dining-set",
+      "ref": "FF-052",
+      "category": "dining",
+      "images": [
+        "dining/powder-blue-dining-set"
+      ],
+      "en": {
+        "name": "Powder Blue Dining Room",
+        "desc": "A cream table with walnut top edge and glass, seating eight on wingback chairs and a tufted bench in powder-blue velvet. With a slim two-tier server.",
+        "details": [
+          "Table for eight",
+          "Wingback chairs and tufted bench",
+          "Powder-blue velvet",
+          "Two-tier server"
+        ]
+      },
+      "ar": {
+        "name": "سفرة قطيفة لبني",
+        "desc": "ترابيزة كريمية بحافة جوز وسطح زجاج تتسع لثمانية، بكراسي بأجنحة وبنش كابتونيه بقطيفة لبني، مع وحدة تقديم رفيعة بدورين.",
+        "details": [
+          "ترابيزة ثمانية أفراد",
+          "كراسي بأجنحة وبنش كابتونيه",
+          "قطيفة لبني",
+          "وحدة تقديم بدورين"
+        ]
+      },
+      "tags": "dining table chairs bench blue velvet سفرة سفره ترابيزة كراسي بنش لبني ازرق"
+    },
+    {
+      "id": "gilded-rococo-marble-console",
+      "ref": "FF-053",
+      "category": "tables-consoles",
+      "images": [
+        "tables-consoles/gilded-rococo-marble-console-1",
+        "tables-consoles/gilded-rococo-marble-console-2",
+        "tables-consoles/gilded-rococo-marble-console-extra-3"
+      ],
+      "en": {
+        "name": "Gilded Rococo Marble Console",
+        "desc": "A centre console carved with shells, scrolls and acanthus, gilded in warm gold, joined by an X-stretcher with a carved floral boss and topped with dramatic black-and-white marble.",
+        "details": [
+          "Carved rocaille apron",
+          "X-stretcher with floral centrepiece",
+          "Black and white veined marble",
+          "Scrolled feet, gold-leaf finish"
+        ]
+      },
+      "ar": {
+        "name": "كونسول روكوكو مذهّب برخام",
+        "desc": "كونسول وسط محفور بالأصداف والنقوش الملتفة وأوراق الأكانتس، مذهّب بذهبي دافئ، تربط أرجله قاعدة متقاطعة بزهرة محفورة، ويعلوه رخام أبيض بعروق سوداء.",
+        "details": [
+          "حفر روكاي على الواجهة",
+          "قاعدة متقاطعة بزهرة محفورة",
+          "رخام أبيض بعروق سوداء",
+          "أرجل ملتفة وتشطيب ورق ذهب"
+        ]
+      },
+      "tags": "console table marble gold rococo كونسول رخام مدهب روكوكو اويما"
+    },
+    {
+      "id": "walnut-nesting-tables",
+      "ref": "FF-054",
+      "category": "tables-consoles",
+      "images": [
+        "tables-consoles/walnut-nesting-tables"
+      ],
+      "en": {
+        "name": "Walnut Nesting Tables",
+        "desc": "A set of three nesting tables in walnut with chevron-matched veneer tops under protective glass, on slender turned legs.",
+        "details": [
+          "Set of three",
+          "Chevron walnut veneer",
+          "Glass-protected tops",
+          "Turned legs"
+        ]
+      },
+      "ar": {
+        "name": "طاولات متداخلة جوز",
+        "desc": "طقم ثلاث طاولات متداخلة من الجوز بأسطح قشرة متعاكسة (شيفرون) تحت زجاج للحماية، على أرجل مخروطة رفيعة.",
+        "details": [
+          "طقم من ثلاث قطع",
+          "قشرة جوز متعاكسة",
+          "أسطح محمية بالزجاج",
+          "أرجل مخروطة"
+        ]
+      },
+      "tags": "nesting tables walnut set of three طاولات ترابيزات متداخلة جوز طقم"
+    },
+    {
+      "id": "distressed-round-coffee-table",
+      "ref": "FF-055",
+      "category": "tables-consoles",
+      "images": [
+        "tables-consoles/distressed-round-coffee-table"
+      ],
+      "en": {
+        "name": "Distressed Round Coffee Table",
+        "desc": "A farmhouse-style round coffee table: a scalloped dark-wood top over a hand-distressed cream base, with a drawer, turned legs and a lower display shelf.",
+        "details": [
+          "Round scalloped top",
+          "Hand-distressed cream base",
+          "Drawer and lower shelf",
+          "Turned legs"
+        ]
+      },
+      "ar": {
+        "name": "طاولة وسط مستديرة معتّقة",
+        "desc": "طاولة وسط مستديرة بطابع ريفي: سطح خشب داكن بحواف متموّجة فوق قاعدة كريمية معتّقة يدوياً، بدرج وأرجل مخروطة ورف عرض سفلي.",
+        "details": [
+          "سطح مستدير متموّج",
+          "قاعدة كريمي معتّق يدوياً",
+          "درج ورف سفلي",
+          "أرجل مخروطة"
+        ]
+      },
+      "tags": "coffee table round distressed farmhouse طاولة ترابيزة وسط مستديرة معتق ريفي"
+    },
+    {
+      "id": "acanthus-pedestal-table",
+      "ref": "FF-056",
+      "category": "tables-consoles",
+      "images": [
+        "tables-consoles/acanthus-pedestal-table"
+      ],
+      "en": {
+        "name": "Acanthus Pedestal Table",
+        "desc": "A round side table on a pedestal carved with deep acanthus leaves and a gadrooned urn, standing on four scrolled feet in a weathered grey finish.",
+        "details": [
+          "Round top",
+          "Carved acanthus pedestal",
+          "Four scrolled feet",
+          "Weathered grey wash"
+        ]
+      },
+      "ar": {
+        "name": "طاولة جانبية بقاعدة أكانتس",
+        "desc": "طاولة جانبية مستديرة على قاعدة محفورة بأوراق الأكانتس العميقة وجسم مضلّع، تقف على أربعة أرجل ملتفة بتشطيب رمادي معتّق.",
+        "details": [
+          "سطح مستدير",
+          "قاعدة محفورة بالأكانتس",
+          "أربعة أرجل ملتفة",
+          "رمادي معتّق"
+        ]
+      },
+      "tags": "side table pedestal acanthus carved grey طاولة جانبية قاعدة محفورة رمادي"
+    },
+    {
+      "id": "oak-tulip-side-table",
+      "ref": "FF-057",
+      "category": "tables-consoles",
+      "images": [
+        "tables-consoles/oak-tulip-side-table"
+      ],
+      "en": {
+        "name": "Natural Oak Pedestal Table",
+        "desc": "A round table in natural oak with a stepped edge, carried on four sweeping curved legs that meet at a carved hub over a cross base.",
+        "details": [
+          "Round top with stepped edge",
+          "Four sweeping curved legs",
+          "Cross base with scrolled feet",
+          "Natural oak grain"
+        ]
+      },
+      "ar": {
+        "name": "طاولة بلوط طبيعي",
+        "desc": "طاولة مستديرة من البلوط الطبيعي بحافة مدرّجة، تحملها أربعة أرجل منحنية تلتقي عند مركز محفور فوق قاعدة متقاطعة.",
+        "details": [
+          "سطح مستدير بحافة مدرّجة",
+          "أربعة أرجل منحنية",
+          "قاعدة متقاطعة بأرجل ملتفة",
+          "عروق بلوط طبيعية"
+        ]
+      },
+      "tags": "side table oak natural wood round طاولة جانبية بلوط خشب طبيعي"
+    },
+    {
+      "id": "octagonal-wine-table",
+      "ref": "FF-058",
+      "category": "tables-consoles",
+      "images": [
+        "tables-consoles/octagonal-wine-table"
+      ],
+      "en": {
+        "name": "Octagonal Tray-Top Table",
+        "desc": "A small wine table with a raised octagonal tray top on a turned baluster column and four cabriole feet, in limed oak.",
+        "details": [
+          "Octagonal tray top",
+          "Turned baluster column",
+          "Four scrolled feet",
+          "Limed oak finish"
+        ]
+      },
+      "ar": {
+        "name": "طاولة صغيرة ثمانية الأضلاع",
+        "desc": "طاولة صغيرة بسطح ثماني على شكل صينية بحافة مرتفعة، على عمود مخروط وأربعة أرجل كابريول، بتشطيب بلوط مبيّض.",
+        "details": [
+          "سطح ثماني على شكل صينية",
+          "عمود مخروط",
+          "أربعة أرجل ملتفة",
+          "بلوط مبيّض"
+        ]
+      },
+      "tags": "wine table octagonal pedestal side table طاولة جانبية صغيرة ثماني صينية"
+    },
+    {
+      "id": "bobbin-leg-round-table",
+      "ref": "FF-059",
+      "category": "tables-consoles",
+      "images": [
+        "tables-consoles/bobbin-leg-round-table"
+      ],
+      "en": {
+        "name": "Bobbin-Leg Round Table",
+        "desc": "A two-tone round table: a warm walnut top over an apron and eight bobbin-turned legs in weathered grey, joined by turned stretchers.",
+        "details": [
+          "Walnut top",
+          "Eight bobbin-turned legs",
+          "Weathered grey base",
+          "Turned stretchers"
+        ]
+      },
+      "ar": {
+        "name": "طاولة مستديرة بأرجل مخروطة",
+        "desc": "طاولة مستديرة بلونين: سطح جوز دافئ فوق إطار وثمانية أرجل مخروطة على شكل بكرات بلون رمادي معتّق، تربطها عوارض مخروطة.",
+        "details": [
+          "سطح جوز",
+          "ثمانية أرجل مخروطة",
+          "قاعدة رمادي معتّق",
+          "عوارض مخروطة"
+        ]
+      },
+      "tags": "round table bobbin turned legs two tone طاولة مستديرة ارجل مخروطة"
+    },
+    {
+      "id": "two-tone-end-table",
+      "ref": "FF-060",
+      "category": "tables-consoles",
+      "images": [
+        "tables-consoles/two-tone-end-table"
+      ],
+      "en": {
+        "name": "Two-Tone End Table",
+        "desc": "A square end table with a natural-wood top and drawer, set on a lightly distressed cream base of curved supports with a lower shelf.",
+        "details": [
+          "Square top with drawer",
+          "Curved trestle supports",
+          "Lower shelf",
+          "Natural wood and distressed cream"
+        ]
+      },
+      "ar": {
+        "name": "طاولة جانبية بلونين",
+        "desc": "طاولة جانبية مربعة بسطح ودرج من الخشب الطبيعي، على قاعدة كريمية معتّقة بدعامات منحنية ورف سفلي.",
+        "details": [
+          "سطح مربع بدرج",
+          "دعامات منحنية",
+          "رف سفلي",
+          "خشب طبيعي وكريمي معتّق"
+        ]
+      },
+      "tags": "end table side table drawer nightstand طاولة جانبية درج كومودينو"
+    },
+    {
+      "id": "two-tone-buffet-mirror",
+      "ref": "FF-061",
+      "category": "cabinets-desks",
+      "images": [
+        "cabinets-desks/two-tone-buffet-mirror"
+      ],
+      "en": {
+        "name": "Two-Tone Buffet & Mirror",
+        "desc": "A breakfront buffet in antique cream with a walnut top, carved cabriole legs, four panelled doors and two drawers, under a large mirror with a carved shell crest.",
+        "details": [
+          "Breakfront buffet",
+          "Walnut top, antique cream body",
+          "Four doors and two drawers",
+          "Large carved mirror"
+        ]
+      },
+      "ar": {
+        "name": "بوفيه بلونين مع مرآة",
+        "desc": "بوفيه بواجهة بارزة بلون كريمي عتيق وسطح جوز، على أرجل كابريول محفورة، بأربع ضلف ودرجين، تعلوه مرآة كبيرة بتاج صدفة محفور.",
+        "details": [
+          "بوفيه بواجهة بارزة",
+          "سطح جوز وجسم كريمي عتيق",
+          "أربع ضلف ودرجان",
+          "مرآة كبيرة محفورة"
+        ]
+      },
+      "tags": "buffet sideboard mirror cream walnut بوفيه مرآة مراية كريمي جوز سفرة"
+    },
+    {
+      "id": "neoclassical-ivory-buffet",
+      "ref": "FF-062",
+      "category": "cabinets-desks",
+      "images": [
+        "cabinets-desks/neoclassical-ivory-buffet",
+        "cabinets-desks/neoclassical-ivory-buffet-extra-2"
+      ],
+      "en": {
+        "name": "Neoclassical Ivory Buffet",
+        "desc": "An ivory buffet with gilded swags and rosettes, rounded glass cabinets at each end, and an arched mirror crowned with a carved bow. Shown with a Louis XVI cane chair.",
+        "details": [
+          "Buffet with curved glass ends",
+          "Arched mirror with bow crest",
+          "Gilded swags and ring pulls",
+          "Matching cane-back chair",
+          "Also made with open shelving ends"
+        ]
+      },
+      "ar": {
+        "name": "بوفيه نيوكلاسيك عاجي",
+        "desc": "بوفيه عاجي بأكاليل وزهور مذهّبة، وخزانتين زجاجيتين منحنيتين على الطرفين، ومرآة مقوّسة يعلوها فيونكة محفورة. معروض مع كرسي لويس السادس عشر بظهر خيزران.",
+        "details": [
+          "بوفيه بأطراف زجاج منحنية",
+          "مرآة مقوّسة بتاج فيونكة",
+          "أكاليل مذهّبة ومقابض حلقية",
+          "كرسي خيزران مطابق",
+          "متاح أيضاً بأطراف رفوف مفتوحة"
+        ]
+      },
+      "tags": "buffet sideboard ivory neoclassical mirror بوفيه عاجي نيوكلاسيك مرآة"
+    },
+    {
+      "id": "marquetry-vitrine-table",
+      "ref": "FF-063",
+      "category": "cabinets-desks",
+      "images": [
+        "cabinets-desks/marquetry-vitrine-table"
+      ],
+      "en": {
+        "name": "Marquetry Vitrine Table",
+        "desc": "A display table with a sloped glass case for jewellery and keepsakes, on a cherry-wood base with floral marquetry and gilded mounts on slender cabriole legs.",
+        "details": [
+          "Sloped glass display case",
+          "Floral marquetry apron and crest",
+          "Gilded leg mounts",
+          "Cherry-wood finish"
+        ]
+      },
+      "ar": {
+        "name": "فاترينة طاولة ماركتري",
+        "desc": "طاولة عرض بصندوق زجاج مائل للمجوهرات والمقتنيات، على قاعدة خشب كرز مطعّمة بالزهور، بحليات مذهّبة على أرجل كابريول رفيعة.",
+        "details": [
+          "صندوق عرض زجاج مائل",
+          "تطعيم زهور على الواجهة والتاج",
+          "حليات مذهّبة على الأرجل",
+          "تشطيب خشب كرز"
+        ]
+      },
+      "tags": "vitrine display table jewellery marquetry فاترينة فترينة عرض مجوهرات ماركتري"
+    },
+    {
+      "id": "walnut-writing-desk",
+      "ref": "FF-064",
+      "category": "cabinets-desks",
+      "images": [
+        "cabinets-desks/walnut-writing-desk"
+      ],
+      "en": {
+        "name": "Walnut Writing Desk & Chair",
+        "desc": "A Louis XV writing desk in walnut with chevron veneer, three drawers with brass handles and a glass top, paired with a sage upholstered chair.",
+        "details": [
+          "Writing desk with three drawers",
+          "Chevron walnut veneer",
+          "Glass top",
+          "Sage upholstered chair"
+        ]
+      },
+      "ar": {
+        "name": "مكتب كتابة جوز مع كرسي",
+        "desc": "مكتب كتابة على طراز لويس الخامس عشر من الجوز بقشرة متعاكسة، بثلاثة أدراج ومقابض نحاس وسطح زجاج، مع كرسي منجّد بلون أخضر فاتح.",
+        "details": [
+          "مكتب بثلاثة أدراج",
+          "قشرة جوز متعاكسة",
+          "سطح زجاج",
+          "كرسي منجّد أخضر فاتح"
+        ]
+      },
+      "tags": "writing desk walnut chair study مكتب جوز كرسي"
+    },
+    {
+      "id": "cream-gilt-mirror-bust-brackets",
+      "ref": "FF-065",
+      "category": "antiques-decor",
+      "images": [
+        "antiques-decor/cream-gilt-mirror-bust-brackets"
+      ],
+      "en": {
+        "name": "Oval Mirror with Bust Brackets",
+        "desc": "An oval mirror within a cream panelled frame dressed in gilded garlands and a ribbon crest, flanked by two wall brackets carved with classical female busts.",
+        "details": [
+          "Oval mirror in rectangular frame",
+          "Gilded garlands and ribbon crest",
+          "Pair of figural wall brackets",
+          "Antique cream and gold"
+        ]
+      },
+      "ar": {
+        "name": "مرآة بيضاوية مع كابولي بتماثيل",
+        "desc": "مرآة بيضاوية داخل برواز كريمي مزيّن بأكاليل مذهّبة وتاج بشريطة، بين كابوليين للحائط محفورين بتماثيل نصفية كلاسيكية لسيدات.",
+        "details": [
+          "مرآة بيضاوية في برواز مستطيل",
+          "أكاليل مذهّبة وتاج بشريطة",
+          "زوج كابولي بتماثيل",
+          "كريمي عتيق وذهبي"
+        ]
+      },
+      "tags": "mirror wall bracket bust sconce cream gold مرآة مراية كابولي تمثال برواز"
+    },
+    {
+      "id": "modern-upholstered-bed",
+      "ref": "FF-066",
+      "category": "modern",
+      "images": [
+        "modern/modern-upholstered-bed"
+      ],
+      "en": {
+        "name": "Modern Wingback Bed",
+        "desc": "A fully upholstered bed in soft taupe velvet with a tall wingback headboard and storage base, with white and brass nightstands.",
+        "details": [
+          "Upholstered wingback headboard",
+          "Storage base",
+          "Taupe velvet",
+          "White and brass nightstands"
+        ]
+      },
+      "ar": {
+        "name": "سرير مودرن منجّد",
+        "desc": "سرير منجّد بالكامل بقطيفة توب ناعمة بظهر عالٍ بأجنحة وقاعدة للتخزين، مع كومودينو أبيض بأرجل نحاسية.",
+        "details": [
+          "ظهر منجّد بأجنحة",
+          "قاعدة تخزين",
+          "قطيفة توب",
+          "كومودينو أبيض ونحاسي"
+        ]
+      },
+      "tags": "modern bed upholstered storage taupe سرير مودرن منجد تخزين"
+    },
+    {
+      "id": "kids-twin-bedroom",
+      "ref": "FF-067",
+      "category": "modern",
+      "images": [
+        "modern/kids-twin-bedroom"
+      ],
+      "en": {
+        "name": "Navy Twin Kids' Bedroom",
+        "desc": "A playful children's room in navy and white: two beds with striped house-shaped headboards, a sliding wardrobe with open shelving, a desk-vanity with a house-shaped mirror and a chest.",
+        "details": [
+          "Two single beds with storage",
+          "House-shaped striped headboards",
+          "Sliding wardrobe with shelving",
+          "Desk and chest of drawers"
+        ]
+      },
+      "ar": {
+        "name": "غرفة أطفال كحلي",
+        "desc": "غرفة أطفال مرحة بالكحلي والأبيض: سريران بظهر مقلّم على شكل بيت، ودولاب بضلف سحّابة ورفوف مفتوحة، ومكتب بمرآة على شكل بيت، وشيفونيرة.",
+        "details": [
+          "سريران فردي بتخزين",
+          "ظهر مقلّم على شكل بيت",
+          "دولاب سحّاب برفوف",
+          "مكتب وشيفونيرة"
+        ]
+      },
+      "tags": "kids children bedroom twin beds navy غرفة اطفال اولاد اطفال سرير كحلي"
+    },
+    {
+      "id": "marble-modern-dining",
+      "ref": "FF-068",
+      "category": "modern",
+      "images": [
+        "modern/marble-modern-dining"
+      ],
+      "en": {
+        "name": "Marble Modern Dining Room",
+        "desc": "A rounded marble-topped table on a sculptural ivory pedestal, eight channel-backed chairs in silver-grey velvet, and a curved ivory buffet beneath an oval mirror.",
+        "details": [
+          "Marble-top table for eight",
+          "Channel-backed velvet chairs",
+          "Curved ivory buffet",
+          "Oval mirror"
+        ]
+      },
+      "ar": {
+        "name": "سفرة مودرن رخام",
+        "desc": "ترابيزة بسطح رخام بحواف مستديرة على قاعدة عاجية فنية، وثمانية كراسي بظهر مخطط بقطيفة رمادي فضي، وبوفيه عاجي منحني أسفل مرآة بيضاوية.",
+        "details": [
+          "ترابيزة رخام لثمانية أفراد",
+          "كراسي قطيفة بظهر مخطط",
+          "بوفيه عاجي منحني",
+          "مرآة بيضاوية"
+        ]
+      },
+      "tags": "dining modern marble table chairs buffet سفرة سفره مودرن رخام ترابيزة كراسي بوفيه"
+    },
+    {
+      "id": "striped-walnut-loveseat",
+      "ref": "FF-069",
+      "category": "sofas-chairs",
+      "images": [
+        "sofas-chairs/striped-walnut-loveseat"
+      ],
+      "en": {
+        "name": "Striped Walnut Loveseat",
+        "desc": "A Louis XV loveseat in carved walnut, upholstered in a gold, red and green stripe.",
+        "details": [
+          "Two-seater",
+          "Carved walnut frame",
+          "Striped upholstery"
+        ]
+      },
+      "ar": {
+        "name": "كنبة جوز مقلّمة",
+        "desc": "كنبة صغيرة لويس الخامس عشر من الجوز المحفور، بتنجيد مقلّم بالذهبي والأحمر والأخضر.",
+        "details": [
+          "لشخصين",
+          "إطار جوز محفور",
+          "قماش مقلّم"
+        ]
+      },
+      "tags": "loveseat striped walnut كنبة مقلم جوز"
+    },
+    {
+      "id": "black-velvet-silver-salon",
+      "ref": "FF-070",
+      "category": "salons",
+      "images": [
+        "salons/black-velvet-silver-salon"
+      ],
+      "en": {
+        "name": "Black Velvet Silver Salon",
+        "desc": "Silver-leaf carved frames in black tufted velvet, with a matching silver centre table.",
+        "details": [
+          "Sofa and two armchairs",
+          "Black velvet, button tufting",
+          "Silver-leaf finish",
+          "Silver centre table"
+        ]
+      },
+      "ar": {
+        "name": "صالون فضي بقطيفة سوداء",
+        "desc": "إطارات محفورة بورق الفضة وقطيفة سوداء كابتونيه، مع طاولة وسط فضية مطابقة.",
+        "details": [
+          "كنبة وفوتيهين",
+          "قطيفة سوداء كابتونيه",
+          "تشطيب ورق فضة",
+          "طاولة وسط فضية"
+        ]
+      },
+      "tags": "black silver velvet salon اسود فضي قطيفة صالون"
+    },
+    {
+      "id": "marquetry-bombe-commode-mirror",
+      "ref": "FF-071",
+      "category": "cabinets-desks",
+      "images": [
+        "cabinets-desks/marquetry-bombe-commode-mirror"
+      ],
+      "en": {
+        "name": "Marquetry Commode & Gilded Mirror",
+        "desc": "A bombé commode in floral marquetry with gilt-bronze mounts and a marble top, under an oval gilded mirror.",
+        "details": [
+          "Bombé commode with marble top",
+          "Floral marquetry",
+          "Gilt-bronze mounts",
+          "Oval gilded mirror"
+        ]
+      },
+      "ar": {
+        "name": "كومود ماركتري مع مرآة مذهّبة",
+        "desc": "كومود بومبيه بتطعيم زهور وحليات برونز مذهّب وسطح رخام، تعلوه مرآة بيضاوية مذهّبة.",
+        "details": [
+          "كومود بومبيه بسطح رخام",
+          "تطعيم زهور",
+          "حليات برونز مذهّب",
+          "مرآة بيضاوية مذهّبة"
+        ]
+      },
+      "tags": "commode marquetry mirror كومود ماركتري مرآة مراية"
+    },
+    {
+      "id": "teal-velvet-cane-salon",
+      "ref": "FF-072",
+      "category": "salons",
+      "images": [
+        "salons/teal-velvet-cane-salon-1",
+        "salons/teal-velvet-cane-salon-2"
+      ],
+      "en": {
+        "name": "Teal Velvet Cane Salon",
+        "desc": "Gilded Louis XV frames with cane-panelled sides, upholstered in teal velvet with a tufted back. A marble-topped coffee table completes the set.",
+        "details": [
+          "Sofa and two cane bergères",
+          "Teal velvet, tufted back",
+          "Gilded frames with cane sides",
+          "Marble-top coffee table"
+        ]
+      },
+      "ar": {
+        "name": "صالون قطيفة تركواز بالخيزران",
+        "desc": "إطارات لويس الخامس عشر مذهّبة بجوانب خيزران، منجّدة بقطيفة تركواز بظهر كابتونيه، مع طاولة وسط بسطح رخام.",
+        "details": [
+          "كنبة وفوتيهين بيرجير بالخيزران",
+          "قطيفة تركواز وظهر كابتونيه",
+          "إطارات مذهّبة بجوانب خيزران",
+          "طاولة وسط رخام"
+        ]
+      },
+      "tags": "teal blue velvet cane salon تركواز قطيفة خيزران عزف صالون"
+    },
+    {
+      "id": "floral-bergere-footstool",
+      "ref": "FF-073",
+      "category": "sofas-chairs",
+      "images": [
+        "sofas-chairs/floral-bergere-footstool"
+      ],
+      "en": {
+        "name": "Floral Bergère & Footstool",
+        "desc": "A gilded bergère in rose-patterned fabric with a matching fringed footstool and a marquetry side table.",
+        "details": [
+          "Bergère armchair",
+          "Matching footstool",
+          "Marquetry side table"
+        ]
+      },
+      "ar": {
+        "name": "بيرجير مورّد مع بوف",
+        "desc": "فوتيه بيرجير مذهّب بقماش مورّد مع بوف مطابق بشراشيب وطاولة جانبية مطعّمة.",
+        "details": [
+          "فوتيه بيرجير",
+          "بوف مطابق",
+          "طاولة جانبية ماركتري"
+        ]
+      },
+      "tags": "bergere footstool pouf floral بيرجير بوف مورد"
+    },
+    {
+      "id": "red-damask-gilded-sofa",
+      "ref": "FF-074",
+      "category": "sofas-chairs",
+      "images": [
+        "sofas-chairs/red-damask-gilded-sofa-1",
+        "sofas-chairs/red-damask-gilded-sofa-2"
+      ],
+      "en": {
+        "name": "Red Damask Gilded Sofa",
+        "desc": "A sweeping gilded sofa in red damask with scrolled ends, layered with tasselled cushions.",
+        "details": [
+          "Three-seater sofa",
+          "Red damask",
+          "Carved gilded frame",
+          "Tasselled cushions"
+        ]
+      },
+      "ar": {
+        "name": "كنبة مذهّبة دمسقي أحمر",
+        "desc": "كنبة مذهّبة منحنية بقماش دمسقي أحمر وأطراف ملتفة، مع مخدّات بشراشيب.",
+        "details": [
+          "كنبة ثلاثية",
+          "دمسقي أحمر",
+          "إطار محفور مذهّب",
+          "مخدّات بشراشيب"
+        ]
+      },
+      "tags": "red damask sofa gilded احمر دمسقي كنبة مدهب"
+    },
+    {
+      "id": "porter-hooded-chairs",
+      "ref": "FF-075",
+      "category": "sofas-chairs",
+      "images": [
+        "sofas-chairs/porter-hooded-chairs-1",
+        "sofas-chairs/porter-hooded-chairs-2"
+      ],
+      "en": {
+        "name": "Hooded Porter's Chairs",
+        "desc": "A pair of tall hooded chairs in red striped velvet on gilded frames, shown with a marquetry vitrine.",
+        "details": [
+          "Pair of hooded chairs",
+          "Red striped velvet",
+          "Gilded frames"
+        ]
+      },
+      "ar": {
+        "name": "زوج كراسي بقبّة",
+        "desc": "زوج كراسي عالية بقبّة منجّدة بقطيفة حمراء مقلّمة على إطارات مذهّبة، معروضة مع نيش ماركتري.",
+        "details": [
+          "زوج كراسي بقبّة",
+          "قطيفة حمراء مقلّمة",
+          "إطارات مذهّبة"
+        ]
+      },
+      "tags": "hooded porter chair canopy كرسي قبة مقلم"
+    },
+    {
+      "id": "gilded-wall-sconces",
+      "ref": "FF-076",
+      "category": "antiques-decor",
+      "images": [
+        "antiques-decor/gilded-wall-sconces"
+      ],
+      "en": {
+        "name": "Gilded Wall Sconces",
+        "desc": "A selection of gilt-bronze wall sconces with ribbon crests, candle arms and crystal drops.",
+        "details": [
+          "Gilt-bronze sconces",
+          "Crystal drops",
+          "Several designs"
+        ]
+      },
+      "ar": {
+        "name": "أباليك حائط مذهّبة",
+        "desc": "مجموعة أباليك حائط من البرونز المذهّب بتيجان فيونكة وأذرع شموع ودلّايات كريستال.",
+        "details": [
+          "أباليك برونز مذهّب",
+          "دلّايات كريستال",
+          "تصميمات متعددة"
+        ]
+      },
+      "tags": "sconce wall light candle crystal ابليك اباليك حائط كريستال"
+    },
+    {
+      "id": "marquetry-tea-trolley",
+      "ref": "FF-077",
+      "category": "tables-consoles",
+      "images": [
+        "tables-consoles/marquetry-tea-trolley"
+      ],
+      "en": {
+        "name": "Marquetry Tea Trolley",
+        "desc": "A two-tier serving trolley in floral marquetry with brass galleries and large spoked wheels.",
+        "details": [
+          "Two tiers",
+          "Floral marquetry",
+          "Brass gallery and wheels"
+        ]
+      },
+      "ar": {
+        "name": "ترولي شاي ماركتري",
+        "desc": "ترولي تقديم بدورين بتطعيم زهور وحواف نحاسية وعجلات كبيرة.",
+        "details": [
+          "دوران",
+          "تطعيم زهور",
+          "حواف وعجلات نحاسية"
+        ]
+      },
+      "tags": "tea trolley cart serving ترولي عربة شاي تقديم"
+    },
+    {
+      "id": "gilded-round-tea-trolley",
+      "ref": "FF-078",
+      "category": "tables-consoles",
+      "images": [
+        "tables-consoles/gilded-round-tea-trolley"
+      ],
+      "en": {
+        "name": "Gilded Round Tea Trolley",
+        "desc": "A round three-tier trolley in gilt bronze with lion-head mounts and inlaid trays.",
+        "details": [
+          "Three tiers",
+          "Gilt-bronze frame",
+          "Inlaid trays"
+        ]
+      },
+      "ar": {
+        "name": "ترولي شاي دائري مذهّب",
+        "desc": "ترولي دائري بثلاثة أدوار من البرونز المذهّب بحليات رؤوس أسود وصواني مطعّمة.",
+        "details": [
+          "ثلاثة أدوار",
+          "إطار برونز مذهّب",
+          "صواني مطعّمة"
+        ]
+      },
+      "tags": "tea trolley round gold ترولي عربة شاي دائري مدهب"
+    },
+    {
+      "id": "blue-damask-meridienne",
+      "ref": "FF-079",
+      "category": "sofas-chairs",
+      "images": [
+        "sofas-chairs/blue-damask-meridienne"
+      ],
+      "en": {
+        "name": "Blue Damask Méridienne",
+        "desc": "A scroll-ended méridienne in blue and bronze damask on a carved, softly gilded frame.",
+        "details": [
+          "Méridienne sofa",
+          "Blue and bronze damask",
+          "Carved frame"
+        ]
+      },
+      "ar": {
+        "name": "شيزلونج دمسقي أزرق",
+        "desc": "شيزلونج بأطراف ملتفة بقماش دمسقي أزرق وبرونزي على إطار محفور بذهبي هادئ.",
+        "details": [
+          "شيزلونج",
+          "دمسقي أزرق وبرونزي",
+          "إطار محفور"
+        ]
+      },
+      "tags": "meridienne chaise blue damask شيزلونج ازرق دمسقي"
+    },
+    {
+      "id": "round-gueridon-drawer",
+      "ref": "FF-080",
+      "category": "tables-consoles",
+      "images": [
+        "tables-consoles/round-gueridon-drawer"
+      ],
+      "en": {
+        "name": "Round Guéridon with Drawer",
+        "desc": "A round mahogany side table with a drawer, a lower shelf and gilt-bronze mounts.",
+        "details": [
+          "Drawer and lower shelf",
+          "Mahogany",
+          "Gilt-bronze mounts"
+        ]
+      },
+      "ar": {
+        "name": "طاولة جانبية مستديرة بدرج",
+        "desc": "طاولة جانبية مستديرة من الماهوجني بدرج ورف سفلي وحليات برونز مذهّب.",
+        "details": [
+          "درج ورف سفلي",
+          "ماهوجني",
+          "حليات برونز مذهّب"
+        ]
+      },
+      "tags": "side table gueridon round drawer طاولة جانبية مستديرة درج"
+    },
+    {
+      "id": "marble-top-gueridon",
+      "ref": "FF-081",
+      "category": "tables-consoles",
+      "images": [
+        "tables-consoles/marble-top-gueridon"
+      ],
+      "en": {
+        "name": "Marble-Top Guéridon",
+        "desc": "A tall Louis XV side table with a marble top, slender cabriole legs and gilt-bronze mounts.",
+        "details": [
+          "Marble top",
+          "Cabriole legs",
+          "Gilt-bronze mounts"
+        ]
+      },
+      "ar": {
+        "name": "طاولة جانبية بسطح رخام",
+        "desc": "طاولة جانبية عالية لويس الخامس عشر بسطح رخام وأرجل كابريول رفيعة وحليات برونز مذهّب.",
+        "details": [
+          "سطح رخام",
+          "أرجل كابريول",
+          "حليات برونز مذهّب"
+        ]
+      },
+      "tags": "side table gueridon marble طاولة جانبية رخام"
+    },
+    {
+      "id": "library-bergere-pair",
+      "ref": "FF-082",
+      "category": "sofas-chairs",
+      "images": [
+        "sofas-chairs/library-bergere-pair"
+      ],
+      "en": {
+        "name": "Library Bergère Pair",
+        "desc": "A pair of carved walnut bergères in cream floral damask.",
+        "details": [
+          "Pair of bergères",
+          "Carved walnut",
+          "Cream floral damask"
+        ]
+      },
+      "ar": {
+        "name": "زوج بيرجير جوز",
+        "desc": "زوج فوتيهات بيرجير من الجوز المحفور بقماش دمسقي كريمي مورّد.",
+        "details": [
+          "زوج بيرجير",
+          "جوز محفور",
+          "دمسقي كريمي مورّد"
+        ]
+      },
+      "tags": "bergere pair armchair walnut بيرجير فوتيه جوز"
+    },
+    {
+      "id": "bronze-floral-satin-salon",
+      "ref": "FF-083",
+      "category": "salons",
+      "images": [
+        "salons/bronze-floral-satin-salon-1",
+        "salons/bronze-floral-satin-salon-2",
+        "salons/bronze-floral-satin-salon-3",
+        "salons/bronze-floral-satin-salon-4"
+      ],
+      "en": {
+        "name": "Bronze Floral Satin Salon",
+        "desc": "Gilded frames with a pierced central splat, upholstered in bronze satin with pale-blue flowers. With matching side tables and an onyx coffee table.",
+        "details": [
+          "Loveseat and two armchairs",
+          "Bronze floral satin, tufted backs",
+          "Gilded carved frames",
+          "Onyx coffee table and side tables"
+        ]
+      },
+      "ar": {
+        "name": "صالون ستان برونزي مورّد",
+        "desc": "إطارات مذهّبة بظهر مفرّغ في المنتصف، منجّدة بستان برونزي بورود زرقاء فاتحة، مع طاولات جانبية وطاولة وسط أونيكس.",
+        "details": [
+          "كنبة وفوتيهين",
+          "ستان برونزي مورّد وظهر كابتونيه",
+          "إطارات محفورة مذهّبة",
+          "طاولة وسط أونيكس وطاولات جانبية"
+        ]
+      },
+      "tags": "bronze brown satin floral salon برونزي بني ستان مورد صالون"
+    },
+    {
+      "id": "oak-sideboard-mirror-wall",
+      "ref": "FF-084",
+      "category": "modern",
+      "images": [
+        "modern/oak-sideboard-mirror-wall"
+      ],
+      "en": {
+        "name": "Oak Sideboard & Mirror Wall",
+        "desc": "A slatted oak sideboard with a marble top and LED base, set in an oak-framed wall of diamond-cut mirror.",
+        "details": [
+          "Slatted oak doors",
+          "Marble top",
+          "Diamond-cut mirror wall",
+          "LED lighting"
+        ]
+      },
+      "ar": {
+        "name": "بوفيه بلوط مع حائط مرايا",
+        "desc": "بوفيه بلوط بضلف مضلّعة وسطح رخام وإضاءة سفلية، داخل حائط مرايا مقطّعة بإطار بلوط.",
+        "details": [
+          "ضلف بلوط مضلّعة",
+          "سطح رخام",
+          "حائط مرايا معيّنات",
+          "إضاءة LED"
+        ]
+      },
+      "tags": "sideboard oak mirror wall modern بوفيه بلوط مرايا مودرن"
+    },
+    {
+      "id": "beige-damask-marquise-settee",
+      "ref": "FF-085",
+      "category": "sofas-chairs",
+      "images": [
+        "sofas-chairs/beige-damask-marquise-settee"
+      ],
+      "en": {
+        "name": "Beige Damask Settee",
+        "desc": "A Louis XV settee with a carved, softly gilded frame in beige damask.",
+        "details": [
+          "Two-seater",
+          "Beige damask",
+          "Carved antique-gold frame"
+        ]
+      },
+      "ar": {
+        "name": "كنبة دمسقي بيج",
+        "desc": "كنبة لويس الخامس عشر بإطار محفور بذهبي عتيق هادئ وقماش دمسقي بيج.",
+        "details": [
+          "لشخصين",
+          "دمسقي بيج",
+          "إطار محفور ذهبي عتيق"
+        ]
+      },
+      "tags": "settee beige damask louis كنبة بيج دمسقي"
+    },
+    {
+      "id": "white-linen-modern-sofa",
+      "ref": "FF-086",
+      "category": "modern",
+      "images": [
+        "modern/white-linen-modern-sofa"
+      ],
+      "en": {
+        "name": "White Linen Sofa",
+        "desc": "A deep, low four-seat sofa in white linen with soft feather cushions.",
+        "details": [
+          "Four-seater",
+          "White linen",
+          "Loose cushions"
+        ]
+      },
+      "ar": {
+        "name": "كنبة كتان أبيض",
+        "desc": "كنبة مودرن عميقة ومنخفضة بأربعة مقاعد بقماش كتان أبيض ومخدّات ناعمة.",
+        "details": [
+          "أربعة مقاعد",
+          "كتان أبيض",
+          "مخدّات منفصلة"
+        ]
+      },
+      "tags": "white sofa linen modern كنبة ابيض كتان مودرن"
+    },
+    {
+      "id": "inlaid-demilune-cabinet",
+      "ref": "FF-087",
+      "category": "cabinets-desks",
+      "images": [
+        "cabinets-desks/inlaid-demilune-cabinet"
+      ],
+      "en": {
+        "name": "Inlaid Demilune Cabinet",
+        "desc": "A long curved cabinet in mahogany with floral marquetry panels and a central glazed niche.",
+        "details": [
+          "Curved front",
+          "Floral marquetry",
+          "Central display niche"
+        ]
+      },
+      "ar": {
+        "name": "وحدة منحنية مطعّمة",
+        "desc": "وحدة طويلة منحنية من الماهوجني بألواح مطعّمة بالزهور وتجويف عرض زجاجي في المنتصف.",
+        "details": [
+          "واجهة منحنية",
+          "تطعيم زهور",
+          "تجويف عرض في المنتصف"
+        ]
+      },
+      "tags": "cabinet tv unit demilune marquetry وحدة تلفزيون نيش ماركتري"
+    },
+    {
+      "id": "white-fretwork-round-tables",
+      "ref": "FF-088",
+      "category": "tables-consoles",
+      "images": [
+        "tables-consoles/white-fretwork-round-tables"
+      ],
+      "en": {
+        "name": "Fretwork Round Tables",
+        "desc": "A pair of round tables with distressed white fretwork bases and natural wood tops.",
+        "details": [
+          "Coffee and side table",
+          "Distressed white fretwork",
+          "Natural wood tops"
+        ]
+      },
+      "ar": {
+        "name": "طاولتان مستديرتان مفرّغتان",
+        "desc": "طاولتان مستديرتان بقاعدة بيضاء معتّقة مفرّغة وأسطح خشب طبيعي.",
+        "details": [
+          "طاولة وسط وطاولة جانبية",
+          "قاعدة بيضاء معتّقة مفرّغة",
+          "أسطح خشب طبيعي"
+        ]
+      },
+      "tags": "round table white fretwork rustic طاولة مستديرة ابيض معتق"
+    },
+    {
+      "id": "sage-damask-tufted-salon",
+      "ref": "FF-089",
+      "category": "salons",
+      "images": [
+        "salons/sage-damask-tufted-salon-1",
+        "salons/sage-damask-tufted-salon-2",
+        "salons/sage-damask-tufted-salon-3"
+      ],
+      "en": {
+        "name": "Sage Damask Salon",
+        "desc": "Ivory and gold carved frames in sage-green damask, with a tufted sofa back and a matching coffee table.",
+        "details": [
+          "Sofa and armchair",
+          "Sage damask, tufted back",
+          "Ivory and gold frames",
+          "Matching coffee table"
+        ]
+      },
+      "ar": {
+        "name": "صالون دمسقي أخضر فاتح",
+        "desc": "إطارات محفورة بالعاجي والذهبي بقماش دمسقي أخضر فاتح، بظهر كنبة كابتونيه وطاولة وسط مطابقة.",
+        "details": [
+          "كنبة وفوتيه",
+          "دمسقي أخضر فاتح وظهر كابتونيه",
+          "إطارات عاجي وذهبي",
+          "طاولة وسط مطابقة"
+        ]
+      },
+      "tags": "green sage damask salon اخضر فاتح دمسقي صالون"
+    },
+    {
+      "id": "crystal-ormolu-table-lamp",
+      "ref": "FF-090",
+      "category": "antiques-decor",
+      "images": [
+        "antiques-decor/crystal-ormolu-table-lamp"
+      ],
+      "en": {
+        "name": "Crystal Table Lamp",
+        "desc": "A cut-crystal table lamp with gilt-bronze swags and a fringe of crystal drops.",
+        "details": [
+          "Cut-crystal shade and base",
+          "Gilt-bronze mounts",
+          "Crystal drops"
+        ]
+      },
+      "ar": {
+        "name": "أباجورة كريستال",
+        "desc": "أباجورة من الكريستال المنقوش بأكاليل برونز مذهّب ودلّايات كريستال.",
+        "details": [
+          "غطاء وقاعدة كريستال",
+          "حليات برونز مذهّب",
+          "دلّايات كريستال"
+        ]
+      },
+      "tags": "lamp crystal table lamp اباجورة كريستال"
+    },
+    {
+      "id": "crystal-ormolu-urns",
+      "ref": "FF-091",
+      "category": "antiques-decor",
+      "images": [
+        "antiques-decor/crystal-ormolu-urns-1",
+        "antiques-decor/crystal-ormolu-urns-2"
+      ],
+      "en": {
+        "name": "Crystal & Gilt-Bronze Urns",
+        "desc": "Lidded urns in cut crystal, mounted in gilt bronze with scrolled handles. Shown in emerald and ruby.",
+        "details": [
+          "Lidded cut-crystal urn",
+          "Gilt-bronze mounts",
+          "Emerald or ruby"
+        ]
+      },
+      "ar": {
+        "name": "فازات كريستال وبرونز مذهّب",
+        "desc": "فازات كريستال منقوش بغطاء، مركّبة على برونز مذهّب بمقابض ملتفة. معروضة بالأخضر الزمردي والأحمر الياقوتي.",
+        "details": [
+          "فازة كريستال بغطاء",
+          "حليات برونز مذهّب",
+          "زمردي أو ياقوتي"
+        ]
+      },
+      "tags": "urn vase crystal ormolu فازة كريستال برونز"
+    },
+    {
+      "id": "rose-blue-damask-salon",
+      "ref": "FF-092",
+      "category": "salons",
+      "images": [
+        "salons/rose-blue-damask-salon"
+      ],
+      "en": {
+        "name": "Rose & Blue Damask Salon",
+        "desc": "Rose and blue damask on walnut frames with gilded crests, with glass-topped walnut tables.",
+        "details": [
+          "Sofa and two armchairs",
+          "Rose and blue damask",
+          "Walnut with gilded crests",
+          "Glass-top coffee and side tables"
+        ]
+      },
+      "ar": {
+        "name": "صالون دمسقي وردي وأزرق",
+        "desc": "دمسقي وردي وأزرق على إطارات جوز بتيجان مذهّبة، مع طاولات جوز بأسطح زجاج.",
+        "details": [
+          "كنبة وفوتيهين",
+          "دمسقي وردي وأزرق",
+          "جوز بتيجان مذهّبة",
+          "طاولة وسط وطاولات جانبية زجاج"
+        ]
+      },
+      "tags": "pink blue damask salon walnut وردي ازرق دمسقي صالون جوز"
+    },
+    {
+      "id": "floral-tapestry-rolled-arm-salon",
+      "ref": "FF-093",
+      "category": "salons",
+      "images": [
+        "salons/floral-tapestry-rolled-arm-salon"
+      ],
+      "en": {
+        "name": "Floral Tapestry Salon",
+        "desc": "A rolled-arm sofa with fringe and two gilded armchairs in floral tapestry, around a gilded marble-top coffee table.",
+        "details": [
+          "Sofa and two armchairs",
+          "Floral tapestry and stripe",
+          "Gilded frames",
+          "Marble-top coffee table"
+        ]
+      },
+      "ar": {
+        "name": "صالون جوبلان مورّد",
+        "desc": "كنبة بأذرع ملفوفة وشراشيب وفوتيهان مذهّبان بقماش جوبلان مورّد، حول طاولة وسط مذهّبة بسطح رخام.",
+        "details": [
+          "كنبة وفوتيهين",
+          "جوبلان مورّد ومقلّم",
+          "إطارات مذهّبة",
+          "طاولة وسط رخام"
+        ]
+      },
+      "tags": "tapestry floral salon gobelin جوبلان مورد صالون"
+    },
+    {
+      "id": "gilded-carriage-clock",
+      "ref": "FF-094",
+      "category": "antiques-decor",
+      "images": [
+        "antiques-decor/gilded-carriage-clock"
+      ],
+      "en": {
+        "name": "Gilded Horse-Drawn Carriage Clock",
+        "desc": "A gilt-bronze mantel clock in the form of a carriage drawn by four horses, on a black base.",
+        "details": [
+          "Mantel clock",
+          "Gilt bronze",
+          "Black base"
+        ]
+      },
+      "ar": {
+        "name": "ساعة حنطور مذهّبة",
+        "desc": "ساعة مكتب من البرونز المذهّب على هيئة عربة تجرّها أربعة خيول، على قاعدة سوداء.",
+        "details": [
+          "ساعة مكتب",
+          "برونز مذهّب",
+          "قاعدة سوداء"
+        ]
+      },
+      "tags": "clock carriage horses gold ساعة حنطور خيول مدهب"
+    },
+    {
+      "id": "walnut-console-gilded-mirror",
+      "ref": "FF-095",
+      "category": "tables-consoles",
+      "images": [
+        "tables-consoles/walnut-console-gilded-mirror"
+      ],
+      "en": {
+        "name": "Walnut Console & Gilded Mirror",
+        "desc": "A three-drawer walnut console with turned legs and a marble top, under a carved gilded mirror.",
+        "details": [
+          "Three drawers",
+          "Turned legs, marble top",
+          "Carved gilded mirror"
+        ]
+      },
+      "ar": {
+        "name": "كونسول جوز مع مرآة مذهّبة",
+        "desc": "كونسول جوز بثلاثة أدراج وأرجل مخروطة وسطح رخام، تعلوه مرآة محفورة مذهّبة.",
+        "details": [
+          "ثلاثة أدراج",
+          "أرجل مخروطة وسطح رخام",
+          "مرآة محفورة مذهّبة"
+        ]
+      },
+      "tags": "console walnut mirror كونسول جوز مرآة مراية"
+    },
+    {
+      "id": "pierced-gilded-marble-coffee-table",
+      "ref": "FF-096",
+      "category": "tables-consoles",
+      "images": [
+        "tables-consoles/pierced-gilded-marble-coffee-table"
+      ],
+      "en": {
+        "name": "Pierced Gilded Coffee Table",
+        "desc": "A large coffee table with a deeply pierced, gilded rocaille base and a grey marble top.",
+        "details": [
+          "Pierced carved base",
+          "Gold-leaf finish",
+          "Grey marble top"
+        ]
+      },
+      "ar": {
+        "name": "طاولة وسط مذهّبة مفرّغة",
+        "desc": "طاولة وسط كبيرة بقاعدة روكاي مذهّبة مفرّغة الحفر وسطح رخام رمادي.",
+        "details": [
+          "قاعدة محفورة مفرّغة",
+          "تشطيب ورق ذهب",
+          "سطح رخام رمادي"
+        ]
+      },
+      "tags": "coffee table gilded marble طاولة ترابيزة وسط مدهب رخام"
+    },
+    {
+      "id": "gilded-onyx-coffee-table",
+      "ref": "FF-097",
+      "category": "tables-consoles",
+      "images": [
+        "tables-consoles/gilded-onyx-coffee-table-1",
+        "tables-consoles/gilded-onyx-coffee-table-2"
+      ],
+      "en": {
+        "name": "Gilded Onyx Coffee Table",
+        "desc": "A Louis XV coffee table carved with a central shell, gilded and topped with honey onyx.",
+        "details": [
+          "Carved shell apron",
+          "Gold-leaf finish",
+          "Onyx top"
+        ]
+      },
+      "ar": {
+        "name": "طاولة وسط مذهّبة بسطح أونيكس",
+        "desc": "طاولة وسط لويس الخامس عشر محفورة بصدفة في المنتصف، مذهّبة بسطح أونيكس عسلي.",
+        "details": [
+          "صدفة محفورة",
+          "تشطيب ورق ذهب",
+          "سطح أونيكس"
+        ]
+      },
+      "tags": "coffee table onyx gilded طاولة ترابيزة وسط اونيكس مدهب"
+    },
+    {
+      "id": "gilded-rouge-marble-coffee-table",
+      "ref": "FF-098",
+      "category": "tables-consoles",
+      "images": [
+        "tables-consoles/gilded-rouge-marble-coffee-table"
+      ],
+      "en": {
+        "name": "Gilded Rouge Marble Coffee Table",
+        "desc": "A carved gilded coffee table with a thick rouge marble top.",
+        "details": [
+          "Carved cabriole legs",
+          "Gold-leaf finish",
+          "Rouge marble top"
+        ]
+      },
+      "ar": {
+        "name": "طاولة وسط مذهّبة برخام أحمر",
+        "desc": "طاولة وسط محفورة مذهّبة بسطح سميك من الرخام الأحمر.",
+        "details": [
+          "أرجل كابريول محفورة",
+          "تشطيب ورق ذهب",
+          "سطح رخام أحمر"
+        ]
+      },
+      "tags": "coffee table red marble gilded طاولة وسط رخام احمر مدهب"
+    },
+    {
+      "id": "blue-gold-bergere-corner",
+      "ref": "FF-099",
+      "category": "sofas-chairs",
+      "images": [
+        "sofas-chairs/blue-gold-bergere-corner"
+      ],
+      "en": {
+        "name": "Blue & Gold Bergère Corner",
+        "desc": "Two carved bergères in blue and gold damask, around a marquetry cabinet and a pair of guéridons.",
+        "details": [
+          "Pair of bergères",
+          "Blue and gold damask",
+          "Marquetry cabinet and side tables"
+        ]
+      },
+      "ar": {
+        "name": "ركن بيرجير أزرق وذهبي",
+        "desc": "فوتيهان بيرجير محفوران بدمسقي أزرق وذهبي، حول كومود ماركتري وطاولتين جانبيتين.",
+        "details": [
+          "زوج بيرجير",
+          "دمسقي أزرق وذهبي",
+          "كومود ماركتري وطاولات جانبية"
+        ]
+      },
+      "tags": "bergere blue gold corner بيرجير ازرق ذهبي ركن"
+    },
+    {
+      "id": "fluted-walnut-bench",
+      "ref": "FF-100",
+      "category": "modern",
+      "images": [
+        "modern/fluted-walnut-bench"
+      ],
+      "en": {
+        "name": "Fluted Walnut Bench",
+        "desc": "A long bench in fluted walnut with open storage, a mustard velvet seat and a bolster.",
+        "details": [
+          "Fluted walnut base",
+          "Open storage",
+          "Mustard velvet seat and bolster"
+        ]
+      },
+      "ar": {
+        "name": "بنش جوز مضلّع",
+        "desc": "بنش طويل من الجوز المضلّع بتخزين مفتوح ومقعد قطيفة خردلي ومسند أسطواني.",
+        "details": [
+          "قاعدة جوز مضلّعة",
+          "تخزين مفتوح",
+          "مقعد قطيفة خردلي"
+        ]
+      },
+      "tags": "bench walnut modern بنش جوز مودرن"
+    },
+    {
+      "id": "ivory-chest-and-vanity",
+      "ref": "FF-101",
+      "category": "bedrooms",
+      "images": [
+        "bedrooms/ivory-chest-and-vanity-1",
+        "bedrooms/ivory-chest-and-vanity-2"
+      ],
+      "en": {
+        "name": "Ivory Chest & Dressing Table",
+        "desc": "An ivory and gold four-drawer chest and a matching dressing table with an arched mirror and oval-back chair.",
+        "details": [
+          "Four-drawer chest",
+          "Dressing table with mirror",
+          "Oval-back chair",
+          "Ivory with gold accents"
+        ]
+      },
+      "ar": {
+        "name": "شيفونيرة وتسريحة عاجي",
+        "desc": "شيفونيرة بأربعة أدراج بالعاجي والذهبي، وتسريحة مطابقة بمرآة مقوّسة وكرسي بظهر بيضاوي.",
+        "details": [
+          "شيفونيرة أربعة أدراج",
+          "تسريحة بمرآة",
+          "كرسي بظهر بيضاوي",
+          "عاجي بلمسات ذهبية"
+        ]
+      },
+      "tags": "chest dresser vanity dressing table ivory شيفونيرة تسريحة عاجي"
+    },
+    {
+      "id": "executive-office",
+      "ref": "FF-102",
+      "category": "cabinets-desks",
+      "images": [
+        "cabinets-desks/executive-office"
+      ],
+      "en": {
+        "name": "Executive Office",
+        "desc": "A carved walnut executive desk with tufted cream leather chairs and a matching side table.",
+        "details": [
+          "Carved walnut desk",
+          "Tufted cream leather chairs",
+          "Matching side table"
+        ]
+      },
+      "ar": {
+        "name": "مكتب تنفيذي",
+        "desc": "مكتب تنفيذي من الجوز المحفور مع كراسي جلد كريمي كابتونيه وطاولة جانبية مطابقة.",
+        "details": [
+          "مكتب جوز محفور",
+          "كراسي جلد كريمي كابتونيه",
+          "طاولة جانبية مطابقة"
+        ]
+      },
+      "tags": "office desk executive leather مكتب تنفيذي جلد مدير"
+    },
+    {
+      "id": "modern-walnut-living",
+      "ref": "FF-103",
+      "category": "modern",
+      "images": [
+        "modern/modern-walnut-living"
+      ],
+      "en": {
+        "name": "Modern Walnut Living Room",
+        "desc": "A grey sofa, two teal armchairs in walnut shells, and a round walnut coffee table with side tables.",
+        "details": [
+          "Sofa and two armchairs",
+          "Walnut frames",
+          "Round coffee and side tables"
+        ]
+      },
+      "ar": {
+        "name": "ليفينج مودرن جوز",
+        "desc": "كنبة رمادية وفوتيهان تركواز بإطارات جوز، مع طاولة وسط مستديرة وطاولات جانبية من الجوز.",
+        "details": [
+          "كنبة وفوتيهين",
+          "إطارات جوز",
+          "طاولة وسط وطاولات جانبية"
+        ]
+      },
+      "tags": "modern living room walnut grey ليفينج مودرن جوز رمادي"
+    },
+    {
+      "id": "sunburst-walnut-sideboard",
+      "ref": "FF-104",
+      "category": "modern",
+      "images": [
+        "modern/sunburst-walnut-sideboard"
+      ],
+      "en": {
+        "name": "Sunburst Walnut Sideboard",
+        "desc": "A four-door sideboard in walnut veneer laid in a sunburst pattern, on tapered legs with brass feet.",
+        "details": [
+          "Four doors",
+          "Sunburst walnut veneer",
+          "Brass-tipped legs"
+        ]
+      },
+      "ar": {
+        "name": "بوفيه جوز بنقشة شعاعية",
+        "desc": "بوفيه بأربع ضلف بقشرة جوز مرصوصة بنقشة شعاعية، على أرجل مستدقة بأطراف نحاسية.",
+        "details": [
+          "أربع ضلف",
+          "قشرة جوز شعاعية",
+          "أرجل بأطراف نحاسية"
+        ]
+      },
+      "tags": "sideboard buffet walnut modern بوفيه جوز مودرن"
+    },
+    {
+      "id": "malachite-gilded-centre-table",
+      "ref": "FF-105",
+      "category": "tables-consoles",
+      "images": [
+        "tables-consoles/malachite-gilded-centre-table"
+      ],
+      "en": {
+        "name": "Gilded Malachite Centre Table",
+        "desc": "A round centre table with a heavily carved gilded base, a malachite top and lower tier, and a matching malachite jardinière.",
+        "details": [
+          "Carved gilded base",
+          "Malachite top and lower tier",
+          "Malachite jardinière"
+        ]
+      },
+      "ar": {
+        "name": "طاولة وسط مذهّبة بالملاخيت",
+        "desc": "طاولة وسط مستديرة بقاعدة مذهّبة غنية بالحفر، وسطح ورف سفلي من الملاخيت، مع آنية ملاخيت مطابقة.",
+        "details": [
+          "قاعدة محفورة مذهّبة",
+          "سطح ورف ملاخيت",
+          "آنية ملاخيت"
+        ]
+      },
+      "tags": "centre table malachite gilded round طاولة وسط ملاخيت مدهب"
+    },
+    {
+      "id": "plum-damask-gilded-salon",
+      "ref": "FF-106",
+      "category": "sofas-chairs",
+      "images": [
+        "sofas-chairs/plum-damask-gilded-salon-1",
+        "sofas-chairs/plum-damask-gilded-salon-2"
+      ],
+      "en": {
+        "name": "Plum Damask Sofa & Bergère",
+        "desc": "A gilded three-seat sofa and matching bergère in plum damask with gold flowers.",
+        "details": [
+          "Three-seater sofa",
+          "Matching bergère",
+          "Plum and gold damask",
+          "Carved gilded frames"
+        ]
+      },
+      "ar": {
+        "name": "كنبة وبيرجير دمسقي برقوقي",
+        "desc": "كنبة ثلاثية وفوتيه بيرجير مطابق مذهّبان بقماش دمسقي برقوقي بورود ذهبية.",
+        "details": [
+          "كنبة ثلاثية",
+          "بيرجير مطابق",
+          "دمسقي برقوقي وذهبي",
+          "إطارات محفورة مذهّبة"
+        ]
+      },
+      "tags": "plum purple damask sofa bergere برقوقي موف دمسقي كنبة"
+    },
+    {
+      "id": "silver-leaf-sofa-collection",
+      "ref": "FF-107",
+      "category": "sofas-chairs",
+      "images": [
+        "sofas-chairs/silver-leaf-sofa-collection-1",
+        "sofas-chairs/silver-leaf-sofa-collection-2",
+        "sofas-chairs/silver-leaf-sofa-collection-3"
+      ],
+      "en": {
+        "name": "Silver-Leaf Sofa & Armchair",
+        "desc": "A camelback sofa and armchair in carved silver leaf, shown in coral and in cream velvet.",
+        "details": [
+          "Camelback sofa",
+          "Matching armchair",
+          "Coral or cream velvet",
+          "Silver-leaf frames"
+        ]
+      },
+      "ar": {
+        "name": "كنبة وفوتيه بورق الفضة",
+        "desc": "كنبة بظهر مقوّس وفوتيه بإطارات محفورة بورق الفضة، معروضة بقطيفة مرجاني وكريمي.",
+        "details": [
+          "كنبة بظهر مقوّس",
+          "فوتيه مطابق",
+          "قطيفة مرجاني أو كريمي",
+          "إطارات ورق فضة"
+        ]
+      },
+      "tags": "silver sofa armchair coral cream فضي كنبة فوتيه مرجاني كريمي"
+    },
+    {
+      "id": "black-gold-commode",
+      "ref": "FF-108",
+      "category": "cabinets-desks",
+      "images": [
+        "cabinets-desks/black-gold-commode"
+      ],
+      "en": {
+        "name": "Black & Gold Bombé Commode",
+        "desc": "A black bombé commode with figural gilt-bronze mounts at the corners and a black marble top.",
+        "details": [
+          "Bombé front with drawers",
+          "Figural gilt-bronze mounts",
+          "Black marble top"
+        ]
+      },
+      "ar": {
+        "name": "كومود أسود وذهبي",
+        "desc": "كومود بومبيه أسود بحليات تماثيل من البرونز المذهّب على الأركان وسطح رخام أسود.",
+        "details": [
+          "واجهة بومبيه بأدراج",
+          "حليات تماثيل برونز مذهّب",
+          "سطح رخام أسود"
+        ]
+      },
+      "tags": "commode black gold كومود اسود ذهبي"
+    },
+    {
+      "id": "carved-walnut-rouge-console",
+      "ref": "FF-109",
+      "category": "tables-consoles",
+      "images": [
+        "tables-consoles/carved-walnut-rouge-console"
+      ],
+      "en": {
+        "name": "Carved Walnut Console",
+        "desc": "A deeply carved walnut console on scrolled legs, with a rouge marble top.",
+        "details": [
+          "Hand-carved walnut",
+          "Scrolled legs",
+          "Rouge marble top"
+        ]
+      },
+      "ar": {
+        "name": "كونسول جوز محفور",
+        "desc": "كونسول من الجوز المحفور بعمق على أرجل ملتفة، بسطح رخام أحمر.",
+        "details": [
+          "جوز محفور يدوياً",
+          "أرجل ملتفة",
+          "سطح رخام أحمر"
+        ]
+      },
+      "tags": "console walnut carved marble كونسول جوز محفور رخام"
+    }
+  ]
+}

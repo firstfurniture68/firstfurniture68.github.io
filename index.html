@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>First Furniture | Classic Hand-Carved Furniture · فرست فرنيتشر</title>
+  <meta name="description" content="First Furniture by Mahmoud Metwally: over 30 years of hand-carved, gilded and upholstered classic furniture, including salons, bedrooms, dining rooms, consoles, antiques and modern pieces. Egypt and Bahrain. فرست فرنيتشر: أثاث كلاسيك مذهّب وحفر يدوي، صالونات وغرف نوم وسفرة وتحف.">
+  <meta name="keywords" content="First Furniture, فرست فرنيتشر, Mahmoud Metwally, محمود متولي, classic furniture, gilded salon, صالون مدهب, أثاث كلاسيك, غرف نوم, سفرة, أنتيكات, Egypt, Bahrain, مصر, البحرين">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#F5F0E6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#13151C" media="(prefers-color-scheme: dark)">
+  <link rel="canonical" href="https://firstfurniture68.github.io/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="First Furniture">
+  <meta property="og:title" content="First Furniture · فرست فرنيتشر">
+  <meta property="og:description" content="Classic furniture, carved, gilded and upholstered by hand. أثاث كلاسيك يُحفر ويُذهّب ويُنجّد باليد.">
+  <meta property="og:image" content="https://firstfurniture68.github.io/assets/brand/og-image.jpg">
+  <meta property="og:url" content="https://firstfurniture68.github.io/">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/brand/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/brand/apple-touch-icon.png">
+  <link rel="preload" href="assets/fonts/cormorant-garamond-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/jost-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="data/items.json" as="fetch" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+    /* Set theme + language before first paint so nothing flashes. */
+    (function () {
+      var d = document.documentElement, t = null, l = null;
+      try { t = localStorage.getItem("ff-theme"); l = localStorage.getItem("ff-lang"); } catch (e) {}
+      if (t === "dark" || t === "light") d.setAttribute("data-theme", t);
+      var p = new URLSearchParams(location.search).get("lang");
+      l = (p === "ar" || p === "en") ? p : (l || ((navigator.language || "").toLowerCase().indexOf("ar") === 0 ? "ar" : "en"));
+      if (l === "ar") { d.lang = "ar"; d.dir = "rtl"; }
+    })();
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FurnitureStore",
+    "name": "First Furniture",
+    "alternateName": "فرست فرنيتشر",
+    "url": "https://firstfurniture68.github.io/",
+    "logo": "https://firstfurniture68.github.io/assets/brand/logo-navy.png",
+    "image": "https://firstfurniture68.github.io/assets/brand/og-image.jpg",
+    "founder": { "@type": "Person", "name": "Mahmoud Metwally", "alternateName": "محمود متولي" },
+    "telephone": ["+201287070317", "+97338127715"],
+    "email": "fistfurniture68@gmail.com",
+    "areaServed": ["Egypt", "Bahrain"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#collection" data-i18n="skip">Skip to the collection</a>
+
+  <header class="masthead" id="top">
+    <div class="masthead__inner">
+      <a class="brand" href="#top" aria-label="First Furniture">
+        <img class="brand__light" src="assets/brand/logo-navy.png" alt="First Furniture" width="1200" height="518">
+        <img class="brand__dark" src="assets/brand/logo-gold.png" alt="" width="1200" height="518" aria-hidden="true">
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="#collection" data-i18n="nav.collection">Collection</a>
+        <a href="#film" data-i18n="nav.film">The Film</a>
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <div class="masthead__tools">
+        <button class="icon-btn" type="button" id="themeToggle" aria-label="Switch light / dark mode">
+          <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
+          <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></svg>
+        </button>
+        <button class="lang" type="button" id="langToggle" aria-label="Switch language">
+          <span class="lang__ar">العربية</span><span class="lang__en">English</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__text">
+        <h1 class="hero__title reveal" data-i18n-html="hero.title">Carved, gilded <br>and upholstered <br><em>by hand.</em></h1>
+        <p class="hero__lede reveal" data-i18n="hero.lede">Salons, bedrooms, dining rooms and antiques, classic and modern.</p>
+        <div class="hero__actions reveal">
+          <a class="btn btn--solid" href="#collection" data-i18n="hero.cta">View the collection</a>
+          <a class="btn btn--line" href="#film" data-i18n="hero.film">Watch the film</a>
+        </div>
+      </div>
+      <figure class="hero__frame reveal" aria-hidden="true">
+        <div class="hero__slides" id="heroSlides"></div>
+      </figure>
+    </section>
+
+    <!-- Film -->
+    <section class="film" id="film" aria-labelledby="filmTitle">
+      <div class="film__media">
+        <video id="filmLoop" muted loop playsinline preload="none" poster="media/film-poster.webp" aria-hidden="true"></video>
+      </div>
+      <div class="film__shade"></div>
+      <div class="film__content">
+        <p class="eyebrow reveal" data-i18n="film.eyebrow">Film</p>
+        <h2 id="filmTitle" class="film__title reveal" data-i18n="film.title">Inside one of our projects</h2>
+        <button class="film__play reveal" type="button" id="filmOpen">
+          <span class="film__playicon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+          <span><span data-i18n="film.watch">Watch the full film</span><small data-i18n="film.length">27 minutes</small></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Rooms / categories as arched windows -->
+    <section class="rooms" aria-labelledby="roomsTitle">
+      <header class="section-head reveal">
+        <h2 id="roomsTitle" class="section-title" data-i18n="rooms.title">Browse by room</h2>
+      </header>
+      <div class="rooms__list" id="rooms"></div>
+    </section>
+
+    <!-- Collection -->
+    <section class="collection" id="collection" aria-labelledby="collectionTitle">
+      <header class="section-head reveal">
+        <h2 id="collectionTitle" class="section-title" data-i18n="collection.title">The collection</h2>
+      </header>
+
+      <div class="toolbar" id="toolbar">
+        <label class="search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+          <input id="search" type="search" autocomplete="off" spellcheck="false"
+                 data-i18n-placeholder="search.placeholder" placeholder="Search: salon, gilded, bedroom, velvet…" aria-label="Search the collection">
+          <button class="search__clear" id="searchClear" type="button" aria-label="Clear search" hidden>&times;</button>
+        </label>
+        <div class="chips" id="chips" role="tablist" aria-label="Categories"></div>
+      </div>
+
+      <p class="count" id="count" aria-live="polite"></p>
+      <div class="grid" id="grid"></div>
+      <div class="empty" id="empty" hidden>
+        <p data-i18n="search.empty">No results. Try another word, or ask us on WhatsApp.</p>
+        <button class="btn btn--line" type="button" id="resetSearch" data-i18n="search.reset">Show everything</button>
+      </div>
+    </section>
+
+    <!-- About Mahmoud Metwally -->
+    <section class="about" id="about" aria-labelledby="aboutTitle">
+      <figure class="about__img reveal">
+        <div class="about__portrait">
+          <img src="assets/brand/mahmoud-metwally-960.webp" srcset="assets/brand/mahmoud-metwally-480.webp 480w, assets/brand/mahmoud-metwally-960.webp 960w" sizes="(max-width: 860px) 80vw, 40vw" alt="Mahmoud Metwally" data-i18n-alt="about.name" loading="lazy" width="960" height="1200">
+        </div>
+      </figure>
+      <div class="about__text">
+        <p class="eyebrow reveal" data-i18n="about.eyebrow">Founder &amp; designer</p>
+        <h2 id="aboutTitle" class="section-title reveal" data-i18n="about.name">Mahmoud Metwally</h2>
+        <div class="about__years reveal">
+          <span class="about__num" dir="ltr">30+</span>
+          <span class="about__label" data-i18n="about.years">years in furniture design and making</span>
+        </div>
+        <p class="reveal" data-i18n="about.bio">From a single carved piece to a fully furnished home, every project is designed in 3D before it goes into production.</p>
+        <ol class="crafts">
+          <li class="reveal"><span class="crafts__n">I</span><h3 data-i18n="craft.1.t">Design</h3><p data-i18n="craft.1.d">3D design before production</p></li>
+          <li class="reveal"><span class="crafts__n">II</span><h3 data-i18n="craft.2.t">Joinery</h3><p data-i18n="craft.2.d">Solid-wood frames</p></li>
+          <li class="reveal"><span class="crafts__n">III</span><h3 data-i18n="craft.3.t">Carving</h3><p data-i18n="craft.3.d">Fully hand-carved</p></li>
+          <li class="reveal"><span class="crafts__n">IV</span><h3 data-i18n="craft.4.t">Finishing &amp; gilding</h3><p data-i18n="craft.4.d">Gold leaf, antique and lacquer finishes</p></li>
+          <li class="reveal"><span class="crafts__n">V</span><h3 data-i18n="craft.5.t">Upholstery</h3><p data-i18n="craft.5.d">Velvet, button tufting and trims</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact" aria-labelledby="contactTitle">
+      <div class="contact__inner">
+        <p class="eyebrow reveal" data-i18n="contact.eyebrow">Contact</p>
+        <h2 id="contactTitle" class="section-title reveal" data-i18n="contact.title">Ask about any piece</h2>
+        <p class="contact__lede reveal" data-i18n="contact.lede">Tap WhatsApp on any piece and its details reach us directly.</p>
+        <div class="phones reveal">
+          <div class="phone">
+            <p class="phone__country" data-i18n="contact.eg">Egypt</p>
+            <p class="phone__num" dir="ltr">+20 128 707 0317</p>
+            <div class="phone__actions">
+              <a class="btn btn--wa" href="https://wa.me/201287070317" target="_blank" rel="noopener"><svg class="wa-ico" viewBox="0 0 32 32" aria-hidden="true"><use href="#wa"/></svg><span data-i18n="contact.wa">WhatsApp</span></a>
+              <a class="btn btn--ghost" href="tel:+201287070317" data-i18n="contact.call">Call</a>
+            </div>
+          </div>
+          <div class="phone">
+            <p class="phone__country" data-i18n="contact.bh">Bahrain</p>
+            <p class="phone__num" dir="ltr">+973 3812 7715</p>
+            <div class="phone__actions">
+              <a class="btn btn--wa" href="https://wa.me/97338127715" target="_blank" rel="noopener"><svg class="wa-ico" viewBox="0 0 32 32" aria-hidden="true"><use href="#wa"/></svg><span data-i18n="contact.wa">WhatsApp</span></a>
+              <a class="btn btn--ghost" href="tel:+97338127715" data-i18n="contact.call">Call</a>
+            </div>
+          </div>
+          <div class="phone phone--wide">
+            <p class="phone__country" data-i18n="contact.email">Email</p>
+            <a class="phone__num phone__mail" href="mailto:fistfurniture68@gmail.com" dir="ltr">fistfurniture68@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <img class="footer__logo" src="assets/brand/logo-light.png" alt="First Furniture" width="1200" height="518" loading="lazy">
+    <img class="footer__logo footer__logo--gold" src="assets/brand/logo-gold.png" alt="" width="1200" height="518" loading="lazy" aria-hidden="true">
+    <p dir="ltr">© First Furniture <span id="year"></span></p>
+    <a href="#top" class="footer__top" data-i18n="footer.top">Back to top ↑</a>
+  </footer>
+
+  <!-- Item window -->
+  <dialog class="viewer" id="viewer" aria-labelledby="vName">
+    <div class="viewer__panel">
+      <button class="viewer__close" type="button" id="vClose" aria-label="Close" autofocus>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19"/></svg>
+      </button>
+      <div class="viewer__media">
+        <div class="viewer__stage" id="vStage">
+          <img id="vImg" alt="">
+          <button class="viewer__nav viewer__nav--prev" type="button" id="vPrev" aria-label="Previous photo"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
+          <button class="viewer__nav viewer__nav--next" type="button" id="vNext" aria-label="Next photo"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button>
+        </div>
+        <div class="viewer__thumbs" id="vThumbs"></div>
+      </div>
+      <div class="viewer__info">
+        <p class="eyebrow"><span id="vCat"></span> · <span id="vRef" dir="ltr"></span></p>
+        <h2 class="viewer__name" id="vName"></h2>
+        <p class="viewer__desc" id="vDesc"></p>
+        <ul class="viewer__details" id="vDetails"></ul>
+        <div class="viewer__actions">
+          <a class="btn btn--wa" id="vWa" target="_blank" rel="noopener">
+            <svg class="wa-ico" viewBox="0 0 32 32" aria-hidden="true"><use href="#wa"/></svg>
+            <span data-i18n="viewer.ask">Ask about this piece</span>
+          </a>
+          <button class="btn btn--line" type="button" id="vShare" data-i18n="viewer.share">Copy link</button>
+        </div>
+        <div class="viewer__step">
+          <button type="button" id="vBack" class="link" data-i18n="viewer.prevItem">← Previous piece</button>
+          <button type="button" id="vFwd" class="link" data-i18n="viewer.nextItem">Next piece →</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Film window -->
+  <dialog class="filmdlg" id="filmDlg" aria-label="First Furniture film">
+    <button class="viewer__close filmdlg__close" type="button" id="filmClose" aria-label="Close" autofocus>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19"/></svg>
+    </button>
+    <div class="filmdlg__frame" id="filmFrame"></div>
+    <p class="filmdlg__alt"><a href="https://drive.google.com/file/d/1udxtO2lQ3W8FAebyO_ALIiDN734TgOl6/view" target="_blank" rel="noopener" data-i18n="film.drive">Open in Google Drive ↗</a></p>
+  </dialog>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="wa" viewBox="0 0 32 32"><path fill="currentColor" d="M16.04 3C8.86 3 3.03 8.82 3.03 16c0 2.3.6 4.53 1.74 6.5L3 29l6.68-1.75A12.96 12.96 0 0 0 16.04 29C23.2 29 29 23.18 29 16S23.2 3 16.04 3zm0 23.62c-2.02 0-4-.54-5.720-1.57l-.41-.24-3.96 1.04 1.06-3.86-.27-.4A10.6 10.6 0 0 1 5.41 16c0-5.86 4.77-10.62 10.63-10.62S26.65 10.14 26.65 16 21.9 26.62 16.04 26.62zm5.83-7.950c-.32-.16-1.89-.93-2.18-1.04-.3-.1-.5-.16-.72.16-.21.32-.82 1.04-1.01 1.25-.19.21-.37.24-.69.08-.32-.16-1.35-.5-2.57-1.59-.95-.85-1.590-1.9-1.78-2.22-.19-.32-.02-.49.14-.65.14-.14.32-.37.48-.56.16-.19.21-.32.32-.53.1-.21.05-.4-.03-.56-.08-.16-.72-1.73-.98-2.37-.26-.62-.52-.54-.72-.55h-.61c-.21 0-.56.08-.85.4-.29.32-1.12 1.09-1.12 2.66s1.14 3.08 1.3 3.3c.16.21 2.25 3.43 5.44 4.81.76.33 1.35.52 1.820.67.76.24 1.46.21 2 .13.61-.09 1.89-.77 2.15-1.52.27-.75.27-1.39.19-1.52-.08-.13-.29-.21-.61-.37z"/></symbol>
+  </svg>
+
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>

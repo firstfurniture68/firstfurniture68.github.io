@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://firstfurniture68.github.io/sitemap.xml
