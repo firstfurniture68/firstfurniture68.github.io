@@ -28,7 +28,7 @@
       "hero.lede": "Salons, bedrooms, dining rooms and antiques, classic and modern.",
       "hero.cta": "View the collection", "hero.film": "Watch the film",
       "film.eyebrow": "Film", "film.title": "Inside one of our projects",
-      "film.watch": "Watch the full film", "film.length": "27 minutes", "film.drive": "Open in Google Drive ↗",
+      "film.watch": "Watch the full film", "film.length": "27 minutes",
       "rooms.title": "Browse by room",
       "collection.title": "The collection",
       "search.placeholder": "Search: salon, gilded, bedroom, velvet…",
@@ -60,7 +60,7 @@
       "hero.lede": "صالونات، غرف نوم، سفرة، وأنتيكات. كلاسيك ومودرن.",
       "hero.cta": "تصفّح المجموعة", "hero.film": "شاهد الفيلم",
       "film.eyebrow": "الفيلم", "film.title": "جولة داخل أحد مشاريعنا",
-      "film.watch": "شاهد الفيلم كاملاً", "film.length": "٢٧ دقيقة", "film.drive": "افتح في جوجل درايف ↗",
+      "film.watch": "شاهد الفيلم كاملاً", "film.length": "٢٧ دقيقة",
       "rooms.title": "تصفّح حسب القسم",
       "collection.title": "المجموعة",
       "search.placeholder": "ابحث: صالون، مدهب، غرفة نوم، قطيفة…",
@@ -181,7 +181,7 @@
       vo ? vo.observe(v) : v.play();
     }
     $("#filmOpen").addEventListener("click", () => {
-      frame.innerHTML = `<iframe src="https://drive.google.com/file/d/${CONFIG.filmDriveId}/preview" allow="autoplay; fullscreen" allowfullscreen title="First Furniture film"></iframe>`;
+      frame.innerHTML = `<iframe src="https://drive.google.com/file/d/${CONFIG.filmDriveId}/preview" allow="autoplay; fullscreen" allowfullscreen title="First Furniture film"></iframe><span class="filmdlg__shield" aria-hidden="true"></span>`;
       v.pause(); dlgF.showModal(); document.body.style.overflow = "hidden";
     });
     $("#filmClose").addEventListener("click", () => dlgF.close());

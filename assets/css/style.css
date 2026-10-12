@@ -267,11 +267,11 @@ button { font: inherit; color: inherit; }
 .filmdlg[open] { opacity: 1; }
 @starting-style { .filmdlg[open] { opacity: 0; } }
 .filmdlg::backdrop { background: rgba(4, 6, 12, .88); }
-.filmdlg__frame { aspect-ratio: 16 / 9; width: 100%; background: #000; }
+.filmdlg__frame { position: relative; aspect-ratio: 16 / 9; width: 100%; background: #000; }
+/* Covers the player's own "open in new window" button (top-right of the embedded player). */
+.filmdlg__shield { position: absolute; top: 0; right: 0; z-index: 2; width: 76px; height: 76px; }
 .filmdlg__frame iframe { width: 100%; height: 100%; border: 0; display: block; }
 .filmdlg .filmdlg__close { top: -56px; inset-inline-end: 0; }
-.filmdlg__alt { position: absolute; bottom: -40px; inset-inline-start: 0; margin: 0; font-size: 13px; }
-.filmdlg__alt a { color: rgba(245, 240, 230, .75); text-decoration: none; border-bottom: 1px solid rgba(245, 240, 230, .3); }
 @media (max-width: 860px) { .filmdlg { width: 100vw; } }
 
 /* ───────── Rooms (arched windows) ───────── */
