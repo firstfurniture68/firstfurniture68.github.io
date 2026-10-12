@@ -4,7 +4,7 @@
   "use strict";
 
   const CONFIG = {
-    whatsapp: "201287070317",            // number used by the WhatsApp button on each piece
+    whatsapp: "201222129569",            // number used by the WhatsApp button on each piece
     waMessage: "ممكن أعرف تفاصيل عن دي لو سمحت؟",
     filmDriveId: "1udxtO2lQ3W8FAebyO_ALIiDN734TgOl6",   // full film on Google Drive (must stay shared as "Anyone with the link")
     heroImages: ["salons/royal-burgundy-salon-1", "cabinets-desks/louis-xv-marquetry-commode", "bedrooms/ivory-gold-royal-bedroom-1", "salons/turquoise-swan-salon"],

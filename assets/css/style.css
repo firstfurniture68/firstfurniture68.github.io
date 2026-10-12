@@ -113,13 +113,14 @@ button { font: inherit; color: inherit; }
   letter-spacing: -.01em;
   color: var(--ink);
 }
-:root[lang="ar"] .section-title { font-weight: 400; line-height: 1.4; letter-spacing: 0; }
+:root[lang="ar"] .section-title { font-weight: 400; line-height: 1.8; letter-spacing: 0; padding-bottom: .1em; }
 .section-head .section-title::after {
   content: ""; display: block; width: 56px; height: 1px; margin: 22px auto 0;
   background: var(--gold);
   transform: scaleX(0); transition: transform 1.2s var(--ease) .25s;
 }
 .section-head.is-in .section-title::after { transform: scaleX(1); }
+:root[lang="ar"] .section-head .section-title::after { margin-top: 12px; }
 
 /* Buttons — every button is the same height so rows line up */
 .btn {
@@ -206,7 +207,7 @@ button { font: inherit; color: inherit; }
   letter-spacing: -.015em; color: var(--ink);
 }
 .hero__title em { font-style: italic; font-weight: 400; color: var(--em); }
-:root[lang="ar"] .hero__title { font-weight: 400; line-height: 1.35; letter-spacing: 0; font-size: clamp(40px, 4.8vw, 68px); }
+:root[lang="ar"] .hero__title { font-weight: 400; line-height: 1.7; letter-spacing: 0; font-size: clamp(40px, 4.8vw, 68px); }
 :root[lang="ar"] .hero__title em { font-style: normal; }
 .hero__lede { max-width: 30em; margin: 0 0 36px; color: var(--ink-2); font-size: 18px; }
 .hero__actions { display: flex; flex-wrap: wrap; gap: 12px; }
@@ -243,7 +244,7 @@ button { font: inherit; color: inherit; }
 .film__content { max-width: var(--max); width: 100%; margin: 0 auto; padding: clamp(40px, 6vw, 80px) var(--gutter); }
 .film .eyebrow { color: var(--gold-soft); }
 .film__title { margin: 0 0 34px; max-width: 14em; font: 500 clamp(34px, 4.4vw, 58px)/1.08 var(--serif); }
-:root[lang="ar"] .film__title { font-weight: 400; line-height: 1.4; }
+:root[lang="ar"] .film__title { font-weight: 400; line-height: 1.75; }
 .film__lede { max-width: 32em; margin: 0 0 30px; color: rgba(245, 240, 230, .82); }
 .film__play {
   display: inline-flex; align-items: center; gap: 16px; padding: 0; background: none; border: 0; cursor: pointer; color: #F5F0E6; text-align: start;
@@ -262,17 +263,22 @@ button { font: inherit; color: inherit; }
 .filmdlg {
   width: min(1200px, calc(100vw - 48px)); max-width: none; padding: 0; border: 0; background: #000; overflow: visible;
   box-shadow: var(--shadow);
-  opacity: 0; transition: opacity .5s var(--ease), overlay .5s allow-discrete, display .5s allow-discrete;
 }
-.filmdlg[open] { opacity: 1; }
-@starting-style { .filmdlg[open] { opacity: 0; } }
-.filmdlg::backdrop { background: rgba(4, 6, 12, .88); }
-.filmdlg__frame { position: relative; aspect-ratio: 16 / 9; width: 100%; background: #000; }
-/* Covers the player's own "open in new window" button (top-right of the embedded player). */
+.filmdlg::backdrop { background: rgba(4, 6, 12, .9); }
+/* Classic responsive embed: a 16:9 box made with padding, the player pinned to fill it exactly. */
+.filmdlg__frame { position: relative; width: 100%; height: 0; padding-bottom: 56.25%; overflow: hidden; background: #000; }
+/* Never taller than the screen: limit the width so the 16:9 box (and its control bar) always fits. */
+.filmdlg { width: min(1200px, calc(100vw - 48px), calc((100dvh - 140px) * 16 / 9)); }
+.filmdlg__frame iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
 .filmdlg__shield { position: absolute; top: 0; right: 0; z-index: 2; width: 76px; height: 76px; }
-.filmdlg__frame iframe { width: 100%; height: 100%; border: 0; display: block; }
 .filmdlg .filmdlg__close { top: -56px; inset-inline-end: 0; }
-@media (max-width: 860px) { .filmdlg { width: 100vw; } }
+@media (max-width: 860px) {
+  /* Phones: full-screen black stage, video centred, close button pinned top corner. */
+  .filmdlg { position: fixed; inset: 0; width: 100vw; height: 100dvh; max-height: none; margin: 0; display: none; box-shadow: none; }
+  .filmdlg[open] { display: flex; align-items: center; justify-content: center; }
+  .filmdlg__frame { width: min(100vw, calc(100dvh * 16 / 9)); padding-bottom: min(56.25vw, 100dvh); flex: none; }
+  .filmdlg .filmdlg__close { position: fixed; top: calc(12px + env(safe-area-inset-top)); inset-inline-end: 12px; z-index: 3; }
+}
 
 /* ───────── Rooms (arched windows) ───────── */
 .rooms { padding: clamp(56px, 8vw, 110px) 0; background: var(--paper-2); }
@@ -296,13 +302,13 @@ button { font: inherit; color: inherit; }
 }
 .room:hover .room__win::after { inset: 14px; }
 .room__name { display: block; margin-top: 18px; font: 500 22px/1.25 var(--serif); color: var(--ink); min-height: 1.25em; }
-:root[lang="ar"] .room__name { font-weight: 400; font-size: 21px; line-height: 1.5; }
+:root[lang="ar"] .room__name { font-weight: 400; font-size: 21px; line-height: 1.75; }
 .room__count { display: block; margin-top: 4px; font-size: 12px; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); }
 :root[lang="ar"] .room__count { letter-spacing: 0; font-size: 14px; }
 @media (max-width: 860px) {
   .rooms__list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .room__name { font-size: 19px; min-height: 2.5em; display: flex; align-items: flex-start; justify-content: center; }
-  :root[lang="ar"] .room__name { min-height: 3em; }
+  :root[lang="ar"] .room__name { min-height: 3.5em; }
 }
 
 /* ───────── Collection ───────── */
@@ -368,7 +374,7 @@ button { font: inherit; color: inherit; }
 :root[lang="ar"] .card__meta { letter-spacing: 0; font-size: 13px; }
 .card__ref { letter-spacing: .12em; font-variant-numeric: tabular-nums; }
 .card__name { margin: 6px 0 0; font: 500 23px/1.25 var(--serif); color: var(--ink); }
-:root[lang="ar"] .card__name { font-weight: 400; font-size: 22px; line-height: 1.55; }
+:root[lang="ar"] .card__name { font-weight: 400; font-size: 22px; line-height: 1.75; }
 .card__name span { background: linear-gradient(var(--gold), var(--gold)) no-repeat 0 100% / 0 1px; transition: background-size .7s var(--ease); }
 :root[dir="rtl"] .card__name span { background-position: 100% 100%; }
 .card:hover .card__name span { background-size: 100% 1px; }
@@ -421,6 +427,7 @@ button { font: inherit; color: inherit; }
 .phone__num { margin: 10px 0 24px; font: 500 clamp(26px, 3.2vw, 34px)/1.2 "Cormorant", serif; letter-spacing: .02em; color: #F5F0E6; }
 .phone__mail { margin-bottom: 0; text-decoration: none; font-size: clamp(22px, 2.6vw, 30px); word-break: break-all; background: linear-gradient(#D9C192, #D9C192) no-repeat 50% 100% / 0 1px; transition: background-size .6s var(--ease); }
 .phone__mail:hover { background-size: 100% 1px; }
+.phone__alt { margin: -16px 0 22px; font-size: 14px; color: rgba(245, 240, 230, .7); letter-spacing: .04em; }
 .phone__actions { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
 .phone__actions .btn { min-width: 150px; }
 @media (max-width: 640px) { .phones { grid-template-columns: 1fr; } .phone__actions .btn { min-width: 0; flex: 1; } .phone__actions { width: 100%; } }
@@ -473,7 +480,7 @@ button { font: inherit; color: inherit; }
 .viewer__thumbs img { width: 100%; height: 100%; object-fit: cover; }
 .viewer__info { padding: clamp(28px, 4vw, 52px); padding-top: clamp(64px, 6vw, 76px); overflow-y: auto; display: flex; flex-direction: column; }
 .viewer__name { margin: 0 0 18px; font: 500 clamp(30px, 3vw, 40px)/1.12 var(--serif); }
-:root[lang="ar"] .viewer__name { font-weight: 400; line-height: 1.45; }
+:root[lang="ar"] .viewer__name { font-weight: 400; line-height: 1.75; }
 .viewer__desc { margin: 0 0 24px; color: var(--ink-2); }
 .viewer__details { list-style: none; margin: 0 0 30px; padding: 0; border-top: 1px solid var(--line); }
 .viewer__details li { padding: 10px 0; border-bottom: 1px solid var(--line); font-size: 15px; display: grid; grid-template-columns: 18px 1fr; align-items: baseline; }
