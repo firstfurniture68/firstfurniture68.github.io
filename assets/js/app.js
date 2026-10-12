@@ -173,8 +173,9 @@
     const v = $("#filmLoop"), dlgF = $("#filmDlg"), frame = $("#filmFrame");
     const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
     if (!reduce) {
-      const small = matchMedia("(max-width: 860px)").matches || (navigator.connection && navigator.connection.saveData);
-      v.src = small ? "media/film-teaser-480.mp4" : "media/film-teaser-720.mp4";
+      // Full-resolution loop on large screens; 720p on phones/tablets or when the visitor has data-saver on.
+      const small = matchMedia("(max-width: 1100px)").matches || (navigator.connection && navigator.connection.saveData);
+      v.src = small ? "media/film-loop-720.mp4" : "media/film-loop-hd.mp4";
       const vo = "IntersectionObserver" in window ? new IntersectionObserver(([e]) => {
         if (e.isIntersecting) { const p = v.play(); p && p.catch(() => {}); } else v.pause();
       }, { threshold: .15 }) : null;
