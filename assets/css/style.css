@@ -427,7 +427,6 @@ button { font: inherit; color: inherit; }
 .phone__num { margin: 10px 0 24px; font: 500 clamp(26px, 3.2vw, 34px)/1.2 "Cormorant", serif; letter-spacing: .02em; color: #F5F0E6; }
 .phone__mail { margin-bottom: 0; text-decoration: none; font-size: clamp(22px, 2.6vw, 30px); word-break: break-all; background: linear-gradient(#D9C192, #D9C192) no-repeat 50% 100% / 0 1px; transition: background-size .6s var(--ease); }
 .phone__mail:hover { background-size: 100% 1px; }
-.phone__alt { margin: -16px 0 22px; font-size: 14px; color: rgba(245, 240, 230, .7); letter-spacing: .04em; }
 .phone__actions { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
 .phone__actions .btn { min-width: 150px; }
 @media (max-width: 640px) { .phones { grid-template-columns: 1fr; } .phone__actions .btn { min-width: 0; flex: 1; } .phone__actions { width: 100%; } }
