@@ -14,11 +14,12 @@
       "salons": "salons/emerald-velvet-salon",
       "sofas-chairs": "sofas-chairs/rococo-carved-settee-burgundy-1",
       "bedrooms": "bedrooms/ivory-gold-royal-bedroom-1",
-      "dining": "dining/taupe-velvet-dining-set",
+      "dining": "dining/ivory-gold-dining-room",
       "tables-consoles": "tables-consoles/ivory-gold-onyx-console",
       "cabinets-desks": "cabinets-desks/gilded-turquoise-vitrine",
       "antiques-decor": "antiques-decor/bracket-clock-on-stand",
-      "modern": "modern/boat-sofa-1"
+      "modern": "modern/boat-sofa-1",
+      "interiors": "interiors/grand-hall-painted-ceiling-1"
     }
   };
 
@@ -38,7 +39,7 @@
       "search.reset": "Show everything",
       "all": "All",
       "count.results": "{n} results", "count.one": "1 result",
-      "photos": "{n} photos",
+      "photos": "{n} photos", "video": "Video",
       "about.eyebrow": "Founder & designer", "about.name": "Mahmoud Metwally",
       "about.years": "years in furniture design and making",
       "about.bio": "From a single carved piece to a fully furnished home, every project is designed in 3D before it goes into production.",
@@ -70,7 +71,7 @@
       "search.reset": "عرض الكل",
       "all": "الكل",
       "count.results": "{n} نتيجة", "count.one": "نتيجة واحدة",
-      "photos": "{n} صور",
+      "photos": "{n} صور", "video": "فيديو",
       "about.eyebrow": "المؤسس والمصمم", "about.name": "محمود متولي",
       "about.years": "عاماً في تصميم وتصنيع الأثاث",
       "about.bio": "من القطعة الواحدة إلى فرش البيت بالكامل، كل مشروع يُصمَّم 3D قبل التنفيذ.",
@@ -246,7 +247,7 @@
       return `<a class="card reveal" style="--d:${(i % 3) * 80}ms" href="#item/${it.id}" data-id="${it.id}">
         <span class="card__img" style="${thumb(img)}">
           ${pic(img, "(max-width: 560px) 92vw, (max-width: 1000px) 46vw, 30vw", `alt="${esc(L.name)}" loading="lazy" decoding="async"`)}
-          ${it.images.length > 1 ? `<span class="card__multi">${t("photos", { n: num(it.images.length) })}</span>` : ""}
+          ${it.video ? `<span class="card__multi">▶ ${t("video")}</span>` : it.images.length > 1 ? `<span class="card__multi">${t("photos", { n: num(it.images.length) })}</span>` : ""}
         </span>
         <span class="card__meta"><span>${esc(catName(it.category))}</span><span class="card__ref" dir="ltr">${it.ref}</span></span>
         <h3 class="card__name"><span>${esc(L.name)}</span></h3>
@@ -292,6 +293,7 @@
     dlg.close();
   }
   dlg.addEventListener("close", () => {
+    const vv = $("#vVid"); vv.pause(); vv.removeAttribute("src"); vv.load();
     document.body.style.overflow = "";
     const id = state.open && state.open.id; state.open = null;
     // Leave the item's address: step back if we added it, otherwise just clean the URL.
@@ -315,18 +317,29 @@
     const msg = `${CONFIG.waMessage}\n\n${it.ar.name} (${it.ref})\n${url}`;
     $("#vWa").href = `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(msg)}`;
     $("#vShare").textContent = t("viewer.share");
-    const multi = it.images.length > 1;
+    const multi = slides(it) > 1;
     $("#vPrev").hidden = $("#vNext").hidden = !multi;
     $("#vThumbs").hidden = !multi;
     $("#vThumbs").innerHTML = multi ? it.images.map((n, i) =>
-      `<button type="button" data-i="${i}" aria-label="${i + 1}" aria-current="${i === state.photo}"><img src="${src(n, 480)}" alt=""></button>`).join("") : "";
+      `<button type="button" data-i="${i}" aria-label="${i + 1}" aria-current="${i === state.photo}"><img src="${src(n, 480)}" alt=""></button>`).join("")
+      + (it.video ? `<button type="button" class="is-video" data-i="${it.images.length}" aria-label="${t("video")}" aria-current="false"><img src="${src(it.images[0], 480)}" alt=""><span class="play" aria-hidden="true"></span></button>` : "") : "";
     showPhoto(state.photo, true);
     const idx = state.list.indexOf(it);
     $("#vBack").hidden = idx <= 0; $("#vFwd").hidden = idx < 0 || idx >= state.list.length - 1;
   }
+  // An item's gallery: its photos, then its video (if it has one).
+  const slides = it => it.images.length + (it.video ? 1 : 0);
   function showPhoto(i, instant) {
-    const it = state.open, n = it.images.length;
+    const it = state.open, n = slides(it);
     state.photo = (i + n) % n;
+    const vid = $("#vVid"), pic = $("#vImg").parentElement;
+    if (it.video && state.photo === it.images.length) {
+      pic.hidden = true; vid.hidden = false;
+      if (vid.getAttribute("src") !== it.video) { vid.poster = src(it.images[0], 960); vid.src = it.video; }
+      document.querySelectorAll("#vThumbs button").forEach(b => b.setAttribute("aria-current", +b.dataset.i === state.photo));
+      return;
+    }
+    vid.pause(); vid.hidden = true; pic.hidden = false;
     const img = $("#vImg"), name = it.images[state.photo];
     const set = () => {
       const s = $("#vSrc"); s.srcset = srcset(name, "avif"); s.sizes = "(max-width: 860px) 100vw, 60vw";
@@ -337,7 +350,8 @@
     else { img.classList.add("is-fading"); setTimeout(() => { set(); img.onload = () => img.classList.remove("is-fading"); if (img.complete) img.classList.remove("is-fading"); }, 220); }
     document.querySelectorAll("#vThumbs button").forEach(b => b.setAttribute("aria-current", +b.dataset.i === state.photo));
     // preload the neighbour so swiping feels instant
-    if (n > 1) { const p = new Image(); p.sizes = "(max-width: 860px) 100vw, 60vw"; p.srcset = srcset(it.images[(state.photo + 1) % n], avifOK ? "avif" : "webp"); }
+    const nx = it.images[(state.photo + 1) % it.images.length];
+    if (it.images.length > 1) { const p = new Image(); p.sizes = "(max-width: 860px) 100vw, 60vw"; p.srcset = srcset(nx, avifOK ? "avif" : "webp"); }
   }
   function stepItem(d) {
     const idx = state.list.indexOf(state.open), next = state.list[idx + d];

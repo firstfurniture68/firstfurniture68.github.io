@@ -465,6 +465,11 @@ button { font: inherit; color: inherit; }
 .viewer__stage { position: relative; flex: 1; min-height: 0; display: grid; place-items: center; overflow: hidden; touch-action: pan-y; }
 .viewer__stage img { width: 100%; height: 100%; object-fit: contain; transition: opacity .45s var(--ease); }
 .viewer__stage img.is-fading { opacity: 0; }
+.viewer__stage picture { display: contents; }
+.viewer__stage video { width: 100%; height: 100%; max-height: calc(100dvh - 160px); object-fit: contain; background: #000; }
+.viewer__thumbs button.is-video { position: relative; }
+.viewer__thumbs .play { position: absolute; inset: 0; display: grid; place-items: center; background: rgba(0, 0, 0, .35); }
+.viewer__thumbs .play::after { content: ""; border-left: 14px solid #fff; border-top: 9px solid transparent; border-bottom: 9px solid transparent; margin-left: 3px; }
 .viewer__nav {
   position: absolute; top: 50%; translate: 0 -50%; width: 44px; height: 44px; display: grid; place-items: center; color: var(--ink);
   background: color-mix(in srgb, var(--paper) 88%, transparent); border: 1px solid var(--line); cursor: pointer; transition: border-color .3s;
@@ -494,6 +499,7 @@ button { font: inherit; color: inherit; }
   .viewer__media { display: block; }
   .viewer__stage { height: auto; min-height: 220px; }
   .viewer__stage img { height: auto; max-height: 62vh; }
+  .viewer__stage video { height: 62vh; }
   .viewer__close { position: fixed; }
   .viewer__info { overflow: visible; padding-top: 28px; padding-bottom: calc(28px + env(safe-area-inset-bottom)); }
   .viewer__actions { grid-template-columns: 1fr; }

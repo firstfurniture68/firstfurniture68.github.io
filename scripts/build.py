@@ -46,6 +46,10 @@ def main():
         for name in it["images"]:
             src = find_source(name)
             if not src:
+                # Original not on this computer (kept in the backup): fine if the web copies already exist.
+                built = all(os.path.exists(os.path.join(SITE, "img", f"{name}-{w}.{e}")) for w in WIDTHS for e in ("webp", "avif"))
+                if built and name in thumbs:
+                    keep.add(name); continue
                 errors.append(f"{it['id']}: photo not found: photos/{name}.*")
                 continue
             used.add(os.path.relpath(src, PHOTOS))

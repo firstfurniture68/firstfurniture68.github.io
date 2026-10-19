@@ -39,6 +39,11 @@
       "id": "modern",
       "en": "Modern & Contemporary",
       "ar": "المودرن والمعاصر"
+    },
+    {
+      "id": "interiors",
+      "en": "Interiors & Built-ins",
+      "ar": "التشطيبات والوحدات الثابتة"
     }
   ],
   "items": [
@@ -49,7 +54,8 @@
       "featured": true,
       "images": [
         "salons/royal-burgundy-salon-1",
-        "salons/royal-burgundy-salon-2"
+        "salons/royal-burgundy-salon-2",
+        "salons/royal-burgundy-salon-photo-3"
       ],
       "en": {
         "name": "Royal Burgundy Salon",
@@ -447,6 +453,7 @@
       "images": [
         "bedrooms/ivory-gold-royal-bedroom-1",
         "bedrooms/ivory-gold-royal-bedroom-2",
+        "bedrooms/ivory-gold-royal-bedroom-photo-3",
         "bedrooms/ivory-gold-royal-bedroom-extra-3",
         "bedrooms/ivory-gold-royal-bedroom-extra-4",
         "bedrooms/ivory-gold-royal-bedroom-extra-5",
@@ -870,7 +877,8 @@
       "category": "antiques-decor",
       "featured": true,
       "images": [
-        "antiques-decor/sevres-blue-urn-candelabrum"
+        "antiques-decor/sevres-blue-urn-candelabrum",
+        "antiques-decor/sevres-blue-urn-candelabrum-photo-2"
       ],
       "en": {
         "name": "Bleu Céleste Urn Candelabrum",
@@ -1161,6 +1169,614 @@
         ]
       },
       "tags": "wardrobe closet dressing room fitted built in white دولاب دواليب حائط غرفة ملابس دريسنج ابيض"
+    },
+    {
+      "id": "rose-blue-damask-salon",
+      "ref": "FF-092",
+      "category": "salons",
+      "images": [
+        "salons/rose-blue-damask-salon-photo-1",
+        "salons/rose-blue-damask-salon-photo-2",
+        "salons/rose-blue-damask-salon-photo-3",
+        "salons/rose-blue-damask-salon-photo-4",
+        "salons/rose-blue-damask-salon"
+      ],
+      "en": {
+        "name": "Rose & Blue Damask Salon",
+        "desc": "Rose damask with pale-blue cushions on walnut frames with gilded crests, with glass-topped walnut tables trimmed in gilt fretwork.",
+        "details": [
+          "Sofa and two armchairs",
+          "Rose and blue damask",
+          "Walnut with gilded crests",
+          "Glass-top coffee and side tables"
+        ]
+      },
+      "ar": {
+        "name": "صالون دمسقي وردي وأزرق",
+        "desc": "دمسقي وردي مع مخدّات زرقاء فاتحة على إطارات جوز بتيجان مذهّبة، مع طاولات جوز بأسطح زجاج وزخارف مذهّبة مفرّغة.",
+        "details": [
+          "كنبة وفوتيهين",
+          "دمسقي وردي وأزرق",
+          "جوز بتيجان مذهّبة",
+          "طاولة وسط وطاولات جانبية زجاج"
+        ]
+      },
+      "tags": "pink blue damask salon walnut وردي ازرق دمسقي صالون جوز",
+      "featured": true,
+      "video": "media/items/rose-damask-salon.mp4"
+    },
+    {
+      "id": "gilded-carriage-clock",
+      "ref": "FF-094",
+      "category": "antiques-decor",
+      "images": [
+        "antiques-decor/gilded-carriage-clock-photo-1",
+        "antiques-decor/gilded-carriage-clock"
+      ],
+      "en": {
+        "name": "Gilded Horse-Drawn Carriage Clock",
+        "desc": "A gilt-bronze mantel clock in the form of a carriage drawn by four horses, on a black base.",
+        "details": [
+          "Mantel clock",
+          "Gilt bronze",
+          "Black base"
+        ]
+      },
+      "ar": {
+        "name": "ساعة حنطور مذهّبة",
+        "desc": "ساعة مكتب من البرونز المذهّب على هيئة عربة تجرّها أربعة خيول، على قاعدة سوداء.",
+        "details": [
+          "ساعة مكتب",
+          "برونز مذهّب",
+          "قاعدة سوداء"
+        ]
+      },
+      "tags": "clock carriage horses gold ساعة حنطور خيول مدهب",
+      "featured": true
+    },
+    {
+      "id": "walnut-console-gilded-mirror",
+      "ref": "FF-095",
+      "category": "tables-consoles",
+      "images": [
+        "tables-consoles/walnut-console-gilded-mirror-photo-1",
+        "tables-consoles/walnut-console-gilded-mirror"
+      ],
+      "en": {
+        "name": "Walnut Console & Gilded Mirror",
+        "desc": "A three-drawer walnut console with turned legs and a marble top, under a carved gilded mirror.",
+        "details": [
+          "Three drawers",
+          "Turned legs, marble top",
+          "Carved gilded mirror"
+        ]
+      },
+      "ar": {
+        "name": "كونسول جوز مع مرآة مذهّبة",
+        "desc": "كونسول جوز بثلاثة أدراج وأرجل مخروطة وسطح رخام، تعلوه مرآة محفورة مذهّبة.",
+        "details": [
+          "ثلاثة أدراج",
+          "أرجل مخروطة وسطح رخام",
+          "مرآة محفورة مذهّبة"
+        ]
+      },
+      "tags": "console walnut mirror كونسول جوز مرآة مراية",
+      "featured": true
+    },
+    {
+      "id": "sunburst-walnut-sideboard",
+      "ref": "FF-104",
+      "category": "modern",
+      "images": [
+        "modern/sunburst-walnut-sideboard-photo-1",
+        "modern/sunburst-walnut-sideboard-photo-2",
+        "modern/sunburst-walnut-sideboard"
+      ],
+      "en": {
+        "name": "Sunburst Walnut Sideboard",
+        "desc": "A four-door sideboard in walnut veneer laid in a sunburst pattern, on tapered legs with brass feet.",
+        "details": [
+          "Four doors",
+          "Sunburst walnut veneer",
+          "Brass-tipped legs"
+        ]
+      },
+      "ar": {
+        "name": "بوفيه جوز بنقشة شعاعية",
+        "desc": "بوفيه بأربع ضلف بقشرة جوز مرصوصة بنقشة شعاعية، على أرجل مستدقة بأطراف نحاسية.",
+        "details": [
+          "أربع ضلف",
+          "قشرة جوز شعاعية",
+          "أرجل بأطراف نحاسية"
+        ]
+      },
+      "tags": "sideboard buffet walnut modern بوفيه جوز مودرن",
+      "featured": true
+    },
+    {
+      "id": "ivory-gold-dining-room",
+      "ref": "FF-110",
+      "category": "dining",
+      "featured": true,
+      "images": [
+        "dining/ivory-gold-dining-room"
+      ],
+      "en": {
+        "name": "Ivory & Gold Dining Room",
+        "desc": "A carved ivory and gold dining table with a glass top, burgundy velvet chairs embroidered with a gold monogram, and a matching buffet under a grand gilded mirror.",
+        "details": [
+          "Carved table with glass top",
+          "Burgundy velvet chairs with embroidered monogram",
+          "Matching buffet",
+          "Large carved gilded mirror"
+        ]
+      },
+      "ar": {
+        "name": "سفرة عاجي وذهبي",
+        "desc": "ترابيزة سفرة محفورة بالعاجي والذهبي بسطح زجاج، وكراسي قطيفة عنابي مطرّزة بحرف ذهبي، مع بوفيه مطابق تعلوه مرآة مذهّبة كبيرة.",
+        "details": [
+          "ترابيزة محفورة بسطح زجاج",
+          "كراسي قطيفة عنابي مطرّزة",
+          "بوفيه مطابق",
+          "مرآة كبيرة محفورة مذهّبة"
+        ]
+      },
+      "tags": "dining ivory gold burgundy chairs buffet mirror سفرة سفره عاجي ذهبي مدهب عنابي كراسي بوفيه مرآة"
+    },
+    {
+      "id": "gilded-pedestals",
+      "ref": "FF-111",
+      "category": "antiques-decor",
+      "featured": true,
+      "images": [
+        "antiques-decor/gilded-pedestals-1",
+        "antiques-decor/gilded-pedestals-2"
+      ],
+      "en": {
+        "name": "Gilded Pedestals",
+        "desc": "Two pedestals for urns and vases: a bombé one in floral marquetry, and a tapered mahogany one dressed in gilt-bronze mounts.",
+        "details": [
+          "Marquetry bombé pedestal",
+          "Mahogany pedestal with gilt-bronze mounts",
+          "Shown with porcelain and crystal urns"
+        ]
+      },
+      "ar": {
+        "name": "قواعد مذهّبة",
+        "desc": "قاعدتان للفازات: واحدة بومبيه مطعّمة بالزهور، وأخرى من الماهوجني مستدقة ومكسوّة بحليات برونز مذهّب.",
+        "details": [
+          "قاعدة بومبيه ماركتري",
+          "قاعدة ماهوجني بحليات برونز مذهّب",
+          "معروضة مع فازات بورسلين وكريستال"
+        ]
+      },
+      "tags": "pedestal column stand urn vase marquetry قاعدة عمود حامل فازة ماركتري برونز"
+    },
+    {
+      "id": "blue-velvet-bedroom-glass-wardrobe",
+      "ref": "FF-112",
+      "category": "bedrooms",
+      "featured": true,
+      "images": [
+        "bedrooms/blue-velvet-bedroom-glass-wardrobe-1",
+        "bedrooms/blue-velvet-bedroom-glass-wardrobe-2",
+        "bedrooms/blue-velvet-bedroom-glass-wardrobe-3"
+      ],
+      "en": {
+        "name": "Blue Velvet Bedroom & Glass Wardrobe",
+        "desc": "A full-width headboard wall in channel-tufted blue velvet with cream nightstands, and a corner wardrobe with framed glass doors, warm wood shelving and drawers.",
+        "details": [
+          "Channel-tufted blue velvet headboard wall",
+          "Cream nightstands",
+          "Corner wardrobe with glass doors",
+          "Wood interior with shelves and drawers"
+        ]
+      },
+      "ar": {
+        "name": "غرفة نوم قطيفة زرقاء ودولاب زجاج",
+        "desc": "حائط سرير بعرض الغرفة من القطيفة الزرقاء المخططة، مع كومودينو كريمي، ودولاب ركنة بضلف زجاج بإطار ورفوف وأدراج من الخشب.",
+        "details": [
+          "حائط سرير قطيفة زرقاء مخططة",
+          "كومودينو كريمي",
+          "دولاب ركنة بضلف زجاج",
+          "رفوف وأدراج خشب من الداخل"
+        ]
+      },
+      "tags": "bedroom blue velvet headboard wardrobe glass corner غرفة نوم قطيفة ازرق دولاب زجاج ركنة"
+    },
+    {
+      "id": "taupe-panelled-bedroom",
+      "ref": "FF-113",
+      "category": "bedrooms",
+      "featured": true,
+      "images": [
+        "bedrooms/taupe-panelled-bedroom-1",
+        "bedrooms/taupe-panelled-bedroom-2"
+      ],
+      "en": {
+        "name": "Taupe Panelled Bedroom",
+        "desc": "A padded headboard wall in taupe velvet with built-in sockets, a white bed, nightstands with brown marble tops, and a matching dressing table with a round mirror and pouf.",
+        "details": [
+          "Padded velvet headboard wall",
+          "Nightstands with marble tops",
+          "Dressing table, round mirror and pouf",
+          "Gold handles"
+        ]
+      },
+      "ar": {
+        "name": "غرفة نوم بحائط منجّد توب",
+        "desc": "حائط سرير منجّد بقطيفة توب بمخارج كهرباء مدمجة، وسرير أبيض، وكومودينو بأسطح رخام بني، وتسريحة مطابقة بمرآة دائرية وبوف.",
+        "details": [
+          "حائط سرير منجّد قطيفة",
+          "كومودينو بسطح رخام",
+          "تسريحة بمرآة دائرية وبوف",
+          "مقابض ذهبية"
+        ]
+      },
+      "tags": "bedroom taupe padded headboard wall marble nightstand dressing table غرفة نوم توب حائط منجد رخام تسريحة"
+    },
+    {
+      "id": "oak-storage-bed",
+      "ref": "FF-114",
+      "category": "bedrooms",
+      "featured": true,
+      "images": [
+        "bedrooms/oak-storage-bed-1",
+        "bedrooms/oak-storage-bed-2"
+      ],
+      "en": {
+        "name": "Oak Storage Bed",
+        "desc": "A solid oak bed with a lift-up storage base on gas struts and a headboard in book-matched chevron veneer. Filmed in the workshop before finishing.",
+        "details": [
+          "Lift-up storage base",
+          "Solid oak frame and slats",
+          "Chevron veneer headboard",
+          "Shown in the workshop"
+        ]
+      },
+      "ar": {
+        "name": "سرير بلوط بتخزين",
+        "desc": "سرير من خشب البلوط الطبيعي بقاعدة تخزين ترتفع بمكابس هيدروليك، وظهر بقشرة متعاكسة (شيفرون). مصوّر في الورشة قبل التشطيب.",
+        "details": [
+          "قاعدة تخزين ترتفع",
+          "هيكل وشرائح بلوط طبيعي",
+          "ظهر بقشرة شيفرون",
+          "من داخل الورشة"
+        ]
+      },
+      "tags": "bed storage lift up oak workshop سرير تخزين هيدروليك بلوط ورشة",
+      "video": "media/items/oak-storage-bed.mp4"
+    },
+    {
+      "id": "arched-twin-bedroom-wall-unit",
+      "ref": "FF-115",
+      "category": "modern",
+      "featured": true,
+      "images": [
+        "modern/arched-twin-bedroom-wall-unit-1",
+        "modern/arched-twin-bedroom-wall-unit-2",
+        "modern/arched-twin-bedroom-wall-unit-3"
+      ],
+      "en": {
+        "name": "Arched Twin Bedroom Wall Unit",
+        "desc": "A made-to-measure wall of storage: an arched-panel wardrobe, cabinets up to the ceiling and open grey shelving, built around two beds with channel-tufted taupe headboards and nightstands.",
+        "details": [
+          "Wardrobe with arched panels",
+          "Ceiling-height cabinets",
+          "Open shelving over the beds",
+          "Two beds with tufted headboards"
+        ]
+      },
+      "ar": {
+        "name": "وحدة غرفة نوم مزدوجة بأقواس",
+        "desc": "حائط تخزين بالمقاس: دولاب بضلف بأقواس، وخزائن حتى السقف، ورفوف رمادية مفتوحة، حول سريرين بظهر توب مخطط وكومودينو.",
+        "details": [
+          "دولاب بضلف مقوّسة",
+          "خزائن حتى السقف",
+          "رفوف مفتوحة فوق السريرين",
+          "سريران بظهر منجّد"
+        ]
+      },
+      "tags": "kids teen twin bedroom wall unit wardrobe arched غرفة اطفال شباب سريرين دولاب اقواس"
+    },
+    {
+      "id": "cat-ear-twin-kids-beds",
+      "ref": "FF-116",
+      "category": "modern",
+      "featured": true,
+      "images": [
+        "modern/cat-ear-twin-kids-beds-1",
+        "modern/cat-ear-twin-kids-beds-2"
+      ],
+      "en": {
+        "name": "Kids' Twin Beds with Cat-Ear Headboards",
+        "desc": "Two white storage beds with upholstered cat-ear headboards and a matching nightstand, set under an arched wall with soft LED lighting.",
+        "details": [
+          "Two single beds",
+          "Upholstered cat-ear headboards",
+          "White storage bases",
+          "Matching nightstand"
+        ]
+      },
+      "ar": {
+        "name": "سريرا أطفال بظهر على شكل قطة",
+        "desc": "سريران أبيضان بقاعدة تخزين وظهر منجّد على شكل رأس قطة، مع كومودينو مطابق، أسفل حائط مقوّس بإضاءة ناعمة.",
+        "details": [
+          "سريران فردي",
+          "ظهر منجّد على شكل قطة",
+          "قاعدة بيضاء بتخزين",
+          "كومودينو مطابق"
+        ]
+      },
+      "tags": "kids children twin beds cat girls سرير اطفال بنات قطة سريرين"
+    },
+    {
+      "id": "arched-kids-wardrobe-desk",
+      "ref": "FF-117",
+      "category": "modern",
+      "featured": true,
+      "images": [
+        "modern/arched-kids-wardrobe-desk-1",
+        "modern/arched-kids-wardrobe-desk-2"
+      ],
+      "en": {
+        "name": "Arched Wardrobe & Desk Unit",
+        "desc": "A white and blush wardrobe with arched doors, open arched shelves and a built-in desk with drawers.",
+        "details": [
+          "Wardrobe with arched doors",
+          "Open arched shelving",
+          "Built-in desk",
+          "White and blush lacquer"
+        ]
+      },
+      "ar": {
+        "name": "وحدة دولاب ومكتب بأقواس",
+        "desc": "دولاب أبيض ووردي فاتح بضلف مقوّسة ورفوف مفتوحة بأقواس ومكتب مدمج بأدراج.",
+        "details": [
+          "دولاب بضلف مقوّسة",
+          "رفوف مفتوحة بأقواس",
+          "مكتب مدمج",
+          "دهان أبيض ووردي فاتح"
+        ]
+      },
+      "tags": "kids wardrobe desk arched dolab دولاب اطفال مكتب اقواس"
+    },
+    {
+      "id": "chevron-walnut-nightstand",
+      "ref": "FF-118",
+      "category": "modern",
+      "featured": true,
+      "images": [
+        "modern/chevron-walnut-nightstand"
+      ],
+      "en": {
+        "name": "Chevron Walnut Nightstand",
+        "desc": "A two-drawer nightstand in walnut veneer laid in a chevron pattern, with a glass top and recessed plinth.",
+        "details": [
+          "Two drawers",
+          "Chevron walnut veneer",
+          "Glass top"
+        ]
+      },
+      "ar": {
+        "name": "كومودينو جوز شيفرون",
+        "desc": "كومودينو بدرجين بقشرة جوز متعاكسة (شيفرون)، بسطح زجاج وقاعدة غاطسة.",
+        "details": [
+          "درجان",
+          "قشرة جوز شيفرون",
+          "سطح زجاج"
+        ]
+      },
+      "tags": "nightstand bedside walnut chevron كومودينو جوز شيفرون"
+    },
+    {
+      "id": "grey-chesterfield-sectional",
+      "ref": "FF-119",
+      "category": "modern",
+      "featured": true,
+      "images": [
+        "modern/grey-chesterfield-sectional"
+      ],
+      "en": {
+        "name": "Grey Chesterfield Sectional",
+        "desc": "An L-shaped chesterfield in grey with a button-tufted back, rolled arms and a chaise, on turned wooden feet.",
+        "details": [
+          "L-shaped with chaise",
+          "Button-tufted back",
+          "Rolled arms",
+          "Turned wooden feet"
+        ]
+      },
+      "ar": {
+        "name": "ركنة تشيسترفيلد رمادي",
+        "desc": "ركنة على شكل L بطراز تشيسترفيلد باللون الرمادي، بظهر كابتونيه وأذرع ملفوفة وشيزلونج، على أرجل خشب مخروطة.",
+        "details": [
+          "ركنة L بشيزلونج",
+          "ظهر كابتونيه",
+          "أذرع ملفوفة",
+          "أرجل خشب مخروطة"
+        ]
+      },
+      "tags": "chesterfield sectional corner sofa grey ركنة تشيسترفيلد رمادي كنبة"
+    },
+    {
+      "id": "silver-mirror-dining-room",
+      "ref": "FF-120",
+      "category": "dining",
+      "featured": true,
+      "images": [
+        "dining/silver-mirror-dining-room"
+      ],
+      "en": {
+        "name": "Silver & Ivory Dining Room",
+        "desc": "An ivory dining table with grey upholstered chairs, a mirrored buffet with silver legs, and a wall of sculpted silver mirrors.",
+        "details": [
+          "Ivory table",
+          "Grey upholstered chairs",
+          "Mirrored buffet",
+          "Sculpted silver mirrors"
+        ]
+      },
+      "ar": {
+        "name": "سفرة فضي وعاجي",
+        "desc": "ترابيزة سفرة عاجية مع كراسي منجّدة رمادية، وبوفيه بواجهات مرايا وأرجل فضية، وحائط من المرايا الفضية المنحوتة.",
+        "details": [
+          "ترابيزة عاجية",
+          "كراسي منجّدة رمادية",
+          "بوفيه بواجهات مرايا",
+          "مرايا فضية منحوتة"
+        ]
+      },
+      "tags": "dining silver mirror ivory modern سفرة فضي مرايا عاجي مودرن"
+    },
+    {
+      "id": "grand-hall-painted-ceiling",
+      "ref": "FF-121",
+      "category": "interiors",
+      "featured": true,
+      "images": [
+        "interiors/grand-hall-painted-ceiling-1",
+        "interiors/grand-hall-painted-ceiling-2",
+        "interiors/grand-hall-painted-ceiling-3",
+        "interiors/grand-hall-painted-ceiling-4"
+      ],
+      "en": {
+        "name": "Grand Hall with Painted Ceiling",
+        "desc": "A reception hall finished throughout: a painted sky ceiling with gilded rosettes and floral frescoes, fluted columns with gilded capitals, and panelled walls with gold mouldings.",
+        "details": [
+          "Painted sky ceiling with gilded rosettes",
+          "Floral fresco borders",
+          "Fluted columns with gilded capitals",
+          "Panelled walls with gold mouldings"
+        ]
+      },
+      "ar": {
+        "name": "بهو استقبال بسقف مرسوم",
+        "desc": "بهو استقبال بتشطيب متكامل: سقف مرسوم بسماء وورود مذهّبة ورسومات زهور، وأعمدة محزّزة بتيجان مذهّبة، وحوائط ببانوهات وكرانيش ذهبية.",
+        "details": [
+          "سقف مرسوم بسماء وورود مذهّبة",
+          "رسومات زهور على الأطراف",
+          "أعمدة محزّزة بتيجان مذهّبة",
+          "بانوهات حوائط بكرانيش ذهبية"
+        ]
+      },
+      "tags": "hall ceiling painted fresco columns mouldings decoration بهو سقف مرسوم اعمدة كرانيش بانوهات ديكور تشطيب"
+    },
+    {
+      "id": "backlit-tv-wall",
+      "ref": "FF-122",
+      "category": "interiors",
+      "featured": true,
+      "images": [
+        "interiors/backlit-tv-wall-1",
+        "interiors/backlit-tv-wall-2"
+      ],
+      "en": {
+        "name": "Backlit TV Wall",
+        "desc": "A feature wall with a floating backlit TV panel, a full-height mirror edged in light, an oak slatted column, and a floating TV unit with a walnut top and glass base.",
+        "details": [
+          "Backlit floating TV panel",
+          "Full-height mirror with LED edge",
+          "Oak slatted column",
+          "Floating TV unit"
+        ]
+      },
+      "ar": {
+        "name": "حائط تلفزيون بإضاءة خلفية",
+        "desc": "حائط رئيسي بلوح تلفزيون معلّق بإضاءة خلفية، ومرآة بطول الحائط بحافة مضيئة، وعمود شرائح بلوط، ووحدة تلفزيون معلّقة بسطح جوز وقاعدة زجاج.",
+        "details": [
+          "لوح تلفزيون بإضاءة خلفية",
+          "مرآة بطول الحائط بإضاءة",
+          "عمود شرائح بلوط",
+          "وحدة تلفزيون معلّقة"
+        ]
+      },
+      "tags": "tv wall unit backlit mirror oak slats حائط تلفزيون وحدة شاشة اضاءة مرآة بلوط"
+    },
+    {
+      "id": "lit-wall-niches",
+      "ref": "FF-123",
+      "category": "interiors",
+      "featured": true,
+      "images": [
+        "interiors/lit-wall-niches-1",
+        "interiors/lit-wall-niches-2"
+      ],
+      "en": {
+        "name": "Lit Wall Niches",
+        "desc": "A partition wall with oak-framed niches lit from above and a central niche for the TV and devices.",
+        "details": [
+          "Oak-framed niches",
+          "Built-in spotlights",
+          "Central TV niche"
+        ]
+      },
+      "ar": {
+        "name": "نيشات حائط مضيئة",
+        "desc": "حائط فاصل بنيشات بإطار بلوط مضاءة من أعلى، ونيش في المنتصف للتلفزيون والأجهزة.",
+        "details": [
+          "نيشات بإطار بلوط",
+          "إضاءة سبوت مدمجة",
+          "نيش تلفزيون في المنتصف"
+        ]
+      },
+      "tags": "wall niches shelves lighting partition نيش نيشات حائط اضاءة رفوف"
+    },
+    {
+      "id": "sliding-wardrobe-oak-interior",
+      "ref": "FF-124",
+      "category": "interiors",
+      "featured": true,
+      "images": [
+        "interiors/sliding-wardrobe-oak-interior"
+      ],
+      "en": {
+        "name": "Sliding Wardrobe with Oak Interior",
+        "desc": "A floor-to-ceiling sliding wardrobe in pale ash with a frosted glass band, open oak shelving and drawers.",
+        "details": [
+          "Sliding doors",
+          "Frosted glass band",
+          "Oak shelves and drawers"
+        ]
+      },
+      "ar": {
+        "name": "دولاب سحّاب بداخل بلوط",
+        "desc": "دولاب سحّاب من الأرض للسقف بلون الأرو الفاتح بشريط زجاج مصنفر، ورفوف وأدراج بلوط مفتوحة.",
+        "details": [
+          "ضلف سحّاب",
+          "شريط زجاج مصنفر",
+          "رفوف وأدراج بلوط"
+        ]
+      },
+      "tags": "wardrobe sliding closet built in دولاب سحاب حائط"
+    },
+    {
+      "id": "mirrored-sliding-wardrobe",
+      "ref": "FF-125",
+      "category": "interiors",
+      "featured": true,
+      "images": [
+        "interiors/mirrored-sliding-wardrobe"
+      ],
+      "en": {
+        "name": "Mirrored Sliding Wardrobe",
+        "desc": "A full-wall sliding wardrobe in white with framed panels and mirrored doors.",
+        "details": [
+          "Sliding doors",
+          "Framed white panels",
+          "Mirrored doors"
+        ]
+      },
+      "ar": {
+        "name": "دولاب سحّاب بمرايا",
+        "desc": "دولاب سحّاب بعرض الحائط باللون الأبيض بإطارات بارزة وضلف مرايا.",
+        "details": [
+          "ضلف سحّاب",
+          "بانوهات بيضاء بإطار",
+          "ضلف مرايا"
+        ]
+      },
+      "tags": "wardrobe sliding mirror white دولاب سحاب مرايا ابيض"
     },
     {
       "id": "neoclassical-ivory-salon",
@@ -2719,35 +3335,6 @@
       "tags": "urn vase crystal ormolu فازة كريستال برونز"
     },
     {
-      "id": "rose-blue-damask-salon",
-      "ref": "FF-092",
-      "category": "salons",
-      "images": [
-        "salons/rose-blue-damask-salon"
-      ],
-      "en": {
-        "name": "Rose & Blue Damask Salon",
-        "desc": "Rose and blue damask on walnut frames with gilded crests, with glass-topped walnut tables.",
-        "details": [
-          "Sofa and two armchairs",
-          "Rose and blue damask",
-          "Walnut with gilded crests",
-          "Glass-top coffee and side tables"
-        ]
-      },
-      "ar": {
-        "name": "صالون دمسقي وردي وأزرق",
-        "desc": "دمسقي وردي وأزرق على إطارات جوز بتيجان مذهّبة، مع طاولات جوز بأسطح زجاج.",
-        "details": [
-          "كنبة وفوتيهين",
-          "دمسقي وردي وأزرق",
-          "جوز بتيجان مذهّبة",
-          "طاولة وسط وطاولات جانبية زجاج"
-        ]
-      },
-      "tags": "pink blue damask salon walnut وردي ازرق دمسقي صالون جوز"
-    },
-    {
       "id": "floral-tapestry-rolled-arm-salon",
       "ref": "FF-093",
       "category": "salons",
@@ -2775,60 +3362,6 @@
         ]
       },
       "tags": "tapestry floral salon gobelin جوبلان مورد صالون"
-    },
-    {
-      "id": "gilded-carriage-clock",
-      "ref": "FF-094",
-      "category": "antiques-decor",
-      "images": [
-        "antiques-decor/gilded-carriage-clock"
-      ],
-      "en": {
-        "name": "Gilded Horse-Drawn Carriage Clock",
-        "desc": "A gilt-bronze mantel clock in the form of a carriage drawn by four horses, on a black base.",
-        "details": [
-          "Mantel clock",
-          "Gilt bronze",
-          "Black base"
-        ]
-      },
-      "ar": {
-        "name": "ساعة حنطور مذهّبة",
-        "desc": "ساعة مكتب من البرونز المذهّب على هيئة عربة تجرّها أربعة خيول، على قاعدة سوداء.",
-        "details": [
-          "ساعة مكتب",
-          "برونز مذهّب",
-          "قاعدة سوداء"
-        ]
-      },
-      "tags": "clock carriage horses gold ساعة حنطور خيول مدهب"
-    },
-    {
-      "id": "walnut-console-gilded-mirror",
-      "ref": "FF-095",
-      "category": "tables-consoles",
-      "images": [
-        "tables-consoles/walnut-console-gilded-mirror"
-      ],
-      "en": {
-        "name": "Walnut Console & Gilded Mirror",
-        "desc": "A three-drawer walnut console with turned legs and a marble top, under a carved gilded mirror.",
-        "details": [
-          "Three drawers",
-          "Turned legs, marble top",
-          "Carved gilded mirror"
-        ]
-      },
-      "ar": {
-        "name": "كونسول جوز مع مرآة مذهّبة",
-        "desc": "كونسول جوز بثلاثة أدراج وأرجل مخروطة وسطح رخام، تعلوه مرآة محفورة مذهّبة.",
-        "details": [
-          "ثلاثة أدراج",
-          "أرجل مخروطة وسطح رخام",
-          "مرآة محفورة مذهّبة"
-        ]
-      },
-      "tags": "console walnut mirror كونسول جوز مرآة مراية"
     },
     {
       "id": "pierced-gilded-marble-coffee-table",
@@ -3049,33 +3582,6 @@
         ]
       },
       "tags": "modern living room walnut grey ليفينج مودرن جوز رمادي"
-    },
-    {
-      "id": "sunburst-walnut-sideboard",
-      "ref": "FF-104",
-      "category": "modern",
-      "images": [
-        "modern/sunburst-walnut-sideboard"
-      ],
-      "en": {
-        "name": "Sunburst Walnut Sideboard",
-        "desc": "A four-door sideboard in walnut veneer laid in a sunburst pattern, on tapered legs with brass feet.",
-        "details": [
-          "Four doors",
-          "Sunburst walnut veneer",
-          "Brass-tipped legs"
-        ]
-      },
-      "ar": {
-        "name": "بوفيه جوز بنقشة شعاعية",
-        "desc": "بوفيه بأربع ضلف بقشرة جوز مرصوصة بنقشة شعاعية، على أرجل مستدقة بأطراف نحاسية.",
-        "details": [
-          "أربع ضلف",
-          "قشرة جوز شعاعية",
-          "أرجل بأطراف نحاسية"
-        ]
-      },
-      "tags": "sideboard buffet walnut modern بوفيه جوز مودرن"
     },
     {
       "id": "malachite-gilded-centre-table",
