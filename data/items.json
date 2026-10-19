@@ -1779,6 +1779,214 @@
       "tags": "wardrobe sliding mirror white دولاب سحاب مرايا ابيض"
     },
     {
+      "id": "black-gold-dining-set",
+      "ref": "FF-126",
+      "category": "dining",
+      "featured": true,
+      "images": [
+        "dining/black-gold-dining-set-3",
+        "dining/black-gold-dining-set-2",
+        "dining/black-gold-dining-set-1"
+      ],
+      "en": {
+        "name": "Black & Gold Dining Set",
+        "desc": "High-gloss black lacquer on gilded cabriole legs carved with floral garlands: a dining table, a sideboard with velvet-fronted drawers, and a two-door glass vitrine with curved sides. Shown in the workshop.",
+        "details": [
+          "Dining table",
+          "Sideboard with three drawers",
+          "Two-door glass vitrine",
+          "Black lacquer with gold-leaf carving"
+        ]
+      },
+      "ar": {
+        "name": "طقم سفرة أسود وذهبي",
+        "desc": "دهان أسود لامع على أرجل كابريول مذهّبة محفورة بأكاليل ورد: ترابيزة سفرة، وبوفيه بأدراج بواجهة قطيفة، ونيش بضلفتين زجاج وجوانب منحنية. مصوّر في الورشة.",
+        "details": [
+          "ترابيزة سفرة",
+          "بوفيه بثلاثة أدراج",
+          "نيش بضلفتين زجاج",
+          "أسود لامع مع حفر بورق الذهب"
+        ]
+      },
+      "tags": "dining black gold table buffet vitrine niche سفرة اسود ذهبي مدهب ترابيزة بوفيه نيش"
+    },
+    {
+      "id": "beige-wingback-bedroom",
+      "ref": "FF-127",
+      "category": "bedrooms",
+      "featured": true,
+      "images": [
+        "bedrooms/beige-wingback-bedroom-2",
+        "bedrooms/beige-wingback-bedroom-1",
+        "bedrooms/beige-wingback-bedroom-3"
+      ],
+      "en": {
+        "name": "Beige Wingback Bedroom",
+        "desc": "A wingback bed in beige velvet against a padded wall, white lacquer nightstands on gold frames, and a matching console dressing table with a round gold mirror and pouf.",
+        "details": [
+          "Wingback bed in beige velvet",
+          "Padded wall panels",
+          "White and gold nightstands",
+          "Console dressing table, round mirror and pouf"
+        ]
+      },
+      "ar": {
+        "name": "غرفة نوم بيج بظهر مجنّح",
+        "desc": "سرير بظهر مجنّح من القطيفة البيج أمام حائط منجّد، وكومودينو أبيض لامع على قواعد ذهبية، وتسريحة كونسول مطابقة بمرآة دائرية ذهبية وبوف.",
+        "details": [
+          "سرير بظهر مجنّح قطيفة بيج",
+          "حائط منجّد",
+          "كومودينو أبيض وذهبي",
+          "تسريحة كونسول ومرآة دائرية وبوف"
+        ]
+      },
+      "tags": "bedroom beige wingback bed gold nightstand dressing table غرفة نوم بيج سرير كومودينو ذهبي تسريحة مرآة دائرية"
+    },
+    {
+      "id": "navy-quilted-sectional",
+      "ref": "FF-128",
+      "category": "modern",
+      "featured": true,
+      "images": [
+        "modern/navy-quilted-sectional"
+      ],
+      "en": {
+        "name": "Navy Quilted Sectional",
+        "desc": "An L-shaped sectional in navy with diamond quilting, adjustable headrests, built-in wooden side trays and storage, and a matching ottoman.",
+        "details": [
+          "L-shaped sectional",
+          "Diamond quilting",
+          "Adjustable headrests",
+          "Matching ottoman"
+        ]
+      },
+      "ar": {
+        "name": "ركنة كحلي مبطّنة",
+        "desc": "ركنة على شكل L باللون الكحلي بتبطين معيّنات، ومساند رأس قابلة للتعديل، وصواني خشب جانبية وتخزين مدمج، مع بوف مطابق.",
+        "details": [
+          "ركنة L",
+          "تبطين معيّنات",
+          "مساند رأس متحركة",
+          "بوف مطابق"
+        ]
+      },
+      "tags": "sectional corner sofa navy blue quilted ottoman ركنة كحلي ازرق بوف كنبة"
+    },
+    {
+      "id": "beige-velvet-sectional",
+      "ref": "FF-129",
+      "category": "modern",
+      "featured": true,
+      "images": [
+        "modern/beige-velvet-sectional"
+      ],
+      "en": {
+        "name": "Beige Velvet Sectional",
+        "desc": "A low L-shaped sectional in beige velvet, with an oval glass coffee table on a gold hexagon base.",
+        "details": [
+          "Low L-shaped sectional",
+          "Beige velvet",
+          "Oval glass coffee table on gold base"
+        ]
+      },
+      "ar": {
+        "name": "ركنة قطيفة بيج",
+        "desc": "ركنة منخفضة على شكل L من القطيفة البيج، مع طاولة وسط بيضاوية زجاج على قاعدة ذهبية سداسية.",
+        "details": [
+          "ركنة L منخفضة",
+          "قطيفة بيج",
+          "طاولة وسط زجاج بقاعدة ذهبية"
+        ]
+      },
+      "tags": "sectional corner sofa beige velvet coffee table gold ركنة بيج قطيفة طاولة وسط ذهبي"
+    },
+    {
+      "id": "painted-panel-cabinet",
+      "ref": "FF-130",
+      "category": "cabinets-desks",
+      "featured": true,
+      "images": [
+        "cabinets-desks/painted-panel-cabinet"
+      ],
+      "en": {
+        "name": "Painted Panel Cabinet",
+        "desc": "A cabinet in rich veneer with an arched door hand-painted with a classical landscape, malachite pilasters and top, and gilt-bronze mounts.",
+        "details": [
+          "Hand-painted arched door",
+          "Malachite pilasters and top",
+          "Gilt-bronze mounts"
+        ]
+      },
+      "ar": {
+        "name": "وحدة بباب مرسوم",
+        "desc": "وحدة بقشرة خشب فاخرة وباب مقوّس مرسوم يدوياً بمنظر كلاسيكي، مع أعمدة وسطح من الملاخيت وحليات برونز مذهّب.",
+        "details": [
+          "باب مقوّس مرسوم يدوياً",
+          "أعمدة وسطح ملاخيت",
+          "حليات برونز مذهّب"
+        ]
+      },
+      "tags": "cabinet painted door malachite ormolu وحدة باب مرسوم ملاخيت برونز"
+    },
+    {
+      "id": "handleless-grey-wardrobe",
+      "ref": "FF-131",
+      "category": "interiors",
+      "featured": true,
+      "images": [
+        "interiors/handleless-grey-wardrobe"
+      ],
+      "en": {
+        "name": "Handleless Grey Wardrobe",
+        "desc": "A floor-to-ceiling wardrobe in matte grey lacquer with flush, handleless doors.",
+        "details": [
+          "Floor to ceiling",
+          "Matte grey lacquer",
+          "Handleless push doors"
+        ]
+      },
+      "ar": {
+        "name": "دولاب رمادي بدون مقابض",
+        "desc": "دولاب من الأرض للسقف بدهان رمادي مطفي وضلف مستوية بدون مقابض.",
+        "details": [
+          "من الأرض للسقف",
+          "دهان رمادي مطفي",
+          "ضلف بدون مقابض"
+        ]
+      },
+      "tags": "wardrobe grey handleless built in دولاب رمادي بدون مقابض حائط"
+    },
+    {
+      "id": "oak-dressing-room-shelving",
+      "ref": "FF-132",
+      "category": "interiors",
+      "featured": true,
+      "images": [
+        "interiors/oak-dressing-room-shelving"
+      ],
+      "en": {
+        "name": "Oak Dressing Room Shelving",
+        "desc": "A wall of oak storage: open shelves, glass-fronted upper cabinets and a bank of drawers.",
+        "details": [
+          "Open shelving",
+          "Glass-fronted upper cabinets",
+          "Bank of drawers",
+          "Oak finish"
+        ]
+      },
+      "ar": {
+        "name": "وحدة غرفة ملابس بلوط",
+        "desc": "حائط تخزين من البلوط: رفوف مفتوحة، وخزائن علوية بواجهات زجاج، ومجموعة أدراج.",
+        "details": [
+          "رفوف مفتوحة",
+          "خزائن علوية زجاج",
+          "أدراج",
+          "تشطيب بلوط"
+        ]
+      },
+      "tags": "dressing room wardrobe shelves oak غرفة ملابس دريسنج رفوف بلوط دولاب"
+    },
+    {
       "id": "neoclassical-ivory-salon",
       "ref": "FF-038",
       "category": "salons",
